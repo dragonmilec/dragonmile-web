@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Intelligent (Automatic) Control &#8211; 爵邁</title>
+	<atom:link href="http://localhost/wordpress/category/intelligent-automatic-control/feed/?simply_static_page=1023" rel="self" type="application/rss+xml" />
+	<link>https://dragonmilec.github.io/dragonmile-web</link>
+	<description></description>
+	<lastBuildDate>Fri, 05 Jul 2024 07:31:55 +0000</lastBuildDate>
+	<language>zh-TW</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.5</generator>
+	<item>
+		<title>CNC機台監控</title>
+		<link>https://dragonmilec.github.io/dragonmile-web/2022/05/06/cnc%e6%a9%9f%e5%8f%b0%e7%9b%a3%e6%8e%a7/</link>
+		
+		<dc:creator><![CDATA[dgcorp50955037]]></dc:creator>
+		<pubDate>Fri, 06 May 2022 17:50:10 +0000</pubDate>
+				<category><![CDATA[Intelligent (Automatic) Control]]></category>
+		<guid isPermaLink="false">https://startersites.io/blocksy/gadgets/?p=681</guid>
+
+					<description><![CDATA[CNC機台監控 
+透過訊號擷取卡將機台訊息回傳至運算平台，及時計算出機台使用與維運週期]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="681" class="elementor elementor-681">
+				<div class="elementor-element elementor-element-cebeb47 e-flex e-con-boxed e-con e-parent" data-id="cebeb47" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-65c5e61 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="65c5e61" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.22.0 - 17-06-2024 */
+.elementor-widget-divider{--divider-border-style:none;--divider-border-width:1px;--divider-color:#0c0d0e;--divider-icon-size:20px;--divider-element-spacing:10px;--divider-pattern-height:24px;--divider-pattern-size:20px;--divider-pattern-url:none;--divider-pattern-repeat:repeat-x}.elementor-widget-divider .elementor-divider{display:flex}.elementor-widget-divider .elementor-divider__text{font-size:15px;line-height:1;max-width:95%}.elementor-widget-divider .elementor-divider__element{margin:0 var(--divider-element-spacing);flex-shrink:0}.elementor-widget-divider .elementor-icon{font-size:var(--divider-icon-size)}.elementor-widget-divider .elementor-divider-separator{display:flex;margin:0;direction:ltr}.elementor-widget-divider--view-line_icon .elementor-divider-separator,.elementor-widget-divider--view-line_text .elementor-divider-separator{align-items:center}.elementor-widget-divider--view-line_icon .elementor-divider-separator:after,.elementor-widget-divider--view-line_icon .elementor-divider-separator:before,.elementor-widget-divider--view-line_text .elementor-divider-separator:after,.elementor-widget-divider--view-line_text .elementor-divider-separator:before{display:block;content:"";border-block-end:0;flex-grow:1;border-block-start:var(--divider-border-width) var(--divider-border-style) var(--divider-color)}.elementor-widget-divider--element-align-left .elementor-divider .elementor-divider-separator>.elementor-divider__svg:first-of-type{flex-grow:0;flex-shrink:100}.elementor-widget-divider--element-align-left .elementor-divider-separator:before{content:none}.elementor-widget-divider--element-align-left .elementor-divider__element{margin-left:0}.elementor-widget-divider--element-align-right .elementor-divider .elementor-divider-separator>.elementor-divider__svg:last-of-type{flex-grow:0;flex-shrink:100}.elementor-widget-divider--element-align-right .elementor-divider-separator:after{content:none}.elementor-widget-divider--element-align-right .elementor-divider__element{margin-right:0}.elementor-widget-divider--element-align-start .elementor-divider .elementor-divider-separator>.elementor-divider__svg:first-of-type{flex-grow:0;flex-shrink:100}.elementor-widget-divider--element-align-start .elementor-divider-separator:before{content:none}.elementor-widget-divider--element-align-start .elementor-divider__element{margin-inline-start:0}.elementor-widget-divider--element-align-end .elementor-divider .elementor-divider-separator>.elementor-divider__svg:last-of-type{flex-grow:0;flex-shrink:100}.elementor-widget-divider--element-align-end .elementor-divider-separator:after{content:none}.elementor-widget-divider--element-align-end .elementor-divider__element{margin-inline-end:0}.elementor-widget-divider:not(.elementor-widget-divider--view-line_text):not(.elementor-widget-divider--view-line_icon) .elementor-divider-separator{border-block-start:var(--divider-border-width) var(--divider-border-style) var(--divider-color)}.elementor-widget-divider--separator-type-pattern{--divider-border-style:none}.elementor-widget-divider--separator-type-pattern.elementor-widget-divider--view-line .elementor-divider-separator,.elementor-widget-divider--separator-type-pattern:not(.elementor-widget-divider--view-line) .elementor-divider-separator:after,.elementor-widget-divider--separator-type-pattern:not(.elementor-widget-divider--view-line) .elementor-divider-separator:before,.elementor-widget-divider--separator-type-pattern:not([class*=elementor-widget-divider--view]) .elementor-divider-separator{width:100%;min-height:var(--divider-pattern-height);-webkit-mask-size:var(--divider-pattern-size) 100%;mask-size:var(--divider-pattern-size) 100%;-webkit-mask-repeat:var(--divider-pattern-repeat);mask-repeat:var(--divider-pattern-repeat);background-color:var(--divider-color);-webkit-mask-image:var(--divider-pattern-url);mask-image:var(--divider-pattern-url)}.elementor-widget-divider--no-spacing{--divider-pattern-size:auto}.elementor-widget-divider--bg-round{--divider-pattern-repeat:round}.rtl .elementor-widget-divider .elementor-divider__text{direction:rtl}.e-con-inner>.elementor-widget-divider,.e-con>.elementor-widget-divider{width:var(--container-widget-width,100%);--flex-grow:var(--container-widget-flex-grow)}</style>		<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-d0400ef elementor-widget elementor-widget-heading" data-id="d0400ef" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.22.0 - 17-06-2024 */
+.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style><h3 class="elementor-heading-title elementor-size-default">馬達電流與震動監控分析軟體</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-29a6c33 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="29a6c33" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-bf2f1c8 e-grid e-con-full e-con e-child" data-id="bf2f1c8" data-element_type="container">
+				<div class="elementor-element elementor-element-a6555c6 elementor-widget elementor-widget-image" data-id="a6555c6" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.22.0 - 17-06-2024 */
+.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>										<img fetchpriority="high" decoding="async" width="754" height="450" src="https://dragonmilec.github.io/dragonmile-web/wp-content/uploads/2022/05/sss.png" class="attachment-large size-large wp-image-1101" alt="" />													</div>
+				</div>
+				<div class="elementor-element elementor-element-72e69cd elementor-widget elementor-widget-image" data-id="72e69cd" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+													<img decoding="async" width="748" height="446" src="https://dragonmilec.github.io/dragonmile-web/wp-content/uploads/2022/05/ss.png" class="attachment-large size-large wp-image-1100" alt="" />													</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-15cd5d8 elementor-position-left elementor-vertical-align-middle elementor-widget elementor-widget-image-box" data-id="15cd5d8" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.22.0 - 17-06-2024 */
+.elementor-widget-image-box .elementor-image-box-content{width:100%}@media (min-width:768px){.elementor-widget-image-box.elementor-position-left .elementor-image-box-wrapper,.elementor-widget-image-box.elementor-position-right .elementor-image-box-wrapper{display:flex}.elementor-widget-image-box.elementor-position-right .elementor-image-box-wrapper{text-align:end;flex-direction:row-reverse}.elementor-widget-image-box.elementor-position-left .elementor-image-box-wrapper{text-align:start;flex-direction:row}.elementor-widget-image-box.elementor-position-top .elementor-image-box-img{margin:auto}.elementor-widget-image-box.elementor-vertical-align-top .elementor-image-box-wrapper{align-items:flex-start}.elementor-widget-image-box.elementor-vertical-align-middle .elementor-image-box-wrapper{align-items:center}.elementor-widget-image-box.elementor-vertical-align-bottom .elementor-image-box-wrapper{align-items:flex-end}}@media (max-width:767px){.elementor-widget-image-box .elementor-image-box-img{margin-left:auto!important;margin-right:auto!important;margin-bottom:15px}}.elementor-widget-image-box .elementor-image-box-img{display:inline-block}.elementor-widget-image-box .elementor-image-box-title a{color:inherit}.elementor-widget-image-box .elementor-image-box-wrapper{text-align:center}.elementor-widget-image-box .elementor-image-box-description{margin:0}</style><div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img decoding="async" width="783" height="468" src="https://dragonmilec.github.io/dragonmile-web/wp-content/uploads/2022/05/a.png" class="attachment-full size-full wp-image-1099" alt="" /></figure><div class="elementor-image-box-content"><p class="elementor-image-box-description">偵測馬達運作中電流，利用數據分析來協助機台維運與壽命分析，提生產線產能與降低維運成本
+</p></div></div>		</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>工業控制 &#8211; 智慧生產</title>
+		<link>https://dragonmilec.github.io/dragonmile-web/2022/05/06/%e5%b7%a5%e6%a5%ad%e6%8e%a7%e5%88%b6-%e6%99%ba%e6%85%a7%e7%94%9f%e7%94%a2/</link>
+		
+		<dc:creator><![CDATA[dgcorp50955037]]></dc:creator>
+		<pubDate>Fri, 06 May 2022 17:45:48 +0000</pubDate>
+				<category><![CDATA[Intelligent (Automatic) Control]]></category>
+		<guid isPermaLink="false">https://startersites.io/blocksy/gadgets/?p=675</guid>
+
+					<description><![CDATA[打造一智動化生產 資訊收集平台架構規劃 廠區layout規劃 線上品檢自動化模組 開發導直滾輪補償參數建議模組 [&#8230;]]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="675" class="elementor elementor-675">
+				<div class="elementor-element elementor-element-abb0cd5 e-flex e-con-boxed e-con e-parent" data-id="abb0cd5" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-c3e7b9e elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="c3e7b9e" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-c19fe15 elementor-widget elementor-widget-heading" data-id="c19fe15" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">打造一智動化生產
+資訊收集平台架構規劃</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-ba38657 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="ba38657" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-6f70688 elementor-widget elementor-widget-image" data-id="6f70688" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+													<img loading="lazy" decoding="async" width="967" height="606" src="https://dragonmilec.github.io/dragonmile-web/wp-content/uploads/2022/05/xxzczxc.png" class="attachment-full size-full wp-image-1107" alt="" />													</div>
+				</div>
+				<div class="elementor-element elementor-element-0756ad9 elementor-position-left elementor-vertical-align-middle elementor-widget elementor-widget-image-box" data-id="0756ad9" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img loading="lazy" decoding="async" width="1026" height="597" src="https://dragonmilec.github.io/dragonmile-web/wp-content/uploads/2022/05/x.png" class="attachment-full size-full wp-image-1106" alt="" /></figure><div class="elementor-image-box-content"><p class="elementor-image-box-description">廠區layout規劃</p></div></div>		</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-c41df6c e-flex e-con-boxed e-con e-parent" data-id="c41df6c" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-255fca8 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="255fca8" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-e6d9080 elementor-widget elementor-widget-heading" data-id="e6d9080" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">線上品檢自動化模組</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-5f77973 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="5f77973" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-e6c322a elementor-position-top elementor-widget elementor-widget-image-box" data-id="e6c322a" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img loading="lazy" decoding="async" width="865" height="526" src="https://dragonmilec.github.io/dragonmile-web/wp-content/uploads/2022/05/z.png" class="attachment-full size-full wp-image-1108" alt="" /></figure><div class="elementor-image-box-content"><p class="elementor-image-box-description">開發導直滾輪補償參數建議模組
+</p></div></div>		</div>
+				</div>
+				<div class="elementor-element elementor-element-55d393e elementor-position-right elementor-vertical-align-middle elementor-widget elementor-widget-image-box" data-id="55d393e" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img loading="lazy" decoding="async" width="755" height="409" src="https://dragonmilec.github.io/dragonmile-web/wp-content/uploads/2022/05/zz.png" class="attachment-full size-full wp-image-1109" alt="" /></figure><div class="elementor-image-box-content"><p class="elementor-image-box-description">雷射邊緣量測計<span style="background-color: var(--theme-palette-color-8); color: var(--theme-text-color); font-family: inherit; font-size: inherit; font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit; font-weight: inherit; letter-spacing: var(--theme-letter-spacing); text-transform: var(--theme-text-transform);"></span></p></div></div>		</div>
+				</div>
+				<div class="elementor-element elementor-element-991e43a elementor-position-left elementor-vertical-align-middle elementor-widget elementor-widget-image-box" data-id="991e43a" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img loading="lazy" decoding="async" width="762" height="591" src="https://dragonmilec.github.io/dragonmile-web/wp-content/uploads/2022/05/zzz.png" class="attachment-full size-full wp-image-1110" alt="" /></figure><div class="elementor-image-box-content"><p class="elementor-image-box-description">沖壓頭磨耗監控預警模組</p></div></div>		</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>
