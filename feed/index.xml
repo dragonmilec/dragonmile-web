@@ -9,10 +9,10 @@
 
 <channel>
 	<title>爵邁</title>
-	<atom:link href="http://localhost/wordpress/feed/?simply_static_page=5832" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/wordpress/feed/?simply_static_page=7459" rel="self" type="application/rss+xml" />
 	<link>https://dragonmilec.github.io/dragonmile-web</link>
 	<description></description>
-	<lastBuildDate>Wed, 17 Jul 2024 05:45:05 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 23 Jul 2024 05:05:50 +0000</lastBuildDate>
 	<language>zh-TW</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -89,8 +89,7 @@
 				<category><![CDATA[Concrete/Customized ERP]]></category>
 		<guid isPermaLink="false">https://startersites.io/blocksy/gadgets/?p=678</guid>
 
-					<description><![CDATA[混擬土ERP (已導入在台泥子公司 鳳勝實業 全台15個工廠與一總管  
-理處)]]></description>
+					<description><![CDATA[混擬土ERP (已導入在台泥子公司 鳳勝實業 全台15個工廠與一總管理處)]]></description>
 										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="678" class="elementor elementor-678">
 				<div class="elementor-element elementor-element-4c54c40 e-flex e-con-boxed e-con e-parent" data-id="4c54c40" data-element_type="container">
 					<div class="e-con-inner">
