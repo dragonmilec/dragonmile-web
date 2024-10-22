@@ -9,7 +9,7 @@
 
 <channel>
 	<title>Customized System Development &#8211; 爵邁</title>
-	<atom:link href="http://localhost/wordpress/category/customized-system-development/feed/?simply_static_page=7576" rel="self" type="application/rss+xml" />
+	<atom:link href="https://dragonmilec.github.io/dragonmile-web/category/customized-system-development/feed/" rel="self" type="application/rss+xml" />
 	<link>https://dragonmilec.github.io/dragonmile-web</link>
 	<description></description>
 	<lastBuildDate>Fri, 05 Jul 2024 07:30:27 +0000</lastBuildDate>
@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.5.5</generator>
+	<generator>https://wordpress.org/?v=6.6.2</generator>
 	<item>
 		<title>脊髓術前模擬</title>
 		<link>https://dragonmilec.github.io/dragonmile-web/2022/05/06/%e8%84%8a%e9%ab%93%e8%a1%93%e5%89%8d%e6%a8%a1%e6%93%ac/</link>
