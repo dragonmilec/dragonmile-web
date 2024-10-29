@@ -12,7 +12,7 @@
 	<atom:link href="https://dragonmilec.github.io/dragonmile-web/category/customized-system-development/feed/" rel="self" type="application/rss+xml" />
 	<link>https://dragonmilec.github.io/dragonmile-web</link>
 	<description></description>
-	<lastBuildDate>Mon, 28 Oct 2024 05:45:24 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 29 Oct 2024 01:57:25 +0000</lastBuildDate>
 	<language>zh-TW</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,273 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.6.2</generator>
 	<item>
+		<title>語言治療</title>
+		<link>https://dragonmilec.github.io/dragonmile-web/2024/10/29/%e8%aa%9e%e8%a8%80%e6%b2%bb%e7%99%82/</link>
+		
+		<dc:creator><![CDATA[dgcorp50955037]]></dc:creator>
+		<pubDate>Tue, 29 Oct 2024 01:35:40 +0000</pubDate>
+				<category><![CDATA[Customized System Development]]></category>
+		<guid isPermaLink="false">https://dragonmilec.github.io/dragonmile-web/?p=1644</guid>
+
+					<description><![CDATA[
+這是一款專為語言學習較慢的兒童設計的語言治療軟體，透過多樣化的訓練模式，幫助孩子在趣味中學習語言。]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="1644" class="elementor elementor-1644">
+				<div class="elementor-element elementor-element-d81a54e e-con-full e-flex e-con e-parent" data-id="d81a54e" data-element_type="container">
+		<div class="elementor-element elementor-element-92aaeb2 e-con-full e-flex e-con e-child" data-id="92aaeb2" data-element_type="container">
+				</div>
+		<div class="elementor-element elementor-element-51a90aa e-con-full e-flex e-con e-child" data-id="51a90aa" data-element_type="container">
+				<div class="elementor-element elementor-element-e13bf64 elementor-arrows-position-outside elementor-pagination-position-outside elementor-widget elementor-widget-image-carousel" data-id="e13bf64" data-element_type="widget" data-settings="{&quot;slides_to_show_tablet&quot;:&quot;1&quot;,&quot;slides_to_show&quot;:&quot;1&quot;,&quot;navigation&quot;:&quot;both&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;infinite&quot;:&quot;yes&quot;,&quot;effect&quot;:&quot;slide&quot;,&quot;speed&quot;:500}" data-widget_type="image-carousel.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.22.0 - 17-06-2024 */
+.elementor-widget-image-carousel .swiper,.elementor-widget-image-carousel .swiper-container{position:static}.elementor-widget-image-carousel .swiper-container .swiper-slide figure,.elementor-widget-image-carousel .swiper .swiper-slide figure{line-height:inherit}.elementor-widget-image-carousel .swiper-slide{text-align:center}.elementor-image-carousel-wrapper:not(.swiper-container-initialized):not(.swiper-initialized) .swiper-slide{max-width:calc(100% / var(--e-image-carousel-slides-to-show, 3))}</style>		<div class="elementor-image-carousel-wrapper swiper" dir="ltr">
+			<div class="elementor-image-carousel swiper-wrapper" aria-live="off">
+								<div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="1 of 4"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://dragonmilec.github.io/dragonmile-web/wp-content/uploads/2024/10/螢幕擷取畫面-2024-10-28-160204.png" alt="螢幕擷取畫面 2024-10-28 160204" /></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="2 of 4"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://dragonmilec.github.io/dragonmile-web/wp-content/uploads/2024/10/螢幕擷取畫面-2024-10-28-161427.png" alt="螢幕擷取畫面 2024-10-28 161427" /></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="3 of 4"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://dragonmilec.github.io/dragonmile-web/wp-content/uploads/2024/10/螢幕擷取畫面-2024-10-28-161450.png" alt="螢幕擷取畫面 2024-10-28 161450" /></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="4 of 4"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://dragonmilec.github.io/dragonmile-web/wp-content/uploads/2024/10/螢幕擷取畫面-2024-10-28-161230.png" alt="螢幕擷取畫面 2024-10-28 161230" /></figure></div>			</div>
+												<div class="elementor-swiper-button elementor-swiper-button-prev" role="button" tabindex="0">
+						<svg aria-hidden="true" class="e-font-icon-svg e-eicon-chevron-left" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M646 125C629 125 613 133 604 142L308 442C296 454 292 471 292 487 292 504 296 521 308 533L604 854C617 867 629 875 646 875 663 875 679 871 692 858 704 846 713 829 713 812 713 796 708 779 692 767L438 487 692 225C700 217 708 204 708 187 708 171 704 154 692 142 675 129 663 125 646 125Z"></path></svg>					</div>
+					<div class="elementor-swiper-button elementor-swiper-button-next" role="button" tabindex="0">
+						<svg aria-hidden="true" class="e-font-icon-svg e-eicon-chevron-right" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M696 533C708 521 713 504 713 487 713 471 708 454 696 446L400 146C388 133 375 125 354 125 338 125 325 129 313 142 300 154 292 171 292 187 292 204 296 221 308 233L563 492 304 771C292 783 288 800 288 817 288 833 296 850 308 863 321 871 338 875 354 875 371 875 388 867 400 854L696 533Z"></path></svg>					</div>
+				
+									<div class="swiper-pagination"></div>
+									</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-7d54379 e-con-full e-flex e-con e-child" data-id="7d54379" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;shape_divider_top&quot;:&quot;triangle-asymmetrical&quot;}">
+				<div class="elementor-shape elementor-shape-top" data-negative="false">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+	<path class="elementor-shape-fill" d="M738,99l262-93V0H0v5.6L738,99z"/>
+</svg>		</div>
+		<div class="elementor-element elementor-element-d193c09 e-con-full e-flex e-con e-child" data-id="d193c09" data-element_type="container">
+		<div class="elementor-element elementor-element-56343c3 e-con-full e-flex e-con e-child" data-id="56343c3" data-element_type="container">
+				<div class="elementor-element elementor-element-1f4ecfb elementor-widget elementor-widget-text-editor" data-id="1f4ecfb" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.22.0 - 17-06-2024 */
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#69727d;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#69727d;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>				<h4>全方位語言治療解決方案</h4>						</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-c0ce90d elementor-widget elementor-widget-text-editor" data-id="c0ce90d" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>這款語言治療軟體透過創新訓練模式與智能AI引導，為說話學習緩慢的兒童提供個性化的學習體驗。結合互動性強的遊戲設計，軟體讓孩子在趣味中學習語言，並通過即時回饋與成長追蹤，有效提升語言表達能力。</p>						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-bd70882 e-con-full e-flex e-con e-child" data-id="bd70882" data-element_type="container">
+				<div class="elementor-element elementor-element-728f9f5 elementor-widget elementor-widget-text-editor" data-id="728f9f5" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>每一個細節都經過精心設計，從練習句子的填空到與NPC進行語音互動，幫助孩子穩步進步，並保持學習的持續動力。</p>						</div>
+				</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-1d20932 e-flex e-con-boxed e-con e-parent" data-id="1d20932" data-element_type="container">
+					<div class="e-con-inner">
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-debf707 e-con-full e-flex e-con e-parent" data-id="debf707" data-element_type="container">
+		<div class="elementor-element elementor-element-09358ed e-con-full e-flex e-con e-child" data-id="09358ed" data-element_type="container">
+		<div class="elementor-element elementor-element-cfde430 e-con-full e-flex e-con e-child" data-id="cfde430" data-element_type="container">
+				<div class="elementor-element elementor-element-72e7eb4 elementor-widget elementor-widget-heading" data-id="72e7eb4" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.22.0 - 17-06-2024 */
+.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style><h2 class="elementor-heading-title elementor-size-default">語言治療軟體簡介</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-a8436b6 elementor-widget elementor-widget-text-editor" data-id="a8436b6" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>這是一款專為說話學習緩慢的兒童設計的語言治療軟體，透過四種類型的訓練，幫助孩子在互動與遊戲中進行語言學習。</p>						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-1ca2b2c e-con-full e-flex e-con e-child" data-id="1ca2b2c" data-element_type="container">
+				<div class="elementor-element elementor-element-dd45505 elementor-widget elementor-widget-accordion" data-id="dd45505" data-element_type="widget" data-widget_type="accordion.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.22.0 - 17-06-2024 */
+.elementor-accordion{text-align:start}.elementor-accordion .elementor-accordion-item{border:1px solid #d5d8dc}.elementor-accordion .elementor-accordion-item+.elementor-accordion-item{border-top:none}.elementor-accordion .elementor-tab-title{margin:0;padding:15px 20px;font-weight:700;line-height:1;cursor:pointer;outline:none}.elementor-accordion .elementor-tab-title .elementor-accordion-icon{display:inline-block;width:1.5em}.elementor-accordion .elementor-tab-title .elementor-accordion-icon svg{width:1em;height:1em}.elementor-accordion .elementor-tab-title .elementor-accordion-icon.elementor-accordion-icon-right{float:right;text-align:right}.elementor-accordion .elementor-tab-title .elementor-accordion-icon.elementor-accordion-icon-left{float:left;text-align:left}.elementor-accordion .elementor-tab-title .elementor-accordion-icon .elementor-accordion-icon-closed{display:block}.elementor-accordion .elementor-tab-title .elementor-accordion-icon .elementor-accordion-icon-opened,.elementor-accordion .elementor-tab-title.elementor-active .elementor-accordion-icon-closed{display:none}.elementor-accordion .elementor-tab-title.elementor-active .elementor-accordion-icon-opened{display:block}.elementor-accordion .elementor-tab-content{display:none;padding:15px 20px;border-top:1px solid #d5d8dc}@media (max-width:767px){.elementor-accordion .elementor-tab-title{padding:12px 15px}.elementor-accordion .elementor-tab-title .elementor-accordion-icon{width:1.2em}.elementor-accordion .elementor-tab-content{padding:7px 15px}}.e-con-inner>.elementor-widget-accordion,.e-con>.elementor-widget-accordion{width:var(--container-widget-width);--flex-grow:var(--container-widget-flex-grow)}</style>		<div class="elementor-accordion">
+							<div class="elementor-accordion-item">
+					<div id="elementor-tab-title-2321" class="elementor-tab-title" data-tab="1" role="button" aria-controls="elementor-tab-content-2321" aria-expanded="false">
+													<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
+															<span class="elementor-accordion-icon-closed"><svg class="e-font-icon-svg e-fas-plus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg></span>
+								<span class="elementor-accordion-icon-opened"><svg class="e-font-icon-svg e-fas-minus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg></span>
+														</span>
+												<a class="elementor-accordion-title" tabindex="0">創新語言學習體驗</a>
+					</div>
+					<div id="elementor-tab-content-2321" class="elementor-tab-content elementor-clearfix" data-tab="1" role="region" aria-labelledby="elementor-tab-title-2321"><p>每個訓練方式都具備強大的互動性，能夠即時糾正並引導使用者，確保學習效果最佳。透過遊戲化的設計，孩子在學習過程中能保持高度參與，提升學習動機。</p></div>
+				</div>
+							<div class="elementor-accordion-item">
+					<div id="elementor-tab-title-2322" class="elementor-tab-title" data-tab="2" role="button" aria-controls="elementor-tab-content-2322" aria-expanded="false">
+													<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
+															<span class="elementor-accordion-icon-closed"><svg class="e-font-icon-svg e-fas-plus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg></span>
+								<span class="elementor-accordion-icon-opened"><svg class="e-font-icon-svg e-fas-minus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg></span>
+														</span>
+												<a class="elementor-accordion-title" tabindex="0">智能引導與個性化學習</a>
+					</div>
+					<div id="elementor-tab-content-2322" class="elementor-tab-content elementor-clearfix" data-tab="2" role="region" aria-labelledby="elementor-tab-title-2322"><p>AI不僅能檢測答題正確性，還會根據使用者的答題記錄進行個性化調整，讓每個孩子在適合自己的步調中學習語言。</p></div>
+				</div>
+								</div>
+				</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-95d5ee4 e-con-full e-flex e-con e-child" data-id="95d5ee4" data-element_type="container">
+				<div class="elementor-element elementor-element-2109ec9 elementor-widget elementor-widget-image" data-id="2109ec9" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.22.0 - 17-06-2024 */
+.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>										<img fetchpriority="high" decoding="async" width="687" height="511" src="https://dragonmilec.github.io/dragonmile-web/wp-content/uploads/2024/10/螢幕擷取畫面-2024-10-28-160243.png" class="attachment-large size-large wp-image-1657" alt="" />													</div>
+				</div>
+				<div class="elementor-element elementor-element-ac97fc5 elementor-widget elementor-widget-heading" data-id="ac97fc5" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default">拖曳填空</h4>		</div>
+				</div>
+				<div class="elementor-element elementor-element-ff64ac7 elementor-widget elementor-widget-text-editor" data-id="ff64ac7" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>使用者需要將句子拼湊完整，並在答題過程中獲得AI的引導，類似KTV的文字導讀效果幫助孩子理解句子。正確拼湊後進入<strong>語音復送</strong>階段，使用者需重複唸出完整句子，AI會評估語音正確性並進行指導，完成後可獲得金幣獎勵。題目難度分為簡單、中等和困難，並提供多種情境挑戰。</p>						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-7266971 e-con-full e-flex e-con e-child" data-id="7266971" data-element_type="container">
+				<div class="elementor-element elementor-element-cee8c09 elementor-widget elementor-widget-image" data-id="cee8c09" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+													<img decoding="async" width="688" height="511" src="https://dragonmilec.github.io/dragonmile-web/wp-content/uploads/2024/10/螢幕擷取畫面-2024-10-28-160219.png" class="attachment-large size-large wp-image-1656" alt="" />													</div>
+				</div>
+				<div class="elementor-element elementor-element-c17ada4 elementor-widget elementor-widget-heading" data-id="c17ada4" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default">仿說練習</h4>		</div>
+				</div>
+				<div class="elementor-element elementor-element-99d1c28 elementor-widget elementor-widget-text-editor" data-id="99d1c28" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>玩家點擊選項並回答物件名稱，若答錯則由AI引導，所有選項答對後獲得金幣獎勵。這個訓練幫助孩子提高詞彙辨識和應用能力。</p>						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-c28077a e-con-full e-flex e-con e-child" data-id="c28077a" data-element_type="container">
+				<div class="elementor-element elementor-element-518e50a elementor-widget elementor-widget-image" data-id="518e50a" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+													<img decoding="async" width="688" height="514" src="https://dragonmilec.github.io/dragonmile-web/wp-content/uploads/2024/10/螢幕擷取畫面-2024-10-28-160304.png" class="attachment-large size-large wp-image-1658" alt="" />													</div>
+				</div>
+				<div class="elementor-element elementor-element-7e7aad2 elementor-widget elementor-widget-heading" data-id="7e7aad2" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default">繪本互動</h4>		</div>
+				</div>
+				<div class="elementor-element elementor-element-83e38a4 elementor-widget elementor-widget-text-editor" data-id="83e38a4" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>玩家觀看有聲故事並跟隨文字導讀。每個章節包含小題，玩家需要依據故事情境進行拖曳操作，並回答問題。答錯時AI會提供引導，拖曳正確後進入回答階段，要求使用者根據當前情境作答，幫助孩子在故事中學習語言表達。</p>						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-6e70047 e-con-full e-flex e-con e-child" data-id="6e70047" data-element_type="container">
+				<div class="elementor-element elementor-element-9d9eef9 elementor-widget elementor-widget-image" data-id="9d9eef9" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+													<img loading="lazy" decoding="async" width="685" height="513" src="https://dragonmilec.github.io/dragonmile-web/wp-content/uploads/2024/10/螢幕擷取畫面-2024-10-28-163618.png" class="attachment-large size-large wp-image-1661" alt="" />													</div>
+				</div>
+				<div class="elementor-element elementor-element-4ea74e9 elementor-widget elementor-widget-heading" data-id="4ea74e9" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default">對話練習</h4>		</div>
+				</div>
+				<div class="elementor-element elementor-element-1243724 elementor-widget elementor-widget-text-editor" data-id="1243724" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>玩家以上帝視角在地圖中與NPC互動，通過麥克風與NPC進行對話，對話表現良好時將獲得金幣獎勵，這類練習模擬現實情境，幫助孩子學習語音交流。</p>						</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-a868148 e-flex e-con-boxed e-con e-parent" data-id="a868148" data-element_type="container">
+					<div class="e-con-inner">
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-45f63b0 e-con-full e-flex e-con e-parent" data-id="45f63b0" data-element_type="container" data-settings="{&quot;shape_divider_bottom&quot;:&quot;triangle-asymmetrical&quot;}">
+				<div class="elementor-shape elementor-shape-bottom" data-negative="false">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+	<path class="elementor-shape-fill" d="M738,99l262-93V0H0v5.6L738,99z"/>
+</svg>		</div>
+		<div class="elementor-element elementor-element-1758bd7 e-con-full e-flex e-con e-child" data-id="1758bd7" data-element_type="container">
+				<div class="elementor-element elementor-element-9d3a6d9 elementor-widget elementor-widget-heading" data-id="9d3a6d9" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default">個人化成長記錄與加強模式</h4>		</div>
+				</div>
+				<div class="elementor-element elementor-element-a0f0cc5 elementor-widget elementor-widget-text-editor" data-id="a0f0cc5" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p style="text-align: left;">系統會記錄每位使用者的<strong>遊玩紀錄</strong>，包括遊玩關卡、難度、時間及AI與使用者的互動細節。並提供<strong>成長曲線</strong>，幫助追蹤使用者的詞彙量及不同類型詞彙的使用情況。</p><p style="text-align: left;"><br />同時，針對多次答錯的題目，軟體會進行專門的訓練，進入「<strong>加強模式</strong>」，讓使用者針對薄弱環節進行重點練習，直到達到理想效果。</p>						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-1eacfc4 e-con-full e-flex e-con e-child" data-id="1eacfc4" data-element_type="container">
+		<div class="elementor-element elementor-element-ccd6f0e e-con-full e-flex e-con e-child" data-id="ccd6f0e" data-element_type="container">
+				</div>
+		<div class="elementor-element elementor-element-379f3c6 e-con-full e-flex e-con e-child" data-id="379f3c6" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+				</div>
+		<div class="elementor-element elementor-element-996c6fa e-con-full e-flex e-con e-child" data-id="996c6fa" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-96ddec5 e-flex e-con-boxed e-con e-parent" data-id="96ddec5" data-element_type="container">
+					<div class="e-con-inner">
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-5ff80fe e-con-full e-flex e-con e-parent" data-id="5ff80fe" data-element_type="container">
+		<div class="elementor-element elementor-element-6932132 e-con-full e-flex e-con e-child" data-id="6932132" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;shape_divider_top&quot;:&quot;triangle-asymmetrical&quot;,&quot;shape_divider_bottom&quot;:&quot;triangle-asymmetrical&quot;}">
+				<div class="elementor-shape elementor-shape-top" data-negative="false">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+	<path class="elementor-shape-fill" d="M738,99l262-93V0H0v5.6L738,99z"/>
+</svg>		</div>
+				<div class="elementor-shape elementor-shape-bottom" data-negative="false">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+	<path class="elementor-shape-fill" d="M738,99l262-93V0H0v5.6L738,99z"/>
+</svg>		</div>
+		<div class="elementor-element elementor-element-f91d0c4 e-con-full e-flex e-con e-child" data-id="f91d0c4" data-element_type="container">
+				<div class="elementor-element elementor-element-d53c604 elementor-widget elementor-widget-image" data-id="d53c604" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+													<img loading="lazy" decoding="async" width="686" height="510" src="https://dragonmilec.github.io/dragonmile-web/wp-content/uploads/2024/10/螢幕擷取畫面-2024-10-28-161627.png" class="attachment-large size-large wp-image-1655" alt="" />													</div>
+				</div>
+				<div class="elementor-element elementor-element-c81ac97 elementor-widget elementor-widget-image" data-id="c81ac97" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+													<img loading="lazy" decoding="async" width="686" height="512" src="https://dragonmilec.github.io/dragonmile-web/wp-content/uploads/2024/10/螢幕擷取畫面-2024-10-28-161129.png" class="attachment-large size-large wp-image-1659" alt="" />													</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-4997f55 e-con-full e-flex e-con e-child" data-id="4997f55" data-element_type="container">
+				<div class="elementor-element elementor-element-6cb2c83 elementor-widget elementor-widget-heading" data-id="6cb2c83" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default">仁慈與嚴謹機制</h4>		</div>
+				</div>
+				<div class="elementor-element elementor-element-f08bed0 elementor-widget elementor-widget-text-editor" data-id="f08bed0" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>遊戲中設有「<strong>仁慈</strong>」機制，可以適當降低答題標準，幫助孩子在不需完全正確的情況下也能取得進展。</p><p>若使用者對同一題目多次答對，系統會切換到「<strong>嚴謹</strong>」模式，要求100%正確答案，進行更高標準的練習。</p>						</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-c595ef9 e-flex e-con-boxed e-con e-parent" data-id="c595ef9" data-element_type="container">
+					<div class="e-con-inner">
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-d1d4b24 e-con-full e-flex e-con e-parent" data-id="d1d4b24" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+		<div class="elementor-element elementor-element-f577271 e-con-full e-flex e-con e-child" data-id="f577271" data-element_type="container">
+		<div class="elementor-element elementor-element-a4388aa e-con-full e-flex e-con e-child" data-id="a4388aa" data-element_type="container">
+				<div class="elementor-element elementor-element-785bf10 elementor-widget elementor-widget-heading" data-id="785bf10" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default">智能題目切換</h4>		</div>
+				</div>
+				<div class="elementor-element elementor-element-1cb6458 elementor-widget elementor-widget-text-editor" data-id="1cb6458" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>如果使用者在某個題目卡關過久，系統會自動切換到同一難度的其他題目，幫助使用者保持學習動力，避免挫折感。</p>						</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-17b29e6 e-con-full e-flex e-con e-child" data-id="17b29e6" data-element_type="container">
+				</div>
+		<div class="elementor-element elementor-element-bfbe28b e-con-full e-flex e-con e-child" data-id="bfbe28b" data-element_type="container">
+		<div class="elementor-element elementor-element-c6e751d e-con-full e-flex e-con e-child" data-id="c6e751d" data-element_type="container">
+				<div class="elementor-element elementor-element-8219f92 elementor-widget elementor-widget-heading" data-id="8219f92" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default">防沉迷與護眼保護機制</h4>		</div>
+				</div>
+				<div class="elementor-element elementor-element-4be5101 elementor-widget elementor-widget-text-editor" data-id="4be5101" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>每半小時遊戲設有<strong>30分鐘保護機制</strong>，旨在防止沉迷並保護眼睛，確保使用者有適當的休息，避免過度使用電子設備。</p>						</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-0987634 e-con-full e-flex e-con e-child" data-id="0987634" data-element_type="container">
+				</div>
+				</div>
+				</div>
+		]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>智慧口腔暨吞嚥賦能照護雲管家</title>
 		<link>https://dragonmilec.github.io/dragonmile-web/2024/10/25/%e6%99%ba%e6%85%a7%e5%8f%a3%e8%85%94%e6%9a%a8%e5%90%9e%e5%9a%a5%e8%b3%a6%e8%83%bd%e7%85%a7%e8%ad%b7%e9%9b%b2%e7%ae%a1%e5%ae%b6/</link>
 		
@@ -35,8 +302,7 @@
 		<div class="elementor-element elementor-element-eaa1668 e-con-full e-flex e-con e-child" data-id="eaa1668" data-element_type="container">
 				<div class="elementor-element elementor-element-2e9fb73 elementor-widget elementor-widget-text-editor" data-id="2e9fb73" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-			<style>/*! elementor - v3.22.0 - 17-06-2024 */
-.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#69727d;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#69727d;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>				<h4><strong>相機拍攝與上傳功能介紹</strong></h4>						</div>
+							<h4><strong>相機拍攝與上傳功能介紹</strong></h4>						</div>
 				</div>
 				</div>
 		<div class="elementor-element elementor-element-b67678c e-con-full e-flex e-con e-child" data-id="b67678c" data-element_type="container">
@@ -49,8 +315,7 @@
 		<div class="elementor-element elementor-element-48e35ec e-con-full e-flex e-con e-child" data-id="48e35ec" data-element_type="container">
 				<div class="elementor-element elementor-element-031044b elementor-arrows-position-outside elementor-pagination-position-outside elementor-widget elementor-widget-image-carousel" data-id="031044b" data-element_type="widget" data-settings="{&quot;slides_to_show_tablet&quot;:&quot;1&quot;,&quot;image_spacing_custom&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;navigation&quot;:&quot;both&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;infinite&quot;:&quot;yes&quot;,&quot;speed&quot;:500}" data-widget_type="image-carousel.default">
 				<div class="elementor-widget-container">
-			<style>/*! elementor - v3.22.0 - 17-06-2024 */
-.elementor-widget-image-carousel .swiper,.elementor-widget-image-carousel .swiper-container{position:static}.elementor-widget-image-carousel .swiper-container .swiper-slide figure,.elementor-widget-image-carousel .swiper .swiper-slide figure{line-height:inherit}.elementor-widget-image-carousel .swiper-slide{text-align:center}.elementor-image-carousel-wrapper:not(.swiper-container-initialized):not(.swiper-initialized) .swiper-slide{max-width:calc(100% / var(--e-image-carousel-slides-to-show, 3))}</style>		<div class="elementor-image-carousel-wrapper swiper" dir="ltr">
+					<div class="elementor-image-carousel-wrapper swiper" dir="ltr">
 			<div class="elementor-image-carousel swiper-wrapper" aria-live="off">
 								<div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="1 of 4"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://dragonmilec.github.io/dragonmile-web/wp-content/uploads/2024/10/Screenshot_20241025-124746.png" alt="Screenshot_20241025-124746" /></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="2 of 4"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://dragonmilec.github.io/dragonmile-web/wp-content/uploads/2024/10/Screenshot_20241025-093939.png" alt="Screenshot_20241025-093939" /></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="3 of 4"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://dragonmilec.github.io/dragonmile-web/wp-content/uploads/2024/10/Screenshot_20241025-093934.png" alt="Screenshot_20241025-093934" /></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="4 of 4"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://dragonmilec.github.io/dragonmile-web/wp-content/uploads/2024/10/Screenshot_20241025-093909.png" alt="Screenshot_20241025-093909" /></figure></div>			</div>
 												<div class="elementor-swiper-button elementor-swiper-button-prev" role="button" tabindex="0">
@@ -101,13 +366,11 @@
 		<div class="elementor-element elementor-element-a18c7ab e-con-full e-flex e-con e-child" data-id="a18c7ab" data-element_type="container">
 				<div class="elementor-element elementor-element-96cf5e6 elementor-widget elementor-widget-heading" data-id="96cf5e6" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-			<style>/*! elementor - v3.22.0 - 17-06-2024 */
-.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style><h4 class="elementor-heading-title elementor-size-default">口腔資料庫</h4>		</div>
+			<h4 class="elementor-heading-title elementor-size-default">口腔資料庫</h4>		</div>
 				</div>
 				<div class="elementor-element elementor-element-c3d7b45 elementor-widget elementor-widget-accordion" data-id="c3d7b45" data-element_type="widget" data-widget_type="accordion.default">
 				<div class="elementor-widget-container">
-			<style>/*! elementor - v3.22.0 - 17-06-2024 */
-.elementor-accordion{text-align:start}.elementor-accordion .elementor-accordion-item{border:1px solid #d5d8dc}.elementor-accordion .elementor-accordion-item+.elementor-accordion-item{border-top:none}.elementor-accordion .elementor-tab-title{margin:0;padding:15px 20px;font-weight:700;line-height:1;cursor:pointer;outline:none}.elementor-accordion .elementor-tab-title .elementor-accordion-icon{display:inline-block;width:1.5em}.elementor-accordion .elementor-tab-title .elementor-accordion-icon svg{width:1em;height:1em}.elementor-accordion .elementor-tab-title .elementor-accordion-icon.elementor-accordion-icon-right{float:right;text-align:right}.elementor-accordion .elementor-tab-title .elementor-accordion-icon.elementor-accordion-icon-left{float:left;text-align:left}.elementor-accordion .elementor-tab-title .elementor-accordion-icon .elementor-accordion-icon-closed{display:block}.elementor-accordion .elementor-tab-title .elementor-accordion-icon .elementor-accordion-icon-opened,.elementor-accordion .elementor-tab-title.elementor-active .elementor-accordion-icon-closed{display:none}.elementor-accordion .elementor-tab-title.elementor-active .elementor-accordion-icon-opened{display:block}.elementor-accordion .elementor-tab-content{display:none;padding:15px 20px;border-top:1px solid #d5d8dc}@media (max-width:767px){.elementor-accordion .elementor-tab-title{padding:12px 15px}.elementor-accordion .elementor-tab-title .elementor-accordion-icon{width:1.2em}.elementor-accordion .elementor-tab-content{padding:7px 15px}}.e-con-inner>.elementor-widget-accordion,.e-con>.elementor-widget-accordion{width:var(--container-widget-width);--flex-grow:var(--container-widget-flex-grow)}</style>		<div class="elementor-accordion">
+					<div class="elementor-accordion">
 							<div class="elementor-accordion-item">
 					<div id="elementor-tab-title-2051" class="elementor-tab-title" data-tab="1" role="button" aria-controls="elementor-tab-content-2051" aria-expanded="false">
 													<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
@@ -180,8 +443,7 @@
 		<div class="elementor-element elementor-element-e84153c e-con-full e-flex e-con e-child" data-id="e84153c" data-element_type="container">
 				<div class="elementor-element elementor-element-6327278 elementor-widget elementor-widget-image" data-id="6327278" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-			<style>/*! elementor - v3.22.0 - 17-06-2024 */
-.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>										<img fetchpriority="high" decoding="async" width="1908" height="907" src="https://dragonmilec.github.io/dragonmile-web/wp-content/uploads/2024/10/螢幕擷取畫面-2024-10-24-164818.png" class="attachment-full size-full wp-image-1500" alt="" />													</div>
+													<img loading="lazy" decoding="async" width="1908" height="907" src="https://dragonmilec.github.io/dragonmile-web/wp-content/uploads/2024/10/螢幕擷取畫面-2024-10-24-164818.png" class="attachment-full size-full wp-image-1500" alt="" />													</div>
 				</div>
 				</div>
 		<div class="elementor-element elementor-element-f04eff1 e-con-full e-flex e-con e-child" data-id="f04eff1" data-element_type="container">
@@ -437,61 +699,11 @@
 				<div class="elementor-element elementor-element-2b78957 elementor-position-left elementor-vertical-align-middle elementor-widget elementor-widget-image-box" data-id="2b78957" data-element_type="widget" data-widget_type="image-box.default">
 				<div class="elementor-widget-container">
 			<style>/*! elementor - v3.22.0 - 17-06-2024 */
-.elementor-widget-image-box .elementor-image-box-content{width:100%}@media (min-width:768px){.elementor-widget-image-box.elementor-position-left .elementor-image-box-wrapper,.elementor-widget-image-box.elementor-position-right .elementor-image-box-wrapper{display:flex}.elementor-widget-image-box.elementor-position-right .elementor-image-box-wrapper{text-align:end;flex-direction:row-reverse}.elementor-widget-image-box.elementor-position-left .elementor-image-box-wrapper{text-align:start;flex-direction:row}.elementor-widget-image-box.elementor-position-top .elementor-image-box-img{margin:auto}.elementor-widget-image-box.elementor-vertical-align-top .elementor-image-box-wrapper{align-items:flex-start}.elementor-widget-image-box.elementor-vertical-align-middle .elementor-image-box-wrapper{align-items:center}.elementor-widget-image-box.elementor-vertical-align-bottom .elementor-image-box-wrapper{align-items:flex-end}}@media (max-width:767px){.elementor-widget-image-box .elementor-image-box-img{margin-left:auto!important;margin-right:auto!important;margin-bottom:15px}}.elementor-widget-image-box .elementor-image-box-img{display:inline-block}.elementor-widget-image-box .elementor-image-box-title a{color:inherit}.elementor-widget-image-box .elementor-image-box-wrapper{text-align:center}.elementor-widget-image-box .elementor-image-box-description{margin:0}</style><div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img decoding="async" width="609" height="342" src="https://dragonmilec.github.io/dragonmile-web/wp-content/uploads/2022/05/b-1.png" class="attachment-full size-full wp-image-1152" alt="" /></figure><div class="elementor-image-box-content"><p class="elementor-image-box-description">將骨釘建模，協助醫生術前模擬與導覽，提升手術成功率。</p></div></div>		</div>
+.elementor-widget-image-box .elementor-image-box-content{width:100%}@media (min-width:768px){.elementor-widget-image-box.elementor-position-left .elementor-image-box-wrapper,.elementor-widget-image-box.elementor-position-right .elementor-image-box-wrapper{display:flex}.elementor-widget-image-box.elementor-position-right .elementor-image-box-wrapper{text-align:end;flex-direction:row-reverse}.elementor-widget-image-box.elementor-position-left .elementor-image-box-wrapper{text-align:start;flex-direction:row}.elementor-widget-image-box.elementor-position-top .elementor-image-box-img{margin:auto}.elementor-widget-image-box.elementor-vertical-align-top .elementor-image-box-wrapper{align-items:flex-start}.elementor-widget-image-box.elementor-vertical-align-middle .elementor-image-box-wrapper{align-items:center}.elementor-widget-image-box.elementor-vertical-align-bottom .elementor-image-box-wrapper{align-items:flex-end}}@media (max-width:767px){.elementor-widget-image-box .elementor-image-box-img{margin-left:auto!important;margin-right:auto!important;margin-bottom:15px}}.elementor-widget-image-box .elementor-image-box-img{display:inline-block}.elementor-widget-image-box .elementor-image-box-title a{color:inherit}.elementor-widget-image-box .elementor-image-box-wrapper{text-align:center}.elementor-widget-image-box .elementor-image-box-description{margin:0}</style><div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img loading="lazy" decoding="async" width="609" height="342" src="https://dragonmilec.github.io/dragonmile-web/wp-content/uploads/2022/05/b-1.png" class="attachment-full size-full wp-image-1152" alt="" /></figure><div class="elementor-image-box-content"><p class="elementor-image-box-description">將骨釘建模，協助醫生術前模擬與導覽，提升手術成功率。</p></div></div>		</div>
 				</div>
 				<div class="elementor-element elementor-element-50309fe elementor-position-right elementor-vertical-align-middle elementor-widget elementor-widget-image-box" data-id="50309fe" data-element_type="widget" data-widget_type="image-box.default">
 				<div class="elementor-widget-container">
-			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img decoding="async" width="609" height="342" src="https://dragonmilec.github.io/dragonmile-web/wp-content/uploads/2022/05/5.png" class="attachment-full size-full wp-image-1149" alt="" /></figure><div class="elementor-image-box-content"><p class="elementor-image-box-description">整合256切 X光掃描之脊髓轉換成3D影像</p></div></div>		</div>
-				</div>
-					</div>
-				</div>
-				</div>
-		]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>貨櫃港口辨識</title>
-		<link>https://dragonmilec.github.io/dragonmile-web/2022/04/28/%e8%b2%a8%e6%ab%83%e6%b8%af%e5%8f%a3%e8%be%a8%e8%ad%98/</link>
-		
-		<dc:creator><![CDATA[dgcorp50955037]]></dc:creator>
-		<pubDate>Thu, 28 Apr 2022 13:45:43 +0000</pubDate>
-				<category><![CDATA[Customized System Development]]></category>
-		<guid isPermaLink="false">https://startersites.io/blocksy/gadgets/?p=1</guid>
-
-					<description><![CDATA[AI影像辨識 
-2D 3D 影像組合旋轉]]></description>
-										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="1" class="elementor elementor-1">
-				<div class="elementor-element elementor-element-7c8a86c e-flex e-con-boxed e-con e-parent" data-id="7c8a86c" data-element_type="container">
-					<div class="e-con-inner">
-				<div class="elementor-element elementor-element-42b612b elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="42b612b" data-element_type="widget" data-widget_type="divider.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-divider">
-			<span class="elementor-divider-separator">
-						</span>
-		</div>
-				</div>
-				</div>
-				<div class="elementor-element elementor-element-e97291a elementor-widget elementor-widget-heading" data-id="e97291a" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h3 class="elementor-heading-title elementor-size-default">貨櫃港口辨識</h3>		</div>
-				</div>
-				<div class="elementor-element elementor-element-9cd6de6 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="9cd6de6" data-element_type="widget" data-widget_type="divider.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-divider">
-			<span class="elementor-divider-separator">
-						</span>
-		</div>
-				</div>
-				</div>
-				<div class="elementor-element elementor-element-461a49a elementor-position-left elementor-vertical-align-middle elementor-widget elementor-widget-image-box" data-id="461a49a" data-element_type="widget" data-widget_type="image-box.default">
-				<div class="elementor-widget-container">
-			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img loading="lazy" decoding="async" width="609" height="329" src="https://dragonmilec.github.io/dragonmile-web/wp-content/uploads/2022/05/7.jpg" class="attachment-full size-full wp-image-1150" alt="" /></figure><div class="elementor-image-box-content"><p class="elementor-image-box-description">利用AI學習貨櫃辨識尺寸大小以及貨櫃編號</p></div></div>		</div>
-				</div>
-				<div class="elementor-element elementor-element-4d114e2 elementor-position-left elementor-vertical-align-middle elementor-widget elementor-widget-image-box" data-id="4d114e2" data-element_type="widget" data-widget_type="image-box.default">
-				<div class="elementor-widget-container">
-			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img loading="lazy" decoding="async" width="608" height="354" src="https://dragonmilec.github.io/dragonmile-web/wp-content/uploads/2022/05/47.jpg" class="attachment-full size-full wp-image-1151" alt="" /></figure><div class="elementor-image-box-content"><p class="elementor-image-box-description">以利貨櫃破損狀態辨識，釐清貨櫃損害賠償責任</p></div></div>		</div>
+			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img loading="lazy" decoding="async" width="609" height="342" src="https://dragonmilec.github.io/dragonmile-web/wp-content/uploads/2022/05/5.png" class="attachment-full size-full wp-image-1149" alt="" /></figure><div class="elementor-image-box-content"><p class="elementor-image-box-description">整合256切 X光掃描之脊髓轉換成3D影像</p></div></div>		</div>
 				</div>
 					</div>
 				</div>
