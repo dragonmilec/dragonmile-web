@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Customized System Development &#8211; 爵邁</title>
-	<atom:link href="https://dragonmilec.github.io/dragonmile-web/category/customized-system-development/feed/" rel="self" type="application/rss+xml" />
-	<link>https://dragonmilec.github.io/dragonmile-web</link>
+	<atom:link href="https://dragon-mile.com/category/customized-system-development/feed/" rel="self" type="application/rss+xml" />
+	<link>https://dragon-mile.com</link>
 	<description></description>
 	<lastBuildDate>Wed, 30 Oct 2024 08:13:12 +0000</lastBuildDate>
 	<language>zh-TW</language>
@@ -21,12 +21,12 @@
 	<generator>https://wordpress.org/?v=6.6.2</generator>
 	<item>
 		<title>語言治療</title>
-		<link>https://dragonmilec.github.io/dragonmile-web/2024/10/29/%e8%aa%9e%e8%a8%80%e6%b2%bb%e7%99%82/</link>
+		<link>https://dragon-mile.com/2024/10/29/%e8%aa%9e%e8%a8%80%e6%b2%bb%e7%99%82/</link>
 		
 		<dc:creator><![CDATA[dgcorp50955037]]></dc:creator>
 		<pubDate>Tue, 29 Oct 2024 01:35:40 +0000</pubDate>
 				<category><![CDATA[Customized System Development]]></category>
-		<guid isPermaLink="false">https://dragonmilec.github.io/dragonmile-web/?p=1644</guid>
+		<guid isPermaLink="false">https://dragon-mile.com/?p=1644</guid>
 
 					<description><![CDATA[
 這是一款專為語言學習較慢的兒童設計的語言治療軟體，透過多樣化的訓練模式，幫助孩子在趣味中學習語言。]]></description>
@@ -40,7 +40,7 @@
 			<style>/*! elementor - v3.22.0 - 17-06-2024 */
 .elementor-widget-image-carousel .swiper,.elementor-widget-image-carousel .swiper-container{position:static}.elementor-widget-image-carousel .swiper-container .swiper-slide figure,.elementor-widget-image-carousel .swiper .swiper-slide figure{line-height:inherit}.elementor-widget-image-carousel .swiper-slide{text-align:center}.elementor-image-carousel-wrapper:not(.swiper-container-initialized):not(.swiper-initialized) .swiper-slide{max-width:calc(100% / var(--e-image-carousel-slides-to-show, 3))}</style>		<div class="elementor-image-carousel-wrapper swiper" dir="ltr">
 			<div class="elementor-image-carousel swiper-wrapper" aria-live="off">
-								<div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="1 of 4"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://dragonmilec.github.io/dragonmile-web/wp-content/uploads/2024/10/螢幕擷取畫面-2024-10-28-160204.png" alt="螢幕擷取畫面 2024-10-28 160204" /></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="2 of 4"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://dragonmilec.github.io/dragonmile-web/wp-content/uploads/2024/10/螢幕擷取畫面-2024-10-28-161427.png" alt="螢幕擷取畫面 2024-10-28 161427" /></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="3 of 4"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://dragonmilec.github.io/dragonmile-web/wp-content/uploads/2024/10/螢幕擷取畫面-2024-10-28-161450.png" alt="螢幕擷取畫面 2024-10-28 161450" /></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="4 of 4"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://dragonmilec.github.io/dragonmile-web/wp-content/uploads/2024/10/螢幕擷取畫面-2024-10-28-161230.png" alt="螢幕擷取畫面 2024-10-28 161230" /></figure></div>			</div>
+								<div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="1 of 4"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://dragon-mile.com/wp-content/uploads/2024/10/螢幕擷取畫面-2024-10-28-160204.png" alt="螢幕擷取畫面 2024-10-28 160204" /></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="2 of 4"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://dragon-mile.com/wp-content/uploads/2024/10/螢幕擷取畫面-2024-10-28-161427.png" alt="螢幕擷取畫面 2024-10-28 161427" /></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="3 of 4"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://dragon-mile.com/wp-content/uploads/2024/10/螢幕擷取畫面-2024-10-28-161450.png" alt="螢幕擷取畫面 2024-10-28 161450" /></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="4 of 4"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://dragon-mile.com/wp-content/uploads/2024/10/螢幕擷取畫面-2024-10-28-161230.png" alt="螢幕擷取畫面 2024-10-28 161230" /></figure></div>			</div>
 												<div class="elementor-swiper-button elementor-swiper-button-prev" role="button" tabindex="0">
 						<svg aria-hidden="true" class="e-font-icon-svg e-eicon-chevron-left" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M646 125C629 125 613 133 604 142L308 442C296 454 292 471 292 487 292 504 296 521 308 533L604 854C617 867 629 875 646 875 663 875 679 871 692 858 704 846 713 829 713 812 713 796 708 779 692 767L438 487 692 225C700 217 708 204 708 187 708 171 704 154 692 142 675 129 663 125 646 125Z"></path></svg>					</div>
 					<div class="elementor-swiper-button elementor-swiper-button-next" role="button" tabindex="0">
@@ -128,7 +128,7 @@
 				<div class="elementor-element elementor-element-2109ec9 elementor-widget elementor-widget-image" data-id="2109ec9" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
 			<style>/*! elementor - v3.22.0 - 17-06-2024 */
-.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>										<img fetchpriority="high" decoding="async" width="687" height="511" src="https://dragonmilec.github.io/dragonmile-web/wp-content/uploads/2024/10/螢幕擷取畫面-2024-10-28-160243.png" class="attachment-large size-large wp-image-1657" alt="" />													</div>
+.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>										<img fetchpriority="high" decoding="async" width="687" height="511" src="https://dragon-mile.com/wp-content/uploads/2024/10/螢幕擷取畫面-2024-10-28-160243.png" class="attachment-large size-large wp-image-1657" alt="" />													</div>
 				</div>
 				<div class="elementor-element elementor-element-ac97fc5 elementor-widget elementor-widget-heading" data-id="ac97fc5" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
@@ -142,7 +142,7 @@
 		<div class="elementor-element elementor-element-7266971 e-con-full e-flex e-con e-child" data-id="7266971" data-element_type="container">
 				<div class="elementor-element elementor-element-cee8c09 elementor-widget elementor-widget-image" data-id="cee8c09" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-													<img decoding="async" width="688" height="511" src="https://dragonmilec.github.io/dragonmile-web/wp-content/uploads/2024/10/螢幕擷取畫面-2024-10-28-160219.png" class="attachment-large size-large wp-image-1656" alt="" />													</div>
+													<img decoding="async" width="688" height="511" src="https://dragon-mile.com/wp-content/uploads/2024/10/螢幕擷取畫面-2024-10-28-160219.png" class="attachment-large size-large wp-image-1656" alt="" />													</div>
 				</div>
 				<div class="elementor-element elementor-element-c17ada4 elementor-widget elementor-widget-heading" data-id="c17ada4" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
@@ -156,7 +156,7 @@
 		<div class="elementor-element elementor-element-c28077a e-con-full e-flex e-con e-child" data-id="c28077a" data-element_type="container">
 				<div class="elementor-element elementor-element-518e50a elementor-widget elementor-widget-image" data-id="518e50a" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-													<img decoding="async" width="688" height="514" src="https://dragonmilec.github.io/dragonmile-web/wp-content/uploads/2024/10/螢幕擷取畫面-2024-10-28-160304.png" class="attachment-large size-large wp-image-1658" alt="" />													</div>
+													<img decoding="async" width="688" height="514" src="https://dragon-mile.com/wp-content/uploads/2024/10/螢幕擷取畫面-2024-10-28-160304.png" class="attachment-large size-large wp-image-1658" alt="" />													</div>
 				</div>
 				<div class="elementor-element elementor-element-7e7aad2 elementor-widget elementor-widget-heading" data-id="7e7aad2" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
@@ -170,7 +170,7 @@
 		<div class="elementor-element elementor-element-6e70047 e-con-full e-flex e-con e-child" data-id="6e70047" data-element_type="container">
 				<div class="elementor-element elementor-element-9d9eef9 elementor-widget elementor-widget-image" data-id="9d9eef9" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-													<img loading="lazy" decoding="async" width="685" height="513" src="https://dragonmilec.github.io/dragonmile-web/wp-content/uploads/2024/10/螢幕擷取畫面-2024-10-28-163618.png" class="attachment-large size-large wp-image-1661" alt="" />													</div>
+													<img loading="lazy" decoding="async" width="685" height="513" src="https://dragon-mile.com/wp-content/uploads/2024/10/螢幕擷取畫面-2024-10-28-163618.png" class="attachment-large size-large wp-image-1661" alt="" />													</div>
 				</div>
 				<div class="elementor-element elementor-element-4ea74e9 elementor-widget elementor-widget-heading" data-id="4ea74e9" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
@@ -227,11 +227,11 @@
 		<div class="elementor-element elementor-element-f91d0c4 e-con-full e-flex e-con e-child" data-id="f91d0c4" data-element_type="container">
 				<div class="elementor-element elementor-element-d53c604 elementor-widget elementor-widget-image" data-id="d53c604" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-													<img loading="lazy" decoding="async" width="686" height="510" src="https://dragonmilec.github.io/dragonmile-web/wp-content/uploads/2024/10/螢幕擷取畫面-2024-10-28-161627.png" class="attachment-large size-large wp-image-1655" alt="" />													</div>
+													<img loading="lazy" decoding="async" width="686" height="510" src="https://dragon-mile.com/wp-content/uploads/2024/10/螢幕擷取畫面-2024-10-28-161627.png" class="attachment-large size-large wp-image-1655" alt="" />													</div>
 				</div>
 				<div class="elementor-element elementor-element-c81ac97 elementor-widget elementor-widget-image" data-id="c81ac97" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-													<img loading="lazy" decoding="async" width="686" height="512" src="https://dragonmilec.github.io/dragonmile-web/wp-content/uploads/2024/10/螢幕擷取畫面-2024-10-28-161129.png" class="attachment-large size-large wp-image-1659" alt="" />													</div>
+													<img loading="lazy" decoding="async" width="686" height="512" src="https://dragon-mile.com/wp-content/uploads/2024/10/螢幕擷取畫面-2024-10-28-161129.png" class="attachment-large size-large wp-image-1659" alt="" />													</div>
 				</div>
 				</div>
 				</div>
@@ -288,12 +288,12 @@
 			</item>
 		<item>
 		<title>智慧口腔暨吞嚥賦能照護雲管家</title>
-		<link>https://dragonmilec.github.io/dragonmile-web/2024/10/25/%e6%99%ba%e6%85%a7%e5%8f%a3%e8%85%94%e6%9a%a8%e5%90%9e%e5%9a%a5%e8%b3%a6%e8%83%bd%e7%85%a7%e8%ad%b7%e9%9b%b2%e7%ae%a1%e5%ae%b6/</link>
+		<link>https://dragon-mile.com/2024/10/25/%e6%99%ba%e6%85%a7%e5%8f%a3%e8%85%94%e6%9a%a8%e5%90%9e%e5%9a%a5%e8%b3%a6%e8%83%bd%e7%85%a7%e8%ad%b7%e9%9b%b2%e7%ae%a1%e5%ae%b6/</link>
 		
 		<dc:creator><![CDATA[dgcorp50955037]]></dc:creator>
 		<pubDate>Fri, 25 Oct 2024 02:36:21 +0000</pubDate>
 				<category><![CDATA[Customized System Development]]></category>
-		<guid isPermaLink="false">https://dragonmilec.github.io/dragonmile-web/?p=1480</guid>
+		<guid isPermaLink="false">https://dragon-mile.com/?p=1480</guid>
 
 					<description><![CDATA[提供全方位的口腔資料管理及分析功能，幫助您更有效率地跟蹤病人的口腔健康狀況。]]></description>
 										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="1480" class="elementor elementor-1480">
@@ -317,7 +317,7 @@
 				<div class="elementor-widget-container">
 					<div class="elementor-image-carousel-wrapper swiper" dir="ltr">
 			<div class="elementor-image-carousel swiper-wrapper" aria-live="off">
-								<div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="1 of 4"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://dragonmilec.github.io/dragonmile-web/wp-content/uploads/2024/10/Screenshot_20241025-124746.png" alt="Screenshot_20241025-124746" /></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="2 of 4"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://dragonmilec.github.io/dragonmile-web/wp-content/uploads/2024/10/Screenshot_20241025-093939.png" alt="Screenshot_20241025-093939" /></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="3 of 4"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://dragonmilec.github.io/dragonmile-web/wp-content/uploads/2024/10/Screenshot_20241025-093934.png" alt="Screenshot_20241025-093934" /></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="4 of 4"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://dragonmilec.github.io/dragonmile-web/wp-content/uploads/2024/10/Screenshot_20241025-093909.png" alt="Screenshot_20241025-093909" /></figure></div>			</div>
+								<div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="1 of 4"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://dragon-mile.com/wp-content/uploads/2024/10/Screenshot_20241025-124746.png" alt="Screenshot_20241025-124746" /></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="2 of 4"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://dragon-mile.com/wp-content/uploads/2024/10/Screenshot_20241025-093939.png" alt="Screenshot_20241025-093939" /></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="3 of 4"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://dragon-mile.com/wp-content/uploads/2024/10/Screenshot_20241025-093934.png" alt="Screenshot_20241025-093934" /></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="4 of 4"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://dragon-mile.com/wp-content/uploads/2024/10/Screenshot_20241025-093909.png" alt="Screenshot_20241025-093909" /></figure></div>			</div>
 												<div class="elementor-swiper-button elementor-swiper-button-prev" role="button" tabindex="0">
 						<svg aria-hidden="true" class="e-font-icon-svg e-eicon-chevron-left" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M646 125C629 125 613 133 604 142L308 442C296 454 292 471 292 487 292 504 296 521 308 533L604 854C617 867 629 875 646 875 663 875 679 871 692 858 704 846 713 829 713 812 713 796 708 779 692 767L438 487 692 225C700 217 708 204 708 187 708 171 704 154 692 142 675 129 663 125 646 125Z"></path></svg>					</div>
 					<div class="elementor-swiper-button elementor-swiper-button-next" role="button" tabindex="0">
@@ -443,7 +443,7 @@
 		<div class="elementor-element elementor-element-e84153c e-con-full e-flex e-con e-child" data-id="e84153c" data-element_type="container">
 				<div class="elementor-element elementor-element-6327278 elementor-widget elementor-widget-image" data-id="6327278" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-													<img loading="lazy" decoding="async" width="1908" height="907" src="https://dragonmilec.github.io/dragonmile-web/wp-content/uploads/2024/10/螢幕擷取畫面-2024-10-24-164818.png" class="attachment-full size-full wp-image-1500" alt="" />													</div>
+													<img loading="lazy" decoding="async" width="1908" height="907" src="https://dragon-mile.com/wp-content/uploads/2024/10/螢幕擷取畫面-2024-10-24-164818.png" class="attachment-full size-full wp-image-1500" alt="" />													</div>
 				</div>
 				</div>
 		<div class="elementor-element elementor-element-f04eff1 e-con-full e-flex e-con e-child" data-id="f04eff1" data-element_type="container">
@@ -458,7 +458,7 @@
 		<div class="elementor-element elementor-element-c7cc2df e-con-full e-flex e-con e-child" data-id="c7cc2df" data-element_type="container">
 				<div class="elementor-element elementor-element-1bb31ae elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box" data-id="1bb31ae" data-element_type="widget" data-widget_type="icon-box.default">
 				<div class="elementor-widget-container">
-			<link rel="stylesheet" href="https://dragonmilec.github.io/dragonmile-web/wp-content/plugins/elementor/assets/css/widget-icon-box.min.css">		<div class="elementor-icon-box-wrapper">
+			<link rel="stylesheet" href="https://dragon-mile.com/wp-content/plugins/elementor/assets/css/widget-icon-box.min.css">		<div class="elementor-icon-box-wrapper">
 
 						<div class="elementor-icon-box-icon">
 				<span  class="elementor-icon elementor-animation-">
@@ -663,7 +663,7 @@
 			</item>
 		<item>
 		<title>脊髓術前模擬</title>
-		<link>https://dragonmilec.github.io/dragonmile-web/2024/10/06/%e8%84%8a%e9%ab%93%e8%a1%93%e5%89%8d%e6%a8%a1%e6%93%ac/</link>
+		<link>https://dragon-mile.com/2024/10/06/%e8%84%8a%e9%ab%93%e8%a1%93%e5%89%8d%e6%a8%a1%e6%93%ac/</link>
 		
 		<dc:creator><![CDATA[dgcorp50955037]]></dc:creator>
 		<pubDate>Sun, 06 Oct 2024 01:48:43 +0000</pubDate>
@@ -699,11 +699,11 @@
 				<div class="elementor-element elementor-element-2b78957 elementor-position-left elementor-vertical-align-middle elementor-widget elementor-widget-image-box" data-id="2b78957" data-element_type="widget" data-widget_type="image-box.default">
 				<div class="elementor-widget-container">
 			<style>/*! elementor - v3.22.0 - 17-06-2024 */
-.elementor-widget-image-box .elementor-image-box-content{width:100%}@media (min-width:768px){.elementor-widget-image-box.elementor-position-left .elementor-image-box-wrapper,.elementor-widget-image-box.elementor-position-right .elementor-image-box-wrapper{display:flex}.elementor-widget-image-box.elementor-position-right .elementor-image-box-wrapper{text-align:end;flex-direction:row-reverse}.elementor-widget-image-box.elementor-position-left .elementor-image-box-wrapper{text-align:start;flex-direction:row}.elementor-widget-image-box.elementor-position-top .elementor-image-box-img{margin:auto}.elementor-widget-image-box.elementor-vertical-align-top .elementor-image-box-wrapper{align-items:flex-start}.elementor-widget-image-box.elementor-vertical-align-middle .elementor-image-box-wrapper{align-items:center}.elementor-widget-image-box.elementor-vertical-align-bottom .elementor-image-box-wrapper{align-items:flex-end}}@media (max-width:767px){.elementor-widget-image-box .elementor-image-box-img{margin-left:auto!important;margin-right:auto!important;margin-bottom:15px}}.elementor-widget-image-box .elementor-image-box-img{display:inline-block}.elementor-widget-image-box .elementor-image-box-title a{color:inherit}.elementor-widget-image-box .elementor-image-box-wrapper{text-align:center}.elementor-widget-image-box .elementor-image-box-description{margin:0}</style><div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img loading="lazy" decoding="async" width="609" height="342" src="https://dragonmilec.github.io/dragonmile-web/wp-content/uploads/2022/05/b-1.png" class="attachment-full size-full wp-image-1152" alt="" /></figure><div class="elementor-image-box-content"><p class="elementor-image-box-description">將骨釘建模，協助醫生術前模擬與導覽，提升手術成功率。</p></div></div>		</div>
+.elementor-widget-image-box .elementor-image-box-content{width:100%}@media (min-width:768px){.elementor-widget-image-box.elementor-position-left .elementor-image-box-wrapper,.elementor-widget-image-box.elementor-position-right .elementor-image-box-wrapper{display:flex}.elementor-widget-image-box.elementor-position-right .elementor-image-box-wrapper{text-align:end;flex-direction:row-reverse}.elementor-widget-image-box.elementor-position-left .elementor-image-box-wrapper{text-align:start;flex-direction:row}.elementor-widget-image-box.elementor-position-top .elementor-image-box-img{margin:auto}.elementor-widget-image-box.elementor-vertical-align-top .elementor-image-box-wrapper{align-items:flex-start}.elementor-widget-image-box.elementor-vertical-align-middle .elementor-image-box-wrapper{align-items:center}.elementor-widget-image-box.elementor-vertical-align-bottom .elementor-image-box-wrapper{align-items:flex-end}}@media (max-width:767px){.elementor-widget-image-box .elementor-image-box-img{margin-left:auto!important;margin-right:auto!important;margin-bottom:15px}}.elementor-widget-image-box .elementor-image-box-img{display:inline-block}.elementor-widget-image-box .elementor-image-box-title a{color:inherit}.elementor-widget-image-box .elementor-image-box-wrapper{text-align:center}.elementor-widget-image-box .elementor-image-box-description{margin:0}</style><div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img loading="lazy" decoding="async" width="609" height="342" src="https://dragon-mile.com/wp-content/uploads/2022/05/b-1.png" class="attachment-full size-full wp-image-1152" alt="" /></figure><div class="elementor-image-box-content"><p class="elementor-image-box-description">將骨釘建模，協助醫生術前模擬與導覽，提升手術成功率。</p></div></div>		</div>
 				</div>
 				<div class="elementor-element elementor-element-50309fe elementor-position-right elementor-vertical-align-middle elementor-widget elementor-widget-image-box" data-id="50309fe" data-element_type="widget" data-widget_type="image-box.default">
 				<div class="elementor-widget-container">
-			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img loading="lazy" decoding="async" width="609" height="342" src="https://dragonmilec.github.io/dragonmile-web/wp-content/uploads/2022/05/5.png" class="attachment-full size-full wp-image-1149" alt="" /></figure><div class="elementor-image-box-content"><p class="elementor-image-box-description">整合256切 X光掃描之脊髓轉換成3D影像</p></div></div>		</div>
+			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img loading="lazy" decoding="async" width="609" height="342" src="https://dragon-mile.com/wp-content/uploads/2022/05/5.png" class="attachment-full size-full wp-image-1149" alt="" /></figure><div class="elementor-image-box-content"><p class="elementor-image-box-description">整合256切 X光掃描之脊髓轉換成3D影像</p></div></div>		</div>
 				</div>
 					</div>
 				</div>

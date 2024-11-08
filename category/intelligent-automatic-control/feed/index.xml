@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Intelligent (Automatic) Control &#8211; 爵邁</title>
-	<atom:link href="https://dragonmilec.github.io/dragonmile-web/category/intelligent-automatic-control/feed/" rel="self" type="application/rss+xml" />
-	<link>https://dragonmilec.github.io/dragonmile-web</link>
+	<atom:link href="https://dragon-mile.com/category/intelligent-automatic-control/feed/" rel="self" type="application/rss+xml" />
+	<link>https://dragon-mile.com</link>
 	<description></description>
 	<lastBuildDate>Fri, 05 Jul 2024 07:31:55 +0000</lastBuildDate>
 	<language>zh-TW</language>
@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=6.6.2</generator>
 	<item>
 		<title>CNC機台監控</title>
-		<link>https://dragonmilec.github.io/dragonmile-web/2022/05/06/cnc%e6%a9%9f%e5%8f%b0%e7%9b%a3%e6%8e%a7/</link>
+		<link>https://dragon-mile.com/2022/05/06/cnc%e6%a9%9f%e5%8f%b0%e7%9b%a3%e6%8e%a7/</link>
 		
 		<dc:creator><![CDATA[dgcorp50955037]]></dc:creator>
 		<pubDate>Fri, 06 May 2022 17:50:10 +0000</pubDate>
@@ -59,17 +59,17 @@
 				<div class="elementor-element elementor-element-a6555c6 elementor-widget elementor-widget-image" data-id="a6555c6" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
 			<style>/*! elementor - v3.22.0 - 17-06-2024 */
-.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>										<img fetchpriority="high" decoding="async" width="754" height="450" src="https://dragonmilec.github.io/dragonmile-web/wp-content/uploads/2022/05/sss.png" class="attachment-large size-large wp-image-1101" alt="" />													</div>
+.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>										<img fetchpriority="high" decoding="async" width="754" height="450" src="https://dragon-mile.com/wp-content/uploads/2022/05/sss.png" class="attachment-large size-large wp-image-1101" alt="" />													</div>
 				</div>
 				<div class="elementor-element elementor-element-72e69cd elementor-widget elementor-widget-image" data-id="72e69cd" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-													<img decoding="async" width="748" height="446" src="https://dragonmilec.github.io/dragonmile-web/wp-content/uploads/2022/05/ss.png" class="attachment-large size-large wp-image-1100" alt="" />													</div>
+													<img decoding="async" width="748" height="446" src="https://dragon-mile.com/wp-content/uploads/2022/05/ss.png" class="attachment-large size-large wp-image-1100" alt="" />													</div>
 				</div>
 				</div>
 				<div class="elementor-element elementor-element-15cd5d8 elementor-position-left elementor-vertical-align-middle elementor-widget elementor-widget-image-box" data-id="15cd5d8" data-element_type="widget" data-widget_type="image-box.default">
 				<div class="elementor-widget-container">
 			<style>/*! elementor - v3.22.0 - 17-06-2024 */
-.elementor-widget-image-box .elementor-image-box-content{width:100%}@media (min-width:768px){.elementor-widget-image-box.elementor-position-left .elementor-image-box-wrapper,.elementor-widget-image-box.elementor-position-right .elementor-image-box-wrapper{display:flex}.elementor-widget-image-box.elementor-position-right .elementor-image-box-wrapper{text-align:end;flex-direction:row-reverse}.elementor-widget-image-box.elementor-position-left .elementor-image-box-wrapper{text-align:start;flex-direction:row}.elementor-widget-image-box.elementor-position-top .elementor-image-box-img{margin:auto}.elementor-widget-image-box.elementor-vertical-align-top .elementor-image-box-wrapper{align-items:flex-start}.elementor-widget-image-box.elementor-vertical-align-middle .elementor-image-box-wrapper{align-items:center}.elementor-widget-image-box.elementor-vertical-align-bottom .elementor-image-box-wrapper{align-items:flex-end}}@media (max-width:767px){.elementor-widget-image-box .elementor-image-box-img{margin-left:auto!important;margin-right:auto!important;margin-bottom:15px}}.elementor-widget-image-box .elementor-image-box-img{display:inline-block}.elementor-widget-image-box .elementor-image-box-title a{color:inherit}.elementor-widget-image-box .elementor-image-box-wrapper{text-align:center}.elementor-widget-image-box .elementor-image-box-description{margin:0}</style><div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img decoding="async" width="783" height="468" src="https://dragonmilec.github.io/dragonmile-web/wp-content/uploads/2022/05/a.png" class="attachment-full size-full wp-image-1099" alt="" /></figure><div class="elementor-image-box-content"><p class="elementor-image-box-description">偵測馬達運作中電流，利用數據分析來協助機台維運與壽命分析，提生產線產能與降低維運成本
+.elementor-widget-image-box .elementor-image-box-content{width:100%}@media (min-width:768px){.elementor-widget-image-box.elementor-position-left .elementor-image-box-wrapper,.elementor-widget-image-box.elementor-position-right .elementor-image-box-wrapper{display:flex}.elementor-widget-image-box.elementor-position-right .elementor-image-box-wrapper{text-align:end;flex-direction:row-reverse}.elementor-widget-image-box.elementor-position-left .elementor-image-box-wrapper{text-align:start;flex-direction:row}.elementor-widget-image-box.elementor-position-top .elementor-image-box-img{margin:auto}.elementor-widget-image-box.elementor-vertical-align-top .elementor-image-box-wrapper{align-items:flex-start}.elementor-widget-image-box.elementor-vertical-align-middle .elementor-image-box-wrapper{align-items:center}.elementor-widget-image-box.elementor-vertical-align-bottom .elementor-image-box-wrapper{align-items:flex-end}}@media (max-width:767px){.elementor-widget-image-box .elementor-image-box-img{margin-left:auto!important;margin-right:auto!important;margin-bottom:15px}}.elementor-widget-image-box .elementor-image-box-img{display:inline-block}.elementor-widget-image-box .elementor-image-box-title a{color:inherit}.elementor-widget-image-box .elementor-image-box-wrapper{text-align:center}.elementor-widget-image-box .elementor-image-box-description{margin:0}</style><div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img decoding="async" width="783" height="468" src="https://dragon-mile.com/wp-content/uploads/2022/05/a.png" class="attachment-full size-full wp-image-1099" alt="" /></figure><div class="elementor-image-box-content"><p class="elementor-image-box-description">偵測馬達運作中電流，利用數據分析來協助機台維運與壽命分析，提生產線產能與降低維運成本
 </p></div></div>		</div>
 				</div>
 					</div>
@@ -82,7 +82,7 @@
 			</item>
 		<item>
 		<title>工業控制 &#8211; 智慧生產</title>
-		<link>https://dragonmilec.github.io/dragonmile-web/2022/05/06/%e5%b7%a5%e6%a5%ad%e6%8e%a7%e5%88%b6-%e6%99%ba%e6%85%a7%e7%94%9f%e7%94%a2/</link>
+		<link>https://dragon-mile.com/2022/05/06/%e5%b7%a5%e6%a5%ad%e6%8e%a7%e5%88%b6-%e6%99%ba%e6%85%a7%e7%94%9f%e7%94%a2/</link>
 		
 		<dc:creator><![CDATA[dgcorp50955037]]></dc:creator>
 		<pubDate>Fri, 06 May 2022 17:45:48 +0000</pubDate>
@@ -116,11 +116,11 @@
 				</div>
 				<div class="elementor-element elementor-element-6f70688 elementor-widget elementor-widget-image" data-id="6f70688" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-													<img loading="lazy" decoding="async" width="967" height="606" src="https://dragonmilec.github.io/dragonmile-web/wp-content/uploads/2022/05/xxzczxc.png" class="attachment-full size-full wp-image-1107" alt="" />													</div>
+													<img loading="lazy" decoding="async" width="967" height="606" src="https://dragon-mile.com/wp-content/uploads/2022/05/xxzczxc.png" class="attachment-full size-full wp-image-1107" alt="" />													</div>
 				</div>
 				<div class="elementor-element elementor-element-0756ad9 elementor-position-left elementor-vertical-align-middle elementor-widget elementor-widget-image-box" data-id="0756ad9" data-element_type="widget" data-widget_type="image-box.default">
 				<div class="elementor-widget-container">
-			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img loading="lazy" decoding="async" width="1026" height="597" src="https://dragonmilec.github.io/dragonmile-web/wp-content/uploads/2022/05/x.png" class="attachment-full size-full wp-image-1106" alt="" /></figure><div class="elementor-image-box-content"><p class="elementor-image-box-description">廠區layout規劃</p></div></div>		</div>
+			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img loading="lazy" decoding="async" width="1026" height="597" src="https://dragon-mile.com/wp-content/uploads/2022/05/x.png" class="attachment-full size-full wp-image-1106" alt="" /></figure><div class="elementor-image-box-content"><p class="elementor-image-box-description">廠區layout規劃</p></div></div>		</div>
 				</div>
 					</div>
 				</div>
@@ -148,16 +148,16 @@
 				</div>
 				<div class="elementor-element elementor-element-e6c322a elementor-position-top elementor-widget elementor-widget-image-box" data-id="e6c322a" data-element_type="widget" data-widget_type="image-box.default">
 				<div class="elementor-widget-container">
-			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img loading="lazy" decoding="async" width="865" height="526" src="https://dragonmilec.github.io/dragonmile-web/wp-content/uploads/2022/05/z.png" class="attachment-full size-full wp-image-1108" alt="" /></figure><div class="elementor-image-box-content"><p class="elementor-image-box-description">開發導直滾輪補償參數建議模組
+			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img loading="lazy" decoding="async" width="865" height="526" src="https://dragon-mile.com/wp-content/uploads/2022/05/z.png" class="attachment-full size-full wp-image-1108" alt="" /></figure><div class="elementor-image-box-content"><p class="elementor-image-box-description">開發導直滾輪補償參數建議模組
 </p></div></div>		</div>
 				</div>
 				<div class="elementor-element elementor-element-55d393e elementor-position-right elementor-vertical-align-middle elementor-widget elementor-widget-image-box" data-id="55d393e" data-element_type="widget" data-widget_type="image-box.default">
 				<div class="elementor-widget-container">
-			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img loading="lazy" decoding="async" width="755" height="409" src="https://dragonmilec.github.io/dragonmile-web/wp-content/uploads/2022/05/zz.png" class="attachment-full size-full wp-image-1109" alt="" /></figure><div class="elementor-image-box-content"><p class="elementor-image-box-description">雷射邊緣量測計<span style="background-color: var(--theme-palette-color-8); color: var(--theme-text-color); font-family: inherit; font-size: inherit; font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit; font-weight: inherit; letter-spacing: var(--theme-letter-spacing); text-transform: var(--theme-text-transform);"></span></p></div></div>		</div>
+			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img loading="lazy" decoding="async" width="755" height="409" src="https://dragon-mile.com/wp-content/uploads/2022/05/zz.png" class="attachment-full size-full wp-image-1109" alt="" /></figure><div class="elementor-image-box-content"><p class="elementor-image-box-description">雷射邊緣量測計<span style="background-color: var(--theme-palette-color-8); color: var(--theme-text-color); font-family: inherit; font-size: inherit; font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit; font-weight: inherit; letter-spacing: var(--theme-letter-spacing); text-transform: var(--theme-text-transform);"></span></p></div></div>		</div>
 				</div>
 				<div class="elementor-element elementor-element-991e43a elementor-position-left elementor-vertical-align-middle elementor-widget elementor-widget-image-box" data-id="991e43a" data-element_type="widget" data-widget_type="image-box.default">
 				<div class="elementor-widget-container">
-			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img loading="lazy" decoding="async" width="762" height="591" src="https://dragonmilec.github.io/dragonmile-web/wp-content/uploads/2022/05/zzz.png" class="attachment-full size-full wp-image-1110" alt="" /></figure><div class="elementor-image-box-content"><p class="elementor-image-box-description">沖壓頭磨耗監控預警模組</p></div></div>		</div>
+			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img loading="lazy" decoding="async" width="762" height="591" src="https://dragon-mile.com/wp-content/uploads/2022/05/zzz.png" class="attachment-full size-full wp-image-1110" alt="" /></figure><div class="elementor-image-box-content"><p class="elementor-image-box-description">沖壓頭磨耗監控預警模組</p></div></div>		</div>
 				</div>
 					</div>
 				</div>
