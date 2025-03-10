@@ -12,13 +12,13 @@
 	<atom:link href="https://dragon-mile.com/category/intelligent-automatic-control/feed/" rel="self" type="application/rss+xml" />
 	<link>https://dragon-mile.com</link>
 	<description></description>
-	<lastBuildDate>Fri, 05 Jul 2024 07:31:55 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 10 Mar 2025 06:12:42 +0000</lastBuildDate>
 	<language>zh-TW</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.6.2</generator>
+	<generator>https://wordpress.org/?v=6.7.2</generator>
 	<item>
 		<title>CNC機台監控</title>
 		<link>https://dragon-mile.com/2022/05/06/cnc%e6%a9%9f%e5%8f%b0%e7%9b%a3%e6%8e%a7/</link>
@@ -73,6 +73,8 @@
 </p></div></div>		</div>
 				</div>
 					</div>
+				</div>
+		<div class="elementor-element elementor-element-e2c9f24 e-con-full e-flex e-con e-parent" data-id="e2c9f24" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
 				</div>
 				</div>
 		]]></content:encoded>
@@ -160,6 +162,8 @@
 			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img loading="lazy" decoding="async" width="762" height="591" src="https://dragon-mile.com/wp-content/uploads/2022/05/zzz.png" class="attachment-full size-full wp-image-1110" alt="" /></figure><div class="elementor-image-box-content"><p class="elementor-image-box-description">沖壓頭磨耗監控預警模組</p></div></div>		</div>
 				</div>
 					</div>
+				</div>
+		<div class="elementor-element elementor-element-e6dbe31 e-con-full e-flex e-con e-parent" data-id="e6dbe31" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
 				</div>
 				</div>
 		]]></content:encoded>

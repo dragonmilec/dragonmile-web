@@ -12,13 +12,13 @@
 	<atom:link href="https://dragon-mile.com/category/iot/feed/" rel="self" type="application/rss+xml" />
 	<link>https://dragon-mile.com</link>
 	<description></description>
-	<lastBuildDate>Wed, 30 Oct 2024 08:13:19 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 10 Mar 2025 06:10:35 +0000</lastBuildDate>
 	<language>zh-TW</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.6.2</generator>
+	<generator>https://wordpress.org/?v=6.7.2</generator>
 	<item>
 		<title>醫療 – 物聯網醫美</title>
 		<link>https://dragon-mile.com/2024/10/06/%e9%86%ab%e7%99%82-%e7%89%a9%e8%81%af%e7%b6%b2%e9%86%ab%e7%be%8e/</link>
@@ -196,6 +196,8 @@
 </p></div></div>		</div>
 				</div>
 					</div>
+				</div>
+		<div class="elementor-element elementor-element-8aca2b4 e-con-full e-flex e-con e-parent" data-id="8aca2b4" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
 				</div>
 				</div>
 		]]></content:encoded>
