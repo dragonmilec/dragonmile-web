@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>未分類 &#8211; 爵邁</title>
+	<atom:link href="https://dragon-mile.com/category/uncategorized/feed/" rel="self" type="application/rss+xml" />
+	<link>https://dragon-mile.com</link>
+	<description></description>
+	<lastBuildDate>Fri, 31 Oct 2025 01:58:45 +0000</lastBuildDate>
+	<language>zh-TW</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.8.3</generator>
+
+<image>
+	<url>https://dragon-mile.com/wp-content/uploads/2025/03/logo512.png</url>
+	<title>未分類 &#8211; 爵邁</title>
+	<link>https://dragon-mile.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>貨櫃港口辨識</title>
+		<link>https://dragon-mile.com/2022/04/28/%e8%b2%a8%e6%ab%83%e6%b8%af%e5%8f%a3%e8%be%a8%e8%ad%98/</link>
+		
+		<dc:creator><![CDATA[dgcorp50955037]]></dc:creator>
+		<pubDate>Thu, 28 Apr 2022 13:45:43 +0000</pubDate>
+				<category><![CDATA[未分類]]></category>
+		<guid isPermaLink="false">https://startersites.io/blocksy/gadgets/?p=1</guid>
+
+					<description><![CDATA[AI影像辨識 
+2D 3D 影像組合旋轉]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="1" class="elementor elementor-1">
+				<div class="elementor-element elementor-element-c8ac6fc e-con-full e-grid e-con e-parent" data-id="c8ac6fc" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+		<div class="elementor-element elementor-element-9aed9a0 e-con-full e-flex e-con e-child" data-id="9aed9a0" data-element_type="container">
+		<div class="elementor-element elementor-element-383ca6d e-con-full e-flex e-con e-child" data-id="383ca6d" data-element_type="container">
+				<div class="elementor-element elementor-element-06fd174 elementor-widget elementor-widget-heading" data-id="06fd174" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.22.0 - 17-06-2024 */
+.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style><h4 class="elementor-heading-title elementor-size-default">貨櫃港口辨識​</h4>		</div>
+				</div>
+				<div class="elementor-element elementor-element-fb72338 elementor-widget elementor-widget-text-editor" data-id="fb72338" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.22.0 - 17-06-2024 */
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#69727d;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#69727d;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>				<p>利用AI學習貨櫃辨識尺寸大小以及貨櫃編號</p>						</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-50f8b55 e-con-full e-flex e-con e-child" data-id="50f8b55" data-element_type="container">
+				</div>
+		<div class="elementor-element elementor-element-6ea4f78 e-con-full e-flex e-con e-child" data-id="6ea4f78" data-element_type="container">
+		<div class="elementor-element elementor-element-e7f9f1b e-con-full e-flex e-con e-child" data-id="e7f9f1b" data-element_type="container">
+				<div class="elementor-element elementor-element-d262a8a elementor-widget elementor-widget-text-editor" data-id="d262a8a" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>以利貨櫃破損狀態辨識，釐清貨櫃損害賠償責任</p>						</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-ebe4bab e-con-full e-flex e-con e-child" data-id="ebe4bab" data-element_type="container">
+				</div>
+				</div>
+				</div>
+		]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

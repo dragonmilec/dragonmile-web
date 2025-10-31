@@ -12,7 +12,7 @@
 	<atom:link href="https://dragon-mile.com/category/iot/feed/" rel="self" type="application/rss+xml" />
 	<link>https://dragon-mile.com</link>
 	<description></description>
-	<lastBuildDate>Fri, 17 Oct 2025 01:51:49 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 31 Oct 2025 00:55:59 +0000</lastBuildDate>
 	<language>zh-TW</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -38,23 +38,28 @@
 
 					<description><![CDATA[物聯網IOT 醫療]]></description>
 										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="391" class="elementor elementor-391">
-				<div class="elementor-element elementor-element-5293174 e-con-full e-flex e-con e-parent" data-id="5293174" data-element_type="container">
-		<div class="elementor-element elementor-element-45917a7 e-con-full e-flex e-con e-child" data-id="45917a7" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;shape_divider_top&quot;:&quot;triangle-asymmetrical&quot;,&quot;shape_divider_bottom&quot;:&quot;triangle-asymmetrical&quot;}">
+				<div class="elementor-element elementor-element-4a9cdf7 e-con-full e-flex e-con e-parent" data-id="4a9cdf7" data-element_type="container">
+		<div class="elementor-element elementor-element-6af2edd e-con-full e-flex e-con e-child" data-id="6af2edd" data-element_type="container">
+				</div>
+		<div class="elementor-element elementor-element-aca8591 e-con-full e-flex e-con e-child" data-id="aca8591" data-element_type="container">
+				<div class="elementor-element elementor-element-24ab80b elementor-widget elementor-widget-image" data-id="24ab80b" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.22.0 - 17-06-2024 */
+.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>										<img fetchpriority="high" decoding="async" width="1600" height="2000" src="https://dragon-mile.com/wp-content/uploads/2022/05/ima_01.jpg" class="attachment-full size-full wp-image-1130" alt="" />													</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-f50f773 e-con-full e-flex e-con e-child" data-id="f50f773" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;shape_divider_top&quot;:&quot;triangle-asymmetrical&quot;}">
 				<div class="elementor-shape elementor-shape-top" data-negative="false">
 			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
 	<path class="elementor-shape-fill" d="M738,99l262-93V0H0v5.6L738,99z"/>
 </svg>		</div>
-				<div class="elementor-shape elementor-shape-bottom" data-negative="false">
-			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
-	<path class="elementor-shape-fill" d="M738,99l262-93V0H0v5.6L738,99z"/>
-</svg>		</div>
-				</div>
-		<div class="elementor-element elementor-element-1458980 e-con-full e-flex e-con e-child" data-id="1458980" data-element_type="container">
-		<div class="elementor-element elementor-element-127f608 e-con-full e-flex e-con e-child" data-id="127f608" data-element_type="container">
-				<div class="elementor-element elementor-element-488fa69 elementor-widget elementor-widget-heading" data-id="488fa69" data-element_type="widget" data-widget_type="heading.default">
+		<div class="elementor-element elementor-element-e00e0da e-con-full e-flex e-con e-child" data-id="e00e0da" data-element_type="container">
+		<div class="elementor-element elementor-element-d210818 e-con-full e-flex e-con e-child" data-id="d210818" data-element_type="container">
+				<div class="elementor-element elementor-element-9896135 elementor-widget elementor-widget-text-editor" data-id="9896135" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
 			<style>/*! elementor - v3.22.0 - 17-06-2024 */
-.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style><h4 class="elementor-heading-title elementor-size-default"><div data-id="a162eb0" data-element_type="widget" data-widget_type="heading.default" style="flex: 0 1 auto; order: 0; align-self: auto; flex-flow: row; place-content: normal; align-items: normal; gap: normal; --swiper-theme-color: #000; --swiper-navigation-size: 44px; --swiper-pagination-bullet-size: 6px; --swiper-pagination-bullet-horizontal-gap: 6px; --widgets-spacing: 20px 20px; max-width: 100%; color: rgb(80, 108, 130); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;; font-size: 16px; font-weight: 400; white-space-collapse: collapse;"><div style="transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, transform 0.4s; height: 30px;"><h3 style="--theme-font-weight: 700; --theme-font-size: 30px; --theme-line-height: 1.5; font-style: normal; font-weight: 700; font-size: 30px; font-family: Poppins, sans-serif; color: rgb(12, 60, 92); letter-spacing: normal; text-transform: none; text-decoration: rgb(12, 60, 92);">物聯網藥劑注射平台<span style="font-size: 25px; font-variant-ligatures: inherit; font-variant-caps: inherit; white-space-collapse: preserve;"></span></h3></div></div></h4>		</div>
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#69727d;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#69727d;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>				<h4>物聯網藥劑注射平台</h4>						</div>
+				</div>
 				</div>
 				<div class="elementor-element elementor-element-2d13ddb elementor-widget elementor-widget-accordion" data-id="2d13ddb" data-element_type="widget" data-widget_type="accordion.default">
 				<div class="elementor-widget-container">
@@ -86,19 +91,9 @@
 															<span class="elementor-accordion-icon-closed"><svg class="e-font-icon-svg e-fas-plus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg></span>
 								<span class="elementor-accordion-icon-opened"><svg class="e-font-icon-svg e-fas-minus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg></span>
 														</span>
-												<a class="elementor-accordion-title" tabindex="0">每隻藥劑的噴氣時間， 噴氣流 ，均不一樣</a>
-					</div>
-					<div id="elementor-tab-content-4723" class="elementor-tab-content elementor-clearfix" data-tab="3" role="region" aria-labelledby="elementor-tab-title-4723"><p>雲端參數下載，精準控制</p></div>
-				</div>
-							<div class="elementor-accordion-item">
-					<div id="elementor-tab-title-4724" class="elementor-tab-title" data-tab="4" role="button" aria-controls="elementor-tab-content-4724" aria-expanded="false">
-													<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
-															<span class="elementor-accordion-icon-closed"><svg class="e-font-icon-svg e-fas-plus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg></span>
-								<span class="elementor-accordion-icon-opened"><svg class="e-font-icon-svg e-fas-minus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg></span>
-														</span>
 												<a class="elementor-accordion-title" tabindex="0">需購買藥劑，設備才能開通使用</a>
 					</div>
-					<div id="elementor-tab-content-4724" class="elementor-tab-content elementor-clearfix" data-tab="4" role="region" aria-labelledby="elementor-tab-title-4724"><p>藥劑瓶身皆有一次性QRCODE<br />需掃描增加次數才能使用</p></div>
+					<div id="elementor-tab-content-4723" class="elementor-tab-content elementor-clearfix" data-tab="3" role="region" aria-labelledby="elementor-tab-title-4723"><p>藥劑瓶身皆有一次性QRCODE<br />需掃描增加次數才能使用</p></div>
 				</div>
 								</div>
 				</div>
@@ -106,62 +101,86 @@
 				</div>
 				</div>
 				</div>
-		<div class="elementor-element elementor-element-85b6483 e-flex e-con-boxed e-con e-parent" data-id="85b6483" data-element_type="container">
+		<div class="elementor-element elementor-element-d99d35c e-con-full e-flex e-con e-parent" data-id="d99d35c" data-element_type="container">
+		<div class="elementor-element elementor-element-f942d8a e-con-full e-flex e-con e-child" data-id="f942d8a" data-element_type="container">
+		<div class="elementor-element elementor-element-164ab66 e-con-full e-flex e-con e-child" data-id="164ab66" data-element_type="container">
+				<div class="elementor-element elementor-element-d25ea47 elementor-widget elementor-widget-heading" data-id="d25ea47" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.22.0 - 17-06-2024 */
+.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style><h2 class="elementor-heading-title elementor-size-default">定量化雲端參數 方便使用</h2>		</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-5eca634 e-con-full e-flex e-con e-child" data-id="5eca634" data-element_type="container">
+				<div class="elementor-element elementor-element-409fe5e elementor-widget elementor-widget-image" data-id="409fe5e" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+													<img decoding="async" width="823" height="661" src="https://dragon-mile.com/wp-content/uploads/2022/05/a-1.png" class="attachment-large size-large wp-image-1125" alt="" />													</div>
+				</div>
+				<div class="elementor-element elementor-element-e69ac5f elementor-widget elementor-widget-heading" data-id="e69ac5f" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default">藍芽輸出</h4>		</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-2f5da5e e-con-full e-flex e-con e-child" data-id="2f5da5e" data-element_type="container">
+				<div class="elementor-element elementor-element-d2eec65 elementor-widget elementor-widget-image" data-id="d2eec65" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+													<img decoding="async" width="383" height="269" src="https://dragon-mile.com/wp-content/uploads/2022/05/b.png" class="attachment-large size-large wp-image-1128" alt="" />													</div>
+				</div>
+				<div class="elementor-element elementor-element-2882d5a elementor-widget elementor-widget-heading" data-id="2882d5a" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default">雲端參數下載</h4>		</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-ed77edb e-con-full e-flex e-con e-child" data-id="ed77edb" data-element_type="container">
+				<div class="elementor-element elementor-element-ac8c2eb elementor-widget elementor-widget-image" data-id="ac8c2eb" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+													<img loading="lazy" decoding="async" width="383" height="269" src="https://dragon-mile.com/wp-content/uploads/2022/05/aa.png" class="attachment-large size-large wp-image-1126" alt="" />													</div>
+				</div>
+				<div class="elementor-element elementor-element-757fc86 elementor-widget elementor-widget-heading" data-id="757fc86" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default">雲端參數下載</h4>		</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-3f186a7 e-con-full e-flex e-con e-child" data-id="3f186a7" data-element_type="container">
+				<div class="elementor-element elementor-element-448dfe1 elementor-widget elementor-widget-image" data-id="448dfe1" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+													<img loading="lazy" decoding="async" width="776" height="402" src="https://dragon-mile.com/wp-content/uploads/2022/05/adf.jpg" class="attachment-large size-large wp-image-1127" alt="" />													</div>
+				</div>
+				<div class="elementor-element elementor-element-eaaf2b2 elementor-widget elementor-widget-heading" data-id="eaaf2b2" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default">各藥劑施打參數</h4>		</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-adfa4e3 e-flex e-con-boxed e-con e-parent" data-id="adfa4e3" data-element_type="container">
 					<div class="e-con-inner">
 					</div>
 				</div>
-		<div class="elementor-element elementor-element-3b6efa1 e-con-full e-flex e-con e-parent" data-id="3b6efa1" data-element_type="container">
-		<div class="elementor-element elementor-element-05d6dcd e-con-full e-flex e-con e-child" data-id="05d6dcd" data-element_type="container">
-		<div class="elementor-element elementor-element-e23283b e-con-full e-flex e-con e-child" data-id="e23283b" data-element_type="container">
-				<div class="elementor-element elementor-element-2e92299 elementor-widget elementor-widget-text-editor" data-id="2e92299" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-			<style>/*! elementor - v3.22.0 - 17-06-2024 */
-.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#69727d;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#69727d;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>				<h3 class="elementor-heading-title elementor-size-default elementor-inline-editing pen" contenteditable="true" data-elementor-setting-key="title" data-pen-placeholder="在此輸入...">定量化雲端參數 方便使用</h3>						</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-b38b900 e-con-full e-flex e-con e-child" data-id="b38b900" data-element_type="container">
-				<div class="elementor-element elementor-element-6ebf391 elementor-arrows-position-outside elementor-widget elementor-widget-image-carousel" data-id="6ebf391" data-element_type="widget" data-settings="{&quot;slides_to_show_tablet&quot;:&quot;1&quot;,&quot;image_spacing_custom&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;slides_to_show&quot;:&quot;2&quot;,&quot;navigation&quot;:&quot;arrows&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;infinite&quot;:&quot;yes&quot;,&quot;speed&quot;:500}" data-widget_type="image-carousel.default">
-				<div class="elementor-widget-container">
-			<style>/*! elementor - v3.22.0 - 17-06-2024 */
-.elementor-widget-image-carousel .swiper,.elementor-widget-image-carousel .swiper-container{position:static}.elementor-widget-image-carousel .swiper-container .swiper-slide figure,.elementor-widget-image-carousel .swiper .swiper-slide figure{line-height:inherit}.elementor-widget-image-carousel .swiper-slide{text-align:center}.elementor-image-carousel-wrapper:not(.swiper-container-initialized):not(.swiper-initialized) .swiper-slide{max-width:calc(100% / var(--e-image-carousel-slides-to-show, 3))}</style>		<div class="elementor-image-carousel-wrapper swiper" dir="ltr">
-			<div class="elementor-image-carousel swiper-wrapper swiper-image-stretch" aria-live="off">
-								<div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="1 of 7"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://dragon-mile.com/wp-content/uploads/2022/05/b.png" alt="雲端參數下載" /><figcaption class="elementor-image-carousel-caption">雲端參數下載</figcaption></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="2 of 7"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://dragon-mile.com/wp-content/uploads/2022/05/aa.png" alt="雲端參數下載" /><figcaption class="elementor-image-carousel-caption">雲端參數下載</figcaption></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="3 of 7"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://dragon-mile.com/wp-content/uploads/2022/05/dd.jpg" alt="各藥劑施打參數​" /><figcaption class="elementor-image-carousel-caption">各藥劑施打參數​</figcaption></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="4 of 7"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://dragon-mile.com/wp-content/uploads/2022/05/adf.jpg" alt="各藥劑施打參數​" /><figcaption class="elementor-image-carousel-caption">各藥劑施打參數​</figcaption></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="5 of 7"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://dragon-mile.com/wp-content/uploads/2022/05/33.jpg" alt="使用者帳號開通與管理" /><figcaption class="elementor-image-carousel-caption">使用者帳號開通與管理</figcaption></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="6 of 7"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://dragon-mile.com/wp-content/uploads/2022/05/44.jpg" alt="一次性藥劑QRCODE 預設200發 ，用完需再次購買藥劑" /><figcaption class="elementor-image-carousel-caption">一次性藥劑QRCODE 預設200發 ，用完需再次購買藥劑</figcaption></figure></div><div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="7 of 7"><figure class="swiper-slide-inner"><img decoding="async" class="swiper-slide-image" src="https://dragon-mile.com/wp-content/uploads/2022/05/55.jpg" alt="施打記錄伺服器 及時掌控客戶使用狀況" /><figcaption class="elementor-image-carousel-caption">施打記錄伺服器 及時掌控客戶使用狀況</figcaption></figure></div>			</div>
-												<div class="elementor-swiper-button elementor-swiper-button-prev" role="button" tabindex="0">
-						<svg aria-hidden="true" class="e-font-icon-svg e-eicon-chevron-left" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M646 125C629 125 613 133 604 142L308 442C296 454 292 471 292 487 292 504 296 521 308 533L604 854C617 867 629 875 646 875 663 875 679 871 692 858 704 846 713 829 713 812 713 796 708 779 692 767L438 487 692 225C700 217 708 204 708 187 708 171 704 154 692 142 675 129 663 125 646 125Z"></path></svg>					</div>
-					<div class="elementor-swiper-button elementor-swiper-button-next" role="button" tabindex="0">
-						<svg aria-hidden="true" class="e-font-icon-svg e-eicon-chevron-right" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M696 533C708 521 713 504 713 487 713 471 708 454 696 446L400 146C388 133 375 125 354 125 338 125 325 129 313 142 300 154 292 171 292 187 292 204 296 221 308 233L563 492 304 771C292 783 288 800 288 817 288 833 296 850 308 863 321 871 338 875 354 875 371 875 388 867 400 854L696 533Z"></path></svg>					</div>
-				
-									</div>
-				</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-ebbdc23 e-flex e-con-boxed e-con e-parent" data-id="ebbdc23" data-element_type="container">
-					<div class="e-con-inner">
-					</div>
-				</div>
-		<div class="elementor-element elementor-element-21ec4d7 e-con-full e-flex e-con e-parent" data-id="21ec4d7" data-element_type="container" data-settings="{&quot;shape_divider_bottom&quot;:&quot;triangle-asymmetrical&quot;}">
+		<div class="elementor-element elementor-element-fee0824 e-con-full e-flex e-con e-parent" data-id="fee0824" data-element_type="container" data-settings="{&quot;shape_divider_bottom&quot;:&quot;triangle-asymmetrical&quot;}">
 				<div class="elementor-shape elementor-shape-bottom" data-negative="false">
 			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
 	<path class="elementor-shape-fill" d="M738,99l262-93V0H0v5.6L738,99z"/>
 </svg>		</div>
-		<div class="elementor-element elementor-element-aefc9e7 e-con-full e-flex e-con e-child" data-id="aefc9e7" data-element_type="container">
-				<div class="elementor-element elementor-element-84dc201 elementor-widget elementor-widget-heading" data-id="84dc201" data-element_type="widget" data-widget_type="heading.default">
+		<div class="elementor-element elementor-element-00d4571 e-con-full e-flex e-con e-child" data-id="00d4571" data-element_type="container">
+				<div class="elementor-element elementor-element-e956802 elementor-widget elementor-widget-heading" data-id="e956802" data-element_type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
 			<h4 class="elementor-heading-title elementor-size-default">定量化雲端參數 方便使用</h4>		</div>
 				</div>
-				<div class="elementor-element elementor-element-66e3149 elementor-widget elementor-widget-text-editor" data-id="66e3149" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-element elementor-element-044d75d elementor-widget elementor-widget-text-editor" data-id="044d75d" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-							<p style="text-align: left;">藍芽傳輸</p>						</div>
+							<p style="text-align: left;">使用者帳號開通與管理</p><p style="text-align: left;">一次性藥劑QRCODE<br />預設200發 ，用完需再次購買藥劑</p><p style="text-align: left;">施打記錄伺服器<br />及時掌控客戶使用狀況</p>						</div>
 				</div>
 				</div>
-		<div class="elementor-element elementor-element-d1854e6 e-con-full e-flex e-con e-child" data-id="d1854e6" data-element_type="container">
-		<div class="elementor-element elementor-element-cfc9c2f e-con-full e-flex e-con e-child" data-id="cfc9c2f" data-element_type="container">
+		<div class="elementor-element elementor-element-0026cfd e-con-full e-flex e-con e-child" data-id="0026cfd" data-element_type="container">
+		<div class="elementor-element elementor-element-3e21367 e-con-full e-flex e-con e-child" data-id="3e21367" data-element_type="container">
+				</div>
+		<div class="elementor-element elementor-element-2b3cea2 e-con-full e-flex e-con e-child" data-id="2b3cea2" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+				</div>
+		<div class="elementor-element elementor-element-e610ffe e-con-full e-flex e-con e-child" data-id="e610ffe" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 				</div>
 				</div>
 				</div>
-		<div class="elementor-element elementor-element-e491e0e e-con-full e-flex e-con e-parent" data-id="e491e0e" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+		<div class="elementor-element elementor-element-8aca2b4 e-con-full e-flex e-con e-parent" data-id="8aca2b4" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
 				</div>
 				</div>
 		]]></content:encoded>
