@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Smart Manufacturing &#8211; 爵邁</title>
+	<atom:link href="https://dragon-mile.com/category/smart-manufacturing/feed/" rel="self" type="application/rss+xml" />
+	<link>https://dragon-mile.com</link>
+	<description></description>
+	<lastBuildDate>Mon, 26 Jan 2026 06:35:39 +0000</lastBuildDate>
+	<language>zh-TW</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.9</generator>
+
+<image>
+	<url>https://dragon-mile.com/wp-content/uploads/2025/03/logo512.png</url>
+	<title>Smart Manufacturing &#8211; 爵邁</title>
+	<link>https://dragon-mile.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>CNC機台監控</title>
+		<link>https://dragon-mile.com/2022/05/06/cnc%e6%a9%9f%e5%8f%b0%e7%9b%a3%e6%8e%a7/</link>
+		
+		<dc:creator><![CDATA[dgcorp50955037]]></dc:creator>
+		<pubDate>Fri, 06 May 2022 17:50:10 +0000</pubDate>
+				<category><![CDATA[Smart Manufacturing]]></category>
+		<guid isPermaLink="false">https://startersites.io/blocksy/gadgets/?p=681</guid>
+
+					<description><![CDATA[CNC機台監控 
+透過訊號擷取卡將機台訊息回傳至運算平台，及時計算出機台使用與維運週期]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="681" class="elementor elementor-681">
+				<div class="elementor-element elementor-element-3722e51 e-con-full e-flex e-con e-parent" data-id="3722e51" data-element_type="container" data-settings="{&quot;shape_divider_bottom&quot;:&quot;triangle-asymmetrical&quot;}">
+				<div class="elementor-shape elementor-shape-bottom" data-negative="false">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+	<path class="elementor-shape-fill" d="M738,99l262-93V0H0v5.6L738,99z"/>
+</svg>		</div>
+		<div class="elementor-element elementor-element-1e4ded2 e-con-full e-flex e-con e-child" data-id="1e4ded2" data-element_type="container">
+				<div class="elementor-element elementor-element-3754a83 elementor-widget elementor-widget-heading" data-id="3754a83" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.22.0 - 17-06-2024 */
+.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style><h4 class="elementor-heading-title elementor-size-default">馬達電流與震動監控分析軟體</h4>		</div>
+				</div>
+				<div class="elementor-element elementor-element-61f60e9 elementor-widget elementor-widget-text-editor" data-id="61f60e9" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.22.0 - 17-06-2024 */
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#69727d;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#69727d;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>				<p style="text-align: left;">偵測馬達運作中電流，利用數據分析來協助機台維運與壽命分析，提生產線產能與降低維運成本</p>						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-015adea e-con-full e-flex e-con e-child" data-id="015adea" data-element_type="container">
+		<div class="elementor-element elementor-element-9c7e6df e-con-full e-flex e-con e-child" data-id="9c7e6df" data-element_type="container">
+				</div>
+		<div class="elementor-element elementor-element-b8d9d64 e-con-full e-flex e-con e-child" data-id="b8d9d64" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+				</div>
+		<div class="elementor-element elementor-element-4ccc86d e-con-full e-flex e-con e-child" data-id="4ccc86d" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-e2c9f24 e-con-full e-flex e-con e-parent" data-id="e2c9f24" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+				</div>
+				</div>
+		]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>工業控制 &#8211; 智慧生產</title>
+		<link>https://dragon-mile.com/2022/05/06/%e5%b7%a5%e6%a5%ad%e6%8e%a7%e5%88%b6-%e6%99%ba%e6%85%a7%e7%94%9f%e7%94%a2/</link>
+		
+		<dc:creator><![CDATA[dgcorp50955037]]></dc:creator>
+		<pubDate>Fri, 06 May 2022 17:45:48 +0000</pubDate>
+				<category><![CDATA[Smart Manufacturing]]></category>
+		<guid isPermaLink="false">https://startersites.io/blocksy/gadgets/?p=675</guid>
+
+					<description><![CDATA[打造一智動化生產 資訊收集平台架構規劃 廠區layout規劃 線上品檢自動化模組 開發導直滾輪補償參數建議模組 [&#8230;]]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="675" class="elementor elementor-675">
+				<div class="elementor-element elementor-element-ff825b5 e-con-full e-flex e-con e-parent" data-id="ff825b5" data-element_type="container" data-settings="{&quot;shape_divider_bottom&quot;:&quot;triangle-asymmetrical&quot;}">
+				<div class="elementor-shape elementor-shape-bottom" data-negative="false">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+	<path class="elementor-shape-fill" d="M738,99l262-93V0H0v5.6L738,99z"/>
+</svg>		</div>
+		<div class="elementor-element elementor-element-acf76d7 e-con-full e-flex e-con e-child" data-id="acf76d7" data-element_type="container">
+				<div class="elementor-element elementor-element-7190f84 elementor-widget elementor-widget-heading" data-id="7190f84" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default">打造一智動化生產
+</h4>		</div>
+				</div>
+				<div class="elementor-element elementor-element-e12b787 elementor-widget elementor-widget-text-editor" data-id="e12b787" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p style="text-align: left;">資訊收集平台架構規劃</p>						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-2b10d57 e-con-full e-flex e-con e-child" data-id="2b10d57" data-element_type="container">
+		<div class="elementor-element elementor-element-eb8eca4 e-con-full e-flex e-con e-child" data-id="eb8eca4" data-element_type="container">
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-09e1997 e-flex e-con-boxed e-con e-parent" data-id="09e1997" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-64affb7 e-grid e-con-full e-con e-child" data-id="64affb7" data-element_type="container" data-settings="{&quot;shape_divider_top&quot;:&quot;triangle-asymmetrical&quot;}">
+				<div class="elementor-shape elementor-shape-top" data-negative="false">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+	<path class="elementor-shape-fill" d="M738,99l262-93V0H0v5.6L738,99z"/>
+</svg>		</div>
+		<div class="elementor-element elementor-element-7df31a2 e-con-full e-flex e-con e-child" data-id="7df31a2" data-element_type="container">
+				<div class="elementor-element elementor-element-d619bd9 elementor-widget elementor-widget-image" data-id="d619bd9" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.22.0 - 17-06-2024 */
+.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>										<img fetchpriority="high" decoding="async" width="1026" height="597" src="https://dragon-mile.com/wp-content/uploads/2022/05/x.png" class="attachment-full size-full wp-image-1106" alt="" />													</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-dcec04e e-con-full e-flex e-con e-child" data-id="dcec04e" data-element_type="container">
+		<div class="elementor-element elementor-element-84fd951 e-con-full e-flex e-con e-child" data-id="84fd951" data-element_type="container">
+		<div class="elementor-element elementor-element-4390263 e-con-full e-flex e-con e-child" data-id="4390263" data-element_type="container">
+				<div class="elementor-element elementor-element-27b185c elementor-widget elementor-widget-heading" data-id="27b185c" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<p class="elementor-heading-title elementor-size-default">廠區layout規劃</p>		</div>
+				</div>
+				</div>
+				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-b9922af e-flex e-con-boxed e-con e-parent" data-id="b9922af" data-element_type="container">
+					<div class="e-con-inner">
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-8cdf843 e-con-full e-flex e-con e-parent" data-id="8cdf843" data-element_type="container">
+		<div class="elementor-element elementor-element-b512c30 e-con-full e-flex e-con e-child" data-id="b512c30" data-element_type="container">
+		<div class="elementor-element elementor-element-f1360d9 e-con-full e-flex e-con e-child" data-id="f1360d9" data-element_type="container">
+				<div class="elementor-element elementor-element-8638958 elementor-widget elementor-widget-heading" data-id="8638958" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">線上品檢自動化模組</h2>		</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-572bf31 e-con-full e-flex e-con e-child" data-id="572bf31" data-element_type="container">
+				<div class="elementor-element elementor-element-6db03c9 elementor-widget elementor-widget-image" data-id="6db03c9" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+													<img decoding="async" width="865" height="526" src="https://dragon-mile.com/wp-content/uploads/2022/05/z.png" class="attachment-large size-large wp-image-1108" alt="" />													</div>
+				</div>
+				<div class="elementor-element elementor-element-0c8b33a elementor-widget elementor-widget-text-editor" data-id="0c8b33a" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>開發導直滾輪補償參數建議模組</p>						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-8271847 e-con-full e-flex e-con e-child" data-id="8271847" data-element_type="container">
+				<div class="elementor-element elementor-element-ea4f68c elementor-widget elementor-widget-image" data-id="ea4f68c" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+													<img decoding="async" width="755" height="409" src="https://dragon-mile.com/wp-content/uploads/2022/05/zz.png" class="attachment-large size-large wp-image-1109" alt="" />													</div>
+				</div>
+				<div class="elementor-element elementor-element-563ee6b elementor-widget elementor-widget-text-editor" data-id="563ee6b" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>雷射邊緣量測計</p>						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-da92770 e-con-full e-flex e-con e-child" data-id="da92770" data-element_type="container">
+				<div class="elementor-element elementor-element-069ad4b elementor-widget elementor-widget-image" data-id="069ad4b" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+													<img loading="lazy" decoding="async" width="762" height="591" src="https://dragon-mile.com/wp-content/uploads/2022/05/zzz.png" class="attachment-large size-large wp-image-1110" alt="" />													</div>
+				</div>
+				<div class="elementor-element elementor-element-b2b774f elementor-widget elementor-widget-text-editor" data-id="b2b774f" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>沖壓頭磨耗監控預警模組</p>						</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-e6dbe31 e-con-full e-flex e-con e-parent" data-id="e6dbe31" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+				</div>
+				</div>
+		]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>
