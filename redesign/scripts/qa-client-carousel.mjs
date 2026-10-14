@@ -1,0 +1,160 @@
+import { chromium } from '@playwright/test'
+import assert from 'node:assert/strict'
+import { mkdir, writeFile } from 'node:fs/promises'
+
+const browser = await chromium.launch({ executablePath: 'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe', headless: true })
+const origin = process.env.QA_URL || 'http://127.0.0.1:5173'
+const context = await browser.newContext({ viewport: { width: 1440, height: 1000 }, reducedMotion: 'no-preference' })
+const page = await context.newPage()
+const errors = []
+page.on('pageerror', e => errors.push(e.message))
+const checks = []
+const position = async () => page.locator('.client-strip-track').evaluate(el => new DOMMatrix(getComputedStyle(el).transform).m41)
+const isOpen = async () => page.locator('#all-clients-dialog').evaluate(el => el.open)
+const drag = async distance => {
+  const bounds = await page.locator('.client-strip-viewport').boundingBox()
+  const x = bounds.x + bounds.width / 2, y = bounds.y + bounds.height / 2
+  await page.mouse.move(x, y)
+  await page.mouse.down()
+  await page.mouse.move(x + distance, y, { steps: 12 })
+  await page.mouse.up()
+}
+await mkdir('qa-artifacts', { recursive: true })
+try {
+  await page.goto(origin)
+  await page.locator('.client-strip').scrollIntoViewIfNeeded()
+  await page.mouse.move(0, 0)
+  await page.waitForTimeout(150)
+  let start = await position()
+  await page.waitForTimeout(400)
+  assert.ok(Math.abs((await position()) - start) > 4, 'autoplay moves')
+  checks.push('autoplay')
+
+  await page.getByRole('button', { name: '暫停客戶輪播', exact: true }).click()
+  start = await position()
+  await page.waitForTimeout(200)
+  assert.ok(Math.abs((await position()) - start) < 1, 'pause holds position')
+  await drag(-180)
+  const left = await position()
+  assert.ok(Math.abs(left - start) > 100, 'left drag moves')
+  assert.equal(await isOpen(), false, 'drag does not open dialog')
+  await drag(130)
+  assert.ok(Math.abs((await position()) - left) > 80, 'right drag moves')
+  assert.equal(await isOpen(), false, 'reverse drag does not open dialog')
+  checks.push('manual pause', 'drag both directions', 'drag suppresses click')
+
+  await page.getByRole('button', { name: '播放客戶輪播', exact: true }).click()
+  await page.mouse.move(0, 0)
+  await page.waitForTimeout(1500)
+  start = await position()
+  await page.waitForTimeout(250)
+  assert.ok(Math.abs((await position()) - start) > 3, 'play resumes after drag')
+  await page.locator('.client-strip-viewport').hover()
+  start = await position()
+  await page.waitForTimeout(200)
+  assert.ok(Math.abs((await position()) - start) < 1, 'hover pauses')
+  checks.push('resume after drag', 'hover pause')
+
+  const viewport = page.getByRole('button', { name: /客戶標誌輪播/ })
+  await viewport.focus()
+  for (let i = 0; i < 40; i++) await page.keyboard.press('ArrowRight')
+  const geometry = await page.locator('.client-strip-track').evaluate(el => {
+    const segment = el.firstElementChild.getBoundingClientRect().width
+    return { segment, x: new DOMMatrix(getComputedStyle(el).transform).m41 }
+  })
+  assert.ok(geometry.x <= -geometry.segment && geometry.x > -2 * geometry.segment, 'wrap stays inside seamless middle copy')
+  await page.keyboard.press('Enter')
+  assert.equal(await isOpen(), true)
+  assert.equal(await page.locator('.all-clients-grid img').count(), 18)
+  await page.locator('.all-clients-grid img').evaluateAll(images => Promise.all(images.map(i => i.decode())))
+  assert.equal(await page.evaluate(() => document.body.style.overflow), 'hidden')
+  await page.screenshot({ path: 'qa-artifacts/client-dialog-1440.png' })
+  await page.keyboard.press('Escape')
+  assert.equal(await isOpen(), false)
+  assert.ok(await viewport.evaluate(el => el === document.activeElement), 'focus restored')
+  assert.equal(await page.evaluate(() => document.body.style.overflow), '')
+  checks.push('seamless wrap', 'keyboard', 'all 18 logos', 'Escape and focus restoration', 'scroll lock restoration')
+
+  await page.waitForTimeout(450)
+  await viewport.click()
+  assert.equal(await isOpen(), true, 'click on logo track opens all clients')
+  await page.getByRole('button', { name: '關閉合作客戶視窗' }).click()
+  await page.getByRole('button', { name: /查看全部/ }).click()
+  await page.mouse.click(5, 5)
+  assert.equal(await isOpen(), false, 'backdrop closes')
+  await page.getByRole('button', { name: /查看全部/ }).click()
+  await page.getByRole('link', { name: '前往客戶頁面' }).click()
+  await page.waitForURL('**/clients')
+  assert.equal(await page.evaluate(() => document.body.style.overflow), '')
+  checks.push('logo click', 'view-all action', 'backdrop dismissal', 'route cleanup')
+
+  for (const width of [1440, 768, 390, 320]) {
+    await page.setViewportSize({ width, height: 1000 })
+    await page.goto(origin)
+    await page.locator('.client-strip').scrollIntoViewIfNeeded()
+    assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1), `strip overflow at ${width}`)
+    await page.getByRole('button', { name: /查看全部/ }).click()
+    const dialogWidth = await page.locator('#all-clients-dialog').evaluate(el => el.getBoundingClientRect().width)
+    assert.ok(dialogWidth < width, `modal fits ${width}`)
+    await page.locator('.all-clients-grid img').evaluateAll(images => Promise.all(images.map(i => i.decode())))
+    await page.screenshot({ path: `qa-artifacts/client-dialog-${width}.png` })
+    await page.keyboard.press('Escape')
+    await page.screenshot({ path: `qa-artifacts/client-strip-${width}.png` })
+  }
+  checks.push('1440 / 768 / 390 / 320 responsive layouts')
+
+  await page.emulateMedia({ reducedMotion: 'reduce' })
+  await page.goto(origin)
+  await page.locator('.client-strip').scrollIntoViewIfNeeded()
+  await page.mouse.move(0, 0)
+  await page.waitForTimeout(150)
+  start = await position()
+  await page.waitForTimeout(250)
+  assert.ok(Math.abs((await position()) - start) < 1, 'reduced motion disables autoplay')
+  await drag(-100)
+  assert.ok(Math.abs((await position()) - start) > 70, 'drag remains available with reduced motion')
+  checks.push('reduced motion with manual interaction')
+
+  const touchContext = await browser.newContext({ viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true, reducedMotion: 'reduce' })
+  const touchPage = await touchContext.newPage()
+  await touchPage.goto(origin)
+  await touchPage.locator('.client-strip').scrollIntoViewIfNeeded()
+  const bounds = await touchPage.locator('.client-strip-viewport').boundingBox()
+  const cdp = await touchContext.newCDPSession(touchPage)
+  const startX = bounds.x + bounds.width * .7, startY = bounds.y + bounds.height / 2
+  const touchPosition = () => touchPage.locator('.client-strip-track').evaluate(el => new DOMMatrix(getComputedStyle(el).transform).m41)
+  const touchStart = await touchPosition()
+  await touchPage.evaluate(() => {
+    window.carouselTrace = []
+    for (const type of ['pointerdown', 'pointermove', 'pointerup', 'pointercancel']) document.querySelector('.client-strip-viewport').addEventListener(type, e => window.carouselTrace.push({ type, x: e.clientX, y: e.clientY, primary: e.isPrimary, pointerType: e.pointerType }))
+  })
+  await cdp.send('Input.dispatchTouchEvent', { type: 'touchStart', touchPoints: [{ x: startX, y: startY }] })
+  for (let i = 1; i <= 8; i++) {
+    await cdp.send('Input.dispatchTouchEvent', { type: 'touchMove', touchPoints: [{ x: startX - i * 15, y: startY }] })
+    await touchPage.waitForTimeout(20)
+  }
+  await cdp.send('Input.dispatchTouchEvent', { type: 'touchEnd', touchPoints: [] })
+  const touchEnd = await touchPosition()
+  assert.ok(Math.abs(touchEnd - touchStart) > 80, `touch drag moves: ${JSON.stringify({ touchStart, touchEnd, bounds, events: await touchPage.evaluate(() => window.carouselTrace) })}`)
+  assert.equal(await touchPage.locator('#all-clients-dialog').evaluate(el => el.open), false, 'touch drag does not open')
+  await touchPage.waitForTimeout(450)
+  await touchPage.locator('.client-strip-viewport').tap()
+  assert.equal(await touchPage.locator('#all-clients-dialog').evaluate(el => el.open), true, 'tap opens all clients')
+  await touchPage.getByRole('button', { name: '關閉合作客戶視窗' }).tap()
+  await touchPage.locator('.client-strip').scrollIntoViewIfNeeded()
+  const verticalBounds = await touchPage.locator('.client-strip-viewport').boundingBox()
+  const scrollStart = await touchPage.evaluate(() => scrollY)
+  const vx = verticalBounds.x + verticalBounds.width / 2, vy = verticalBounds.y + verticalBounds.height / 2
+  await cdp.send('Input.dispatchTouchEvent', { type: 'touchStart', touchPoints: [{ x: vx, y: vy }] })
+  for (let i = 1; i <= 6; i++) await cdp.send('Input.dispatchTouchEvent', { type: 'touchMove', touchPoints: [{ x: vx, y: vy - i * 20 }] })
+  await cdp.send('Input.dispatchTouchEvent', { type: 'touchEnd', touchPoints: [] })
+  await touchPage.waitForTimeout(200)
+  assert.ok((await touchPage.evaluate(() => scrollY)) > scrollStart + 20, 'vertical scrolling remains available over carousel')
+  assert.equal(await touchPage.locator('#all-clients-dialog').evaluate(el => el.open), false)
+  await touchContext.close()
+  checks.push('native touch drag', 'touch tap', 'vertical page scrolling')
+  assert.deepEqual(errors, [], 'browser exceptions')
+  const report = { passed: true, checks, errors }
+  await writeFile('qa-artifacts/client-carousel-report.json', JSON.stringify(report, null, 2))
+  console.log(JSON.stringify(report, null, 2))
+} finally { await browser.close() }

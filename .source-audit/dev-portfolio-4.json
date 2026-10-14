@@ -1,0 +1,162 @@
+{
+  "title": "醇邁 - 專業軟體解決方案",
+  "text": "返回產品目錄\n物聯網醫美\n\n超音速霧化直達真皮層，雲端精準控制與QRCODE授權啟用的物聯網藥劑注射平台。\n\n專案資訊\n上市時間： -\n核心功能：無針直達真皮層藥劑注射\n適用場景：醫美診所、皮膚科與美容中心\n智能技術\n超音速霧化技術（200nm 微粒）\n雲端控制噴射參數與藥劑管理\n藍牙連線與 IoT 裝置互動\nQR Code 授權啟用與單瓶追蹤\n自動資料上傳與使用狀況分析\n技術核心\n\n超音速霧化直達真皮層\n\n霧化技術\n\n採用超音速氣流技術，將藥劑平均霧化至200 nm級微粒。\n\n穿透真皮\n\n微粒能無創穿透表皮，精準抵達真皮層，提升吸收效率與安全性。\n\n無針安全\n\n無針式注射，降低交叉感染風險。\n\n授權使用機制\n一次性 QRCODE 驗證\n\n每瓶藥劑皆附有一次性 QRCODE 驗證標籤。\n\n裝置啟用次數\n\n掃描後可啟用裝置使用次數（預設 200 次）。\n\n藥劑補充管理\n\n藥劑耗盡後，需重新購買並啟用新的藥劑瓶。\n\n使用安全保障\n\n防止未授權使用與偽造藥劑，保障品牌與使用安全。\n\n雲端精準控制\n\n每瓶藥劑專屬參數\n\n智慧雲端校正\n每種藥劑擁有不同的噴氣時間與流速曲線。\n透過雲端下載對應參數，自動校正設備設定，確保最佳施打效果。\n使用者無需人工調整，即插即用。\n雲端整合功能\n藍牙連線\n\n裝置即時同步資料至雲端。\n\n施打數據回傳\n\n提供施打量、次數與參數紀錄。\n\n雲端參數下載\n\n自動更新每批藥劑的最佳噴射設定。\n\n使用者帳號管理系統\n\n每位使用者需透過一次性 QRCODE啟用藥劑，確保皆使用正品藥劑。 施打紀錄會即時上傳雲端，醫療單位可監控使用情況，並可透過後端數據分析進行使用趨勢統計與設備維護預測，確保安全與管理效率。\n\n相關專案\n\n探索更多我們的優秀作品",
+  "headings": [
+    {
+      "tag": "H1",
+      "text": "物聯網醫美"
+    },
+    {
+      "tag": "H2",
+      "text": "專案資訊"
+    },
+    {
+      "tag": "H3",
+      "text": "智能技術"
+    },
+    {
+      "tag": "H2",
+      "text": "技術核心"
+    },
+    {
+      "tag": "H3",
+      "text": "霧化技術"
+    },
+    {
+      "tag": "H3",
+      "text": "穿透真皮"
+    },
+    {
+      "tag": "H3",
+      "text": "無針安全"
+    },
+    {
+      "tag": "H2",
+      "text": "授權使用機制"
+    },
+    {
+      "tag": "H3",
+      "text": "一次性 QRCODE 驗證"
+    },
+    {
+      "tag": "H3",
+      "text": "裝置啟用次數"
+    },
+    {
+      "tag": "H3",
+      "text": "藥劑補充管理"
+    },
+    {
+      "tag": "H3",
+      "text": "使用安全保障"
+    },
+    {
+      "tag": "H2",
+      "text": "雲端精準控制"
+    },
+    {
+      "tag": "H3",
+      "text": "智慧雲端校正"
+    },
+    {
+      "tag": "H2",
+      "text": "雲端整合功能"
+    },
+    {
+      "tag": "H3",
+      "text": "藍牙連線"
+    },
+    {
+      "tag": "H3",
+      "text": "施打數據回傳"
+    },
+    {
+      "tag": "H3",
+      "text": "雲端參數下載"
+    },
+    {
+      "tag": "H2",
+      "text": "使用者帳號管理系統"
+    },
+    {
+      "tag": "H2",
+      "text": "相關專案"
+    },
+    {
+      "tag": "H3",
+      "text": "快速連結"
+    },
+    {
+      "tag": "H3",
+      "text": "聯絡資訊"
+    }
+  ],
+  "images": [
+    {
+      "src": "https://dragonmile.dev/images/z07.png",
+      "alt": "物聯網醫美 - 主要圖片",
+      "width": 823,
+      "height": 661
+    },
+    {
+      "src": "https://dragonmile.dev/images/za5.png",
+      "alt": "物聯網醫美 - 圖片 2",
+      "width": 383,
+      "height": 269
+    },
+    {
+      "src": "https://dragonmile.dev/images/za3.jpg",
+      "alt": "物聯網醫美 - 圖片 3",
+      "width": 776,
+      "height": 402
+    },
+    {
+      "src": "https://dragonmile.dev/images/za1.jpg",
+      "alt": "超音速霧化直達真皮層",
+      "width": 1600,
+      "height": 2000
+    },
+    {
+      "src": "https://dragonmile.dev/images/za4.jpg",
+      "alt": "核心功能展示1",
+      "width": 916,
+      "height": 527
+    },
+    {
+      "src": "https://dragonmile.dev/images/za5.png",
+      "alt": "核心功能展示2",
+      "width": 383,
+      "height": 269
+    },
+    {
+      "src": "https://dragonmile.dev/images/za6.jpg",
+      "alt": "核心功能展示3",
+      "width": 760,
+      "height": 437
+    },
+    {
+      "src": "https://dragonmile.dev/images/za2.jpg",
+      "alt": "智慧雲端校正介面",
+      "width": 1229,
+      "height": 1536
+    },
+    {
+      "src": "https://dragonmile.dev/images/za3.jpg",
+      "alt": "精準施打",
+      "width": 776,
+      "height": 402
+    },
+    {
+      "src": "https://dragonmile.dev/images/za7.jpg",
+      "alt": "語言治療平台產品定位",
+      "width": 766,
+      "height": 463
+    }
+  ],
+  "scripts": [
+    "https://dragonmile.dev/assets/index-BEzYJaUI.js"
+  ],
+  "url": "https://dragonmile.dev/portfolio/4",
+  "status": 404,
+  "requests": []
+}

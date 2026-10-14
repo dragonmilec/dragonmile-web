@@ -1,0 +1,170 @@
+{
+  "title": "醇邁 - 專業軟體解決方案",
+  "text": "返回產品目錄\n吞嚥賦能體感訓練遊戲\n\n這款 APP 透過 舌頭體感互動遊戲，幫助使用者提升舌頭靈活度與吞嚥能力，並提供 即時回饋與進度追蹤\n\n專案資訊\n上市時間： -\n核心功能：前台進度追蹤與統計\n適用場景：家庭、復健中心或語言治療機構使用者\n智能技術\n影像辨識與舌頭動作分析\n壓力感測健舌器互動\n動作評分與即時文字回饋\n後台數據分析與統計追蹤\nWebSocket 實時資料同步\n產品介紹\n\n這款 APP 透過舌頭體感互動遊戲，幫助使用者提升舌頭靈活度與吞嚥能力，並提供即時回饋與進度追蹤。 結合影像辨識與壓力感測健舌器，讓訓練更安全、有趣、有效率。\n\n核心功能總覽\n\n結合影像辨識與壓力感測，打造完整的舌頭訓練體驗\n\n舌頭體操互動訓練（影像辨識）\n\n透過攝影機進行舌頭動作辨識，將訓練 gamify 化，使使用者在遊戲互動中完成舌頭靈活度訓練。系統即時判定動作完成度，並提供清晰的文字提示與得分基準。\n\n健舌器壓力感測訓練\n\n結合健舌器的壓力感測功能，將舌壓訓練轉化為可量化的數值回饋。使用者可透過遊戲化操作提升舌肌力量，並即時看到壓力曲線、得分與完成度。\n\n精準分析與後台整合\n\n以資料為核心，協助追蹤訓練進展並優化決策\n\n智能數據分析\n動作辨識與分數評估\n進度追蹤與趨勢圖\n行為提示\n後台管理\n使用者資料管理\n後台數據分析\n前台進度追蹤與統計\n教學與使用輔助\n\n循序漸進的指導，隨時獲得操作幫助\n\n示範教學\n\n提供完整的操作流程與示範，幫助使用者快速上手\n\n互動提示\n\n在遊戲或訓練過程中，提供提示與建議，確保動作正確\n\n任務難易度調整\n\n根據使用者能力，可調整訓練難度，讓訓練更有成效。\n\n相關專案\n\n探索更多我們的優秀作品\n\n語言互動治療軟體\n\n適用語言遲緩、自閉症",
+  "headings": [
+    {
+      "tag": "H1",
+      "text": "吞嚥賦能體感訓練遊戲"
+    },
+    {
+      "tag": "H2",
+      "text": "專案資訊"
+    },
+    {
+      "tag": "H3",
+      "text": "智能技術"
+    },
+    {
+      "tag": "H2",
+      "text": "產品介紹"
+    },
+    {
+      "tag": "H2",
+      "text": "核心功能總覽"
+    },
+    {
+      "tag": "H3",
+      "text": "舌頭體操互動訓練（影像辨識）"
+    },
+    {
+      "tag": "H3",
+      "text": "健舌器壓力感測訓練"
+    },
+    {
+      "tag": "H2",
+      "text": "精準分析與後台整合"
+    },
+    {
+      "tag": "H3",
+      "text": "智能數據分析"
+    },
+    {
+      "tag": "H3",
+      "text": "後台管理"
+    },
+    {
+      "tag": "H2",
+      "text": "教學與使用輔助"
+    },
+    {
+      "tag": "H3",
+      "text": "示範教學"
+    },
+    {
+      "tag": "H3",
+      "text": "互動提示"
+    },
+    {
+      "tag": "H3",
+      "text": "任務難易度調整"
+    },
+    {
+      "tag": "H2",
+      "text": "相關專案"
+    },
+    {
+      "tag": "H3",
+      "text": "語言互動治療軟體"
+    },
+    {
+      "tag": "H3",
+      "text": "快速連結"
+    },
+    {
+      "tag": "H3",
+      "text": "聯絡資訊"
+    }
+  ],
+  "images": [
+    {
+      "src": "https://dragonmile.dev/images/z08.png",
+      "alt": "吞嚥賦能體感訓練遊戲 - 主要圖片",
+      "width": 1095,
+      "height": 667
+    },
+    {
+      "src": "https://dragonmile.dev/images/o01.png",
+      "alt": "吞嚥賦能體感訓練遊戲 - 圖片 2",
+      "width": 355,
+      "height": 634
+    },
+    {
+      "src": "https://dragonmile.dev/images/o03.png",
+      "alt": "吞嚥賦能體感訓練遊戲 - 圖片 3",
+      "width": 360,
+      "height": 637
+    },
+    {
+      "src": "https://dragonmile.dev/images/o10.png",
+      "alt": "語言治療平台產品定位",
+      "width": 357,
+      "height": 635
+    },
+    {
+      "src": "https://dragonmile.dev/images/o01.png",
+      "alt": "手機介面展示 1",
+      "width": 355,
+      "height": 634
+    },
+    {
+      "src": "https://dragonmile.dev/images/o02.png",
+      "alt": "手機介面展示 2",
+      "width": 358,
+      "height": 637
+    },
+    {
+      "src": "https://dragonmile.dev/images/o03.png",
+      "alt": "手機介面展示 3",
+      "width": 360,
+      "height": 637
+    },
+    {
+      "src": "https://dragonmile.dev/images/o04.png",
+      "alt": "手機介面展示 4",
+      "width": 388,
+      "height": 690
+    },
+    {
+      "src": "https://dragonmile.dev/images/o05.png",
+      "alt": "管理介面",
+      "width": 358,
+      "height": 641
+    },
+    {
+      "src": "https://dragonmile.dev/images/o06.png",
+      "alt": "圖表",
+      "width": 356,
+      "height": 636
+    },
+    {
+      "src": "https://dragonmile.dev/images/o08.png",
+      "alt": "示範教學",
+      "width": 357,
+      "height": 637
+    },
+    {
+      "src": "https://dragonmile.dev/images/o09.png",
+      "alt": "互動提示",
+      "width": 405,
+      "height": 582
+    },
+    {
+      "src": "https://dragonmile.dev/images/o07.png",
+      "alt": "任務難易度調整",
+      "width": 404,
+      "height": 585
+    },
+    {
+      "src": "https://dragonmile.dev/images/c02.png",
+      "alt": "語言互動治療軟體",
+      "width": 846,
+      "height": 587
+    }
+  ],
+  "scripts": [
+    "https://dragonmile.dev/assets/index-BEzYJaUI.js"
+  ],
+  "url": "https://dragonmile.dev/portfolio/3",
+  "status": 404,
+  "requests": []
+}

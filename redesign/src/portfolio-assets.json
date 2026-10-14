@@ -1,0 +1,25 @@
+{
+  "swallow-training": {
+    "z08.png": "/assets/portfolio/swallow-training-z08.png",
+    "o01.png": "/assets/portfolio/swallow-training-o01.png",
+    "o03.png": "/assets/portfolio/swallow-training-o03.png",
+    "o10.png": "/assets/portfolio/swallow-training-o10.png",
+    "o02.png": "/assets/portfolio/swallow-training-o02.png",
+    "o04.png": "/assets/portfolio/swallow-training-o04.png",
+    "o05.png": "/assets/portfolio/swallow-training-o05.png",
+    "o06.png": "/assets/portfolio/swallow-training-o06.png",
+    "o08.png": "/assets/portfolio/swallow-training-o08.png",
+    "o09.png": "/assets/portfolio/swallow-training-o09.png",
+    "o07.png": "/assets/portfolio/swallow-training-o07.png"
+  },
+  "medical-iot": {
+    "z07.png": "/assets/portfolio/medical-iot-z07.png",
+    "za5.png": "/assets/portfolio/medical-iot-za5.png",
+    "za3.jpg": "/assets/portfolio/medical-iot-za3.jpg",
+    "za1.jpg": "/assets/portfolio/medical-iot-za1.jpg",
+    "za4.jpg": "/assets/portfolio/medical-iot-za4.jpg",
+    "za6.jpg": "/assets/portfolio/medical-iot-za6.jpg",
+    "za2.jpg": "/assets/portfolio/medical-iot-za2.jpg",
+    "za7.jpg": "/assets/portfolio/medical-iot-za7.jpg"
+  }
+}

@@ -1,0 +1,106 @@
+import { chromium } from '@playwright/test'
+import assert from 'node:assert/strict'
+import { mkdir, writeFile } from 'node:fs/promises'
+
+const browser = await chromium.launch({ executablePath: 'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe', headless: true })
+const origin = process.env.QA_URL || 'http://127.0.0.1:4174'
+const page = await browser.newPage({ viewport: { width: 1440, height: 1000 }, reducedMotion: 'reduce' })
+const errors = [], verified = [], title = '經濟部認證之自動化服務機構輔導廠商'
+page.on('pageerror', error => errors.push(error.message))
+const button = () => page.getByRole('button', { name: `${title}，查看原站證書登錄資料`, exact: true })
+const dialog = () => page.locator('#qualification-certificate-dialog')
+const routes = ['/', '/about', '/services', '/cases', '/clients', '/contact', '/cases/speech-therapy', '/services/iot']
+await mkdir('qa-artifacts', { recursive: true })
+try {
+  for (const width of [1440, 1024, 768, 390, 320]) {
+    await page.setViewportSize({ width, height: 1000 })
+    for (const route of width === 1440 ? routes : ['/', '/about', '/cases/speech-therapy']) {
+      await page.goto(origin + route)
+      await button().waitFor()
+      assert.equal((await page.locator('.qualification-banner-title').textContent()).trim(), title)
+      assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1), `overflow ${width} ${route}`)
+      const initialHeader = await page.locator('.site-header').boundingBox()
+      const nav = await page.locator('.header-inner').boundingBox()
+      const banner = await page.locator('.qualification-banner').boundingBox()
+      assert.ok(nav.y >= banner.y + banner.height - 1, 'navigation below qualification')
+      assert.ok(Math.abs(initialHeader.height - banner.height - nav.height - 1) <= 1, `header fits its rows ${width}`)
+      await page.evaluate(() => window.scrollTo(0, 900))
+      await page.waitForTimeout(80)
+      const compactHeader = await page.locator('.site-header').boundingBox()
+      assert.ok(compactHeader.y >= -1 && compactHeader.y <= 1, 'header stays pinned')
+      assert.ok(compactHeader.height < initialHeader.height, 'navigation becomes compact')
+      assert.ok((await button().boundingBox()).y >= 0, 'qualification remains visible')
+      const scrollBefore = await page.evaluate(() => scrollY)
+      await button().click()
+      assert.ok(await dialog().evaluate(el => el.open))
+      assert.equal(await page.evaluate(() => document.body.style.overflow), 'hidden')
+      assert.ok((await dialog().innerText()).includes('112-AU-5-50955037-0876'))
+      assert.ok((await dialog().innerText()).includes('商品資料庫建立與管理'))
+      assert.equal(await dialog().locator('time[datetime="2026-01-15"]').count(), 1)
+      assert.ok((await dialog().innerText()).includes('現行資格請以主管機關最新登錄資料為準'))
+      await dialog().locator('img').evaluate(el => el.decode())
+      const modalBounds = await dialog().boundingBox()
+      assert.ok(modalBounds.x >= 0 && modalBounds.width < width, `dialog fits ${width}`)
+      if (route === '/') await page.screenshot({ path: `qa-artifacts/qualification-dialog-${width}.png` })
+      await page.keyboard.press('Escape')
+      assert.ok(!(await dialog().evaluate(el => el.open)))
+      assert.equal(await page.evaluate(() => document.body.style.overflow), '')
+      assert.ok(await button().evaluate(el => el === document.activeElement))
+      assert.ok(Math.abs((await page.evaluate(() => scrollY)) - scrollBefore) < 3, 'close preserves position')
+      if (route === '/') {
+        await page.screenshot({ path: `qa-artifacts/qualification-sticky-${width}.png` })
+        await page.evaluate(() => window.scrollTo(0, 0))
+        await page.waitForTimeout(80)
+        await page.screenshot({ path: `qa-artifacts/qualification-home-${width}.png` })
+      }
+      verified.push(`${width}px ${route}`)
+    }
+  }
+  await page.setViewportSize({ width: 390, height: 844 })
+  await page.goto(origin + '/contact')
+  await page.getByRole('button', { name: '開啟選單' }).click()
+  await button().click()
+  assert.ok(await dialog().evaluate(el => el.open))
+  assert.equal(await page.getByRole('button', { name: '開啟選單' }).getAttribute('aria-expanded'), 'false')
+  await page.getByRole('button', { name: '關閉資質證書' }).click()
+  await button().click()
+  await page.getByRole('link', { name: '完整資格資料' }).click()
+  await page.waitForURL('**/about#qualification')
+  await page.waitForTimeout(100)
+  const anchor = await page.locator('#qualification').boundingBox()
+  const headerHeight = (await page.locator('.site-header').boundingBox()).height
+  assert.ok(anchor.y >= headerHeight - 1, `anchor not hidden: ${anchor.y} / ${headerHeight}`)
+  assert.ok(anchor.y < headerHeight + 80, 'anchor scrolled into view')
+  assert.ok(!(await dialog().evaluate(el => el.open)))
+  assert.equal(await page.evaluate(() => document.body.style.overflow), '')
+
+  await button().click()
+  await page.mouse.click(2, 2)
+  assert.ok(!(await dialog().evaluate(el => el.open)), 'backdrop closes')
+  await page.getByRole('button', { name: '開啟選單' }).click()
+  const menu = await page.locator('#main-navigation').boundingBox()
+  const headerBottom = (await page.locator('.site-header').boundingBox()).height
+  assert.ok(Math.abs(menu.y - headerBottom) < 2, 'mobile menu below whole header')
+  assert.ok(menu.y + menu.height <= 846, 'mobile menu fits viewport')
+  await page.keyboard.press('Escape')
+
+  await page.emulateMedia({ reducedMotion: 'no-preference' })
+  await page.goto(origin + '/cases/speech-therapy')
+  await page.getByRole('link', { name: /獎勵系統/ }).click()
+  await page.waitForTimeout(1300)
+  const heading = await page.locator('#case-rewards').boundingBox()
+  assert.ok(heading.y >= (await page.locator('.site-header').boundingBox()).height - 2, 'Lenis anchor clears persistent header')
+  await button().click()
+  await page.keyboard.press('Tab')
+  assert.ok(await page.evaluate(() => document.querySelector('#qualification-certificate-dialog').contains(document.activeElement)), 'native focus stays in dialog')
+  await page.keyboard.press('Escape')
+  const staticPage = await browser.newPage({ javaScriptEnabled: false })
+  await staticPage.goto(origin + '/services/iot')
+  assert.ok(await staticPage.locator('.qualification-banner-title').isVisible(), 'qualification present in static HTML')
+  assert.equal((await staticPage.locator('.qualification-banner-title').textContent()).trim(), title)
+  await staticPage.close()
+  assert.deepEqual(errors, [], 'browser errors')
+  const report = { passed: true, verified, interactions: ['persistent qualification on all routes', 'compact sticky header', 'certificate details and dates', 'Escape / close / backdrop', 'scroll lock and focus restoration', 'mobile menu coordination', 'qualification section link', 'Lenis anchor offset', 'native focus containment', 'static HTML'], errors }
+  await writeFile('qa-artifacts/qualification-header-report.json', JSON.stringify(report, null, 2))
+  console.log(JSON.stringify(report, null, 2))
+} finally { await browser.close() }
