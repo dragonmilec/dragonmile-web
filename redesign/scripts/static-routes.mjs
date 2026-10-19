@@ -8,7 +8,10 @@ const routes = {
   'cases/smart-manufacturing': '工業控制・智慧生產', 'cases/cnc-monitoring': 'CNC 機台監控',
   'cases/swallow-training': '吞嚥賦能體感訓練遊戲', 'cases/oral-care': '智慧口腔暨吞嚥賦能照護雲管家',
   'cases/speech-therapy': '語言治療', 'cases/spinal-simulation': '脊髓術前模擬', 'cases/medical-iot': '醫療・物聯網醫美',
+  'cases/sport-guard': '自主運動防護管理系統', 'cases/sports-coaches': '運動醫學健身指導人力資源庫',
   'cases/concrete-erp': '混凝土・客製化 ERP', 'cases/container-recognition': '貨櫃港口辨識',
+  'cases/wen-yang-metal': '穩揚金屬・生產與服務管理',
+  'cases/smart-machine-management': '智慧機台管理系統',
 }
 const server = await createServer({ server: { middlewareMode: true }, appType: 'custom' })
 try {

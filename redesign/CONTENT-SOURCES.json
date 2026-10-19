@@ -493,5 +493,411 @@
     "asset": "portfolio/medical-iot-za7.jpg",
     "source": "https://dragonmile.dev/images/za7.jpg",
     "page": "https://dragonmile.dev/portfolio/4"
+  },
+  {
+    "asset": "sports/sport-guard-entrance.png",
+    "source": "使用者提供：網頁的參考資料/自主運動防護管理系統/螢幕擷取畫面 2026-10-14 164356.png",
+    "page": "references/sports/sport-guard.txt"
+  },
+  {
+    "asset": "sports/sport-guard-questionnaire.png",
+    "source": "使用者提供：網頁的參考資料/自主運動防護管理系統/螢幕擷取畫面 2026-10-14 164415.png",
+    "page": "references/sports/sport-guard.txt"
+  },
+  {
+    "asset": "sports/sport-guard-courses.png",
+    "source": "使用者提供：網頁的參考資料/自主運動防護管理系統/螢幕擷取畫面 2026-10-14 164430.png",
+    "page": "references/sports/sport-guard.txt"
+  },
+  {
+    "asset": "sports/sport-guard-lesson.png",
+    "source": "使用者提供：網頁的參考資料/自主運動防護管理系統/螢幕擷取畫面 2026-10-14 170751.png",
+    "page": "references/sports/sport-guard.txt"
+  },
+  {
+    "asset": "sports/sports-coaches-profile.png",
+    "source": "使用者提供：網頁的參考資料/運動醫學健身指導人力/0bda0d7f-8924-43de-8602-3d59a37f2e32.png",
+    "page": "references/sports/sports-coaches.txt"
+  },
+  {
+    "asset": "sports/sports-coaches-expertise.png",
+    "source": "使用者提供：網頁的參考資料/運動醫學健身指導人力/教練設定2.png",
+    "page": "references/sports/sports-coaches.txt"
+  },
+  {
+    "asset": "sports/sports-coaches-credentials.png",
+    "source": "使用者提供：網頁的參考資料/運動醫學健身指導人力/教練設定3.png",
+    "page": "references/sports/sports-coaches.txt"
+  },
+  {
+    "asset": "sports/sports-coaches-introduction.png",
+    "source": "使用者提供：網頁的參考資料/運動醫學健身指導人力/教練設定4.png",
+    "page": "references/sports/sports-coaches.txt"
+  },
+  {
+    "asset": "sports/sports-coaches-directory.png",
+    "source": "使用者提供：網頁的參考資料/運動醫學健身指導人力/繁中健身教練一覽平台.png",
+    "page": "references/sports/sports-coaches.txt"
+  },
+  {
+    "asset": "sports/sports-coaches-account.png",
+    "source": "使用者提供：網頁的參考資料/運動醫學健身指導人力/運動醫學人力資源庫個人檔案.png",
+    "page": "references/sports/sports-coaches.txt"
+  },
+  {
+    "asset": "sports/sports-coaches-filters.png",
+    "source": "使用者提供：網頁的參考資料/運動醫學健身指導人力/選擇篩選.png",
+    "page": "references/sports/sports-coaches.txt"
+  },
+  {
+    "asset": "sports/sports-coaches-home.png",
+    "source": "使用者提供：網頁的參考資料/運動醫學健身指導人力/首頁.png",
+    "page": "references/sports/sports-coaches.txt"
+  },
+  {
+    "asset": "sports/sports-coaches-review.png",
+    "source": "使用者提供：網頁的參考資料/運動醫學健身指導人力/首頁2.png",
+    "page": "references/sports/sports-coaches.txt"
+  },
+  {
+    "asset": "erp/daily-dispatch.png",
+    "source": "ERP介紹(1).pptx",
+    "page": "簡報第 4 頁",
+    "media": "ppt/media/image2.png"
+  },
+  {
+    "asset": "erp/dispatch-planning.png",
+    "source": "ERP介紹(1).pptx",
+    "page": "簡報第 5 頁",
+    "media": "ppt/media/image3.png"
+  },
+  {
+    "asset": "erp/delivery-order.png",
+    "source": "ERP介紹(1).pptx",
+    "page": "簡報第 6 頁",
+    "media": "ppt/media/image4.png"
+  },
+  {
+    "asset": "erp/vehicle-return.png",
+    "source": "ERP介紹(1).pptx",
+    "page": "簡報第 7 頁",
+    "media": "ppt/media/image5.png"
+  },
+  {
+    "asset": "erp/material-usage.png",
+    "source": "ERP介紹(1).pptx",
+    "page": "簡報第 8 頁",
+    "media": "ppt/media/image6.png"
+  },
+  {
+    "asset": "erp/maintenance.png",
+    "source": "ERP介紹(1).pptx",
+    "page": "簡報第 8 頁",
+    "media": "ppt/media/image7.png"
+  },
+  {
+    "asset": "erp/purchase-payment.png",
+    "source": "ERP介紹(1).pptx",
+    "page": "簡報第 9 頁",
+    "media": "ppt/media/image11.png"
+  },
+  {
+    "asset": "erp/payable-records.png",
+    "source": "ERP介紹(1).pptx",
+    "page": "簡報第 9 頁",
+    "media": "ppt/media/image12.png"
+  },
+  {
+    "asset": "erp/sales-delivery.png",
+    "source": "ERP介紹(1).pptx",
+    "page": "簡報第 10 頁",
+    "media": "ppt/media/image13.png"
+  },
+  {
+    "asset": "erp/receivable-invoices.png",
+    "source": "ERP介紹(1).pptx",
+    "page": "簡報第 11 頁",
+    "media": "ppt/media/image15.png"
+  },
+  {
+    "asset": "erp/receivable-reports.png",
+    "source": "ERP介紹(1).pptx",
+    "page": "簡報第 12 頁",
+    "media": "ppt/media/image16.png"
+  },
+  {
+    "asset": "erp/receivable-monthly.png",
+    "source": "ERP介紹(1).pptx",
+    "page": "簡報第 12 頁",
+    "media": "ppt/media/image17.png"
+  },
+  {
+    "asset": "erp/unpaid-details.png",
+    "source": "ERP介紹(1).pptx",
+    "page": "簡報第 12 頁",
+    "media": "ppt/media/image18.png"
+  },
+  {
+    "asset": "erp/invoice-creation.png",
+    "source": "ERP介紹(1).pptx",
+    "page": "簡報第 13 頁",
+    "media": "ppt/media/image19.png"
+  },
+  {
+    "asset": "erp/invoice-upload.png",
+    "source": "ERP介紹(1).pptx",
+    "page": "簡報第 13 頁",
+    "media": "ppt/media/image20.png"
+  },
+  {
+    "asset": "erp/invoice-management.png",
+    "source": "ERP介紹(1).pptx",
+    "page": "簡報第 13 頁",
+    "media": "ppt/media/image21.png"
+  },
+  {
+    "asset": "erp/receivable-notes.png",
+    "source": "ERP介紹(1).pptx",
+    "page": "簡報第 14 頁",
+    "media": "ppt/media/image22.png"
+  },
+  {
+    "asset": "erp/payable-notes.png",
+    "source": "ERP介紹(1).pptx",
+    "page": "簡報第 15 頁",
+    "media": "ppt/media/image23.png"
+  },
+  {
+    "asset": "erp/note-printing.png",
+    "source": "ERP介紹(1).pptx",
+    "page": "簡報第 16 頁",
+    "media": "ppt/media/image24.png"
+  },
+  {
+    "asset": "erp/attendance.png",
+    "source": "ERP介紹(1).pptx",
+    "page": "簡報第 17 頁",
+    "media": "ppt/media/image25.png"
+  },
+  {
+    "asset": "erp/salary.png",
+    "source": "ERP介紹(1).pptx",
+    "page": "簡報第 17 頁",
+    "media": "ppt/media/image26.png"
+  },
+  {
+    "asset": "erp/cost-reports.png",
+    "source": "ERP介紹(1).pptx",
+    "page": "簡報第 18 頁",
+    "media": "ppt/media/image27.png"
+  },
+  {
+    "asset": "erp/product-cost.png",
+    "source": "ERP介紹(1).pptx",
+    "page": "簡報第 18 頁",
+    "media": "ppt/media/image28.png"
+  },
+  {
+    "asset": "erp/department-cost.png",
+    "source": "ERP介紹(1).pptx",
+    "page": "簡報第 18 頁",
+    "media": "ppt/media/image29.png"
+  },
+  {
+    "asset": "erp/general-ledger.png",
+    "source": "ERP介紹(1).pptx",
+    "page": "簡報第 19 頁",
+    "media": "ppt/media/image31.png"
+  },
+  {
+    "asset": "erp/history-recovery.png",
+    "source": "ERP介紹(1).pptx",
+    "page": "簡報第 21 頁",
+    "media": "ppt/media/image37.png"
+  },
+  {
+    "asset": "erp/permissions.png",
+    "source": "ERP介紹(1).pptx",
+    "page": "簡報第 21 頁",
+    "media": "ppt/media/image38.png"
+  },
+  {
+    "asset": "erp/private-database.png",
+    "source": "ERP介紹(1).pptx",
+    "page": "簡報第 21 頁",
+    "media": "ppt/media/image39.png"
+  },
+  {
+    "asset": "erp/cloud-database.png",
+    "source": "ERP介紹(1).pptx",
+    "page": "簡報第 21 頁",
+    "media": "ppt/media/image40.png"
+  },
+  {
+    "asset": "erp/headquarters.png",
+    "source": "ERP介紹(1).pptx",
+    "page": "簡報第 22 頁",
+    "media": "ppt/media/image41.png"
+  },
+  {
+    "asset": "erp/branch-factory.png",
+    "source": "ERP介紹(1).pptx",
+    "page": "簡報第 22 頁",
+    "media": "ppt/media/image42.png"
+  },
+  {
+    "asset": "erp/report-output.jpeg",
+    "source": "ERP介紹(1).pptx",
+    "page": "簡報第 22 頁",
+    "media": "ppt/media/image43.jpeg"
+  },
+  {
+    "asset": "erp/interface-settings.jpeg",
+    "source": "ERP介紹(1).pptx",
+    "page": "簡報第 23 頁",
+    "media": "ppt/media/image44.jpeg"
+  },
+  {
+    "asset": "erp/report-template.png",
+    "source": "ERP介紹(1).pptx",
+    "page": "簡報第 23 頁",
+    "media": "ppt/media/image45.png"
+  },
+  {
+    "asset": "erp/report-format.png",
+    "source": "ERP介紹(1).pptx",
+    "page": "簡報第 23 頁",
+    "media": "ppt/media/image46.png"
+  },
+  {
+    "asset": "erp/display-settings.jpeg",
+    "source": "ERP介紹(1).pptx",
+    "page": "簡報第 23 頁",
+    "media": "ppt/media/image47.jpeg"
+  },
+  {
+    "asset": "wen-yang-metal/dashboard.png",
+    "source": "使用者提供：穩楊金屬專案介紹/螢幕擷取畫面 2026-10-15 155455.png",
+    "page": "references/wen-yang-metal/project-introduction.txt"
+  },
+  {
+    "asset": "wen-yang-metal/consultation.png",
+    "source": "使用者提供：穩楊金屬專案介紹/螢幕擷取畫面 2026-10-15 155502.png",
+    "page": "references/wen-yang-metal/project-introduction.txt"
+  },
+  {
+    "asset": "wen-yang-metal/survey.png",
+    "source": "使用者提供：穩楊金屬專案介紹/螢幕擷取畫面 2026-10-15 155509.png",
+    "page": "references/wen-yang-metal/project-introduction.txt"
+  },
+  {
+    "asset": "wen-yang-metal/quickQuote.png",
+    "source": "使用者提供：穩楊金屬專案介紹/螢幕擷取畫面 2026-10-15 155516.png",
+    "page": "references/wen-yang-metal/project-introduction.txt"
+  },
+  {
+    "asset": "wen-yang-metal/quotation.png",
+    "source": "使用者提供：穩楊金屬專案介紹/螢幕擷取畫面 2026-10-15 155524.png",
+    "page": "references/wen-yang-metal/project-introduction.txt"
+  },
+  {
+    "asset": "wen-yang-metal/requirements.png",
+    "source": "使用者提供：穩楊金屬專案介紹/螢幕擷取畫面 2026-10-15 155532.png",
+    "page": "references/wen-yang-metal/project-introduction.txt"
+  },
+  {
+    "asset": "wen-yang-metal/customers.png",
+    "source": "使用者提供：穩楊金屬專案介紹/螢幕擷取畫面 2026-10-15 155543.png",
+    "page": "references/wen-yang-metal/project-introduction.txt"
+  },
+  {
+    "asset": "smart-machine/cover.png",
+    "source": "智慧機台管理系統_操作說明.pptx",
+    "page": "簡報第 1 頁",
+    "media": "ppt/media/image3.png"
+  },
+  {
+    "asset": "smart-machine/dashboard.png",
+    "source": "智慧機台管理系統_操作說明.pptx",
+    "page": "簡報第 3 頁",
+    "media": "ppt/media/image5.png"
+  },
+  {
+    "asset": "smart-machine/users.png",
+    "source": "智慧機台管理系統_操作說明.pptx",
+    "page": "簡報第 4 頁",
+    "media": "ppt/media/image7.png"
+  },
+  {
+    "asset": "smart-machine/user-form.png",
+    "source": "智慧機台管理系統_操作說明.pptx",
+    "page": "簡報第 4 頁",
+    "media": "ppt/media/image8.png"
+  },
+  {
+    "asset": "smart-machine/dealers.png",
+    "source": "智慧機台管理系統_操作說明.pptx",
+    "page": "簡報第 5 頁",
+    "media": "ppt/media/image16.png"
+  },
+  {
+    "asset": "smart-machine/sites.png",
+    "source": "智慧機台管理系統_操作說明.pptx",
+    "page": "簡報第 5 頁",
+    "media": "ppt/media/image13.png"
+  },
+  {
+    "asset": "smart-machine/plc-client.png",
+    "source": "智慧機台管理系統_操作說明.pptx",
+    "page": "簡報第 6、7 頁",
+    "media": "ppt/media/image12.png"
+  },
+  {
+    "asset": "smart-machine/machines.png",
+    "source": "智慧機台管理系統_操作說明.pptx",
+    "page": "簡報第 8 頁",
+    "media": "ppt/media/image22.png"
+  },
+  {
+    "asset": "smart-machine/unbound-machine.png",
+    "source": "智慧機台管理系統_操作說明.pptx",
+    "page": "簡報第 9 頁",
+    "media": "ppt/media/image17.png"
+  },
+  {
+    "asset": "smart-machine/binding.png",
+    "source": "智慧機台管理系統_操作說明.pptx",
+    "page": "簡報第 9 頁",
+    "media": "ppt/media/image14.png"
+  },
+  {
+    "asset": "smart-machine/maintenance-settings.png",
+    "source": "智慧機台管理系統_操作說明.pptx",
+    "page": "簡報第 10 頁",
+    "media": "ppt/media/image15.png"
+  },
+  {
+    "asset": "smart-machine/maintenance-records.png",
+    "source": "智慧機台管理系統_操作說明.pptx",
+    "page": "簡報第 11 頁",
+    "media": "ppt/media/image19.png"
+  },
+  {
+    "asset": "smart-machine/monitoring.png",
+    "source": "智慧機台管理系統_操作說明.pptx",
+    "page": "簡報第 12 頁",
+    "media": "ppt/media/image11.png"
+  },
+  {
+    "asset": "smart-machine/data-log.png",
+    "source": "智慧機台管理系統_操作說明.pptx",
+    "page": "簡報第 12 頁",
+    "media": "ppt/media/image18.png"
+  },
+  {
+    "asset": "smart-machine/usage-records.png",
+    "source": "智慧機台管理系統_操作說明.pptx",
+    "page": "簡報第 13 頁",
+    "media": "ppt/media/image24.png"
   }
 ]

@@ -1,0 +1,17 @@
+{
+  "cover": "/assets/smart-machine/cover.png",
+  "dashboard": "/assets/smart-machine/dashboard.png",
+  "users": "/assets/smart-machine/users.png",
+  "user-form": "/assets/smart-machine/user-form.png",
+  "dealers": "/assets/smart-machine/dealers.png",
+  "sites": "/assets/smart-machine/sites.png",
+  "plc-client": "/assets/smart-machine/plc-client.png",
+  "machines": "/assets/smart-machine/machines.png",
+  "unbound-machine": "/assets/smart-machine/unbound-machine.png",
+  "binding": "/assets/smart-machine/binding.png",
+  "maintenance-settings": "/assets/smart-machine/maintenance-settings.png",
+  "maintenance-records": "/assets/smart-machine/maintenance-records.png",
+  "monitoring": "/assets/smart-machine/monitoring.png",
+  "data-log": "/assets/smart-machine/data-log.png",
+  "usage-records": "/assets/smart-machine/usage-records.png"
+}

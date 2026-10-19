@@ -1,0 +1,19 @@
+{
+  "sport-guard": {
+    "entrance": "/assets/sports/sport-guard-entrance.png",
+    "questionnaire": "/assets/sports/sport-guard-questionnaire.png",
+    "courses": "/assets/sports/sport-guard-courses.png",
+    "lesson": "/assets/sports/sport-guard-lesson.png"
+  },
+  "sports-coaches": {
+    "profile": "/assets/sports/sports-coaches-profile.png",
+    "expertise": "/assets/sports/sports-coaches-expertise.png",
+    "credentials": "/assets/sports/sports-coaches-credentials.png",
+    "introduction": "/assets/sports/sports-coaches-introduction.png",
+    "directory": "/assets/sports/sports-coaches-directory.png",
+    "account": "/assets/sports/sports-coaches-account.png",
+    "filters": "/assets/sports/sports-coaches-filters.png",
+    "home": "/assets/sports/sports-coaches-home.png",
+    "review": "/assets/sports/sports-coaches-review.png"
+  }
+}

@@ -9,7 +9,7 @@ const errors = [], failed = [], checked = []
 page.on('pageerror', e => errors.push(e.message))
 page.on('response', r => { if (r.status() >= 400 && new URL(r.url()).origin === origin) failed.push(`${r.status()} ${r.url()}`) })
 const mainRoutes = ['/', '/about', '/services', '/cases', '/clients', '/contact']
-const detailRoutes = ['app', 'database', 'iot', 'pcb'].map(s => `/services/${s}`).concat(['smart-manufacturing', 'cnc-monitoring', 'swallow-training', 'oral-care', 'speech-therapy', 'spinal-simulation', 'medical-iot', 'concrete-erp', 'container-recognition'].map(s => `/cases/${s}`))
+const detailRoutes = ['app', 'database', 'iot', 'pcb'].map(s => `/services/${s}`).concat(['smart-manufacturing', 'cnc-monitoring', 'swallow-training', 'oral-care', 'speech-therapy', 'spinal-simulation', 'medical-iot', 'concrete-erp', 'container-recognition', 'sport-guard', 'sports-coaches', 'wen-yang-metal', 'smart-machine-management'].map(s => `/cases/${s}`))
 await mkdir('qa-artifacts', { recursive: true })
 try {
   for (const width of [1440, 768, 390, 320]) {
@@ -32,11 +32,23 @@ try {
       }
     }
   }
+  await page.goto(origin + '/')
+  assert.equal(await page.locator('.selected-cases .case-card[href="/cases/wen-yang-metal"]').count(), 1)
+  assert.equal(await page.locator('.feature-copy h3').innerText(), '工業控制・智慧生產')
+  assert.ok(!(await page.locator('.hero-visual img').getAttribute('src')).includes('wen-yang-metal'))
   await page.goto(origin + '/cases')
-  await page.getByRole('button', { name: /智慧製造/ }).click()
-  assert.equal(await page.locator('.case-card').count(), 2)
+  assert.equal(await page.locator('.case-filters button').count(), 4)
+  await page.getByRole('button', { name: /智能醫療/ }).click()
+  assert.equal(await page.locator('.case-card').count(), 7)
+  for (const slug of ['speech-therapy', 'swallow-training', 'oral-care', 'sport-guard', 'sports-coaches']) assert.equal(await page.locator(`.case-card[href="/cases/${slug}"]`).count(), 1)
+  await page.getByRole('button', { name: /^ERP/ }).click()
+  assert.equal(await page.locator('.case-card').count(), 1)
+  await page.getByRole('button', { name: /智能工控／服務/ }).click()
+  assert.equal(await page.locator('.case-card').count(), 5)
+  assert.equal(await page.locator('.case-card[href="/cases/wen-yang-metal"]').count(), 1)
+  assert.equal(await page.locator('.case-card[href="/cases/smart-machine-management"]').count(), 1)
   await page.getByRole('button', { name: /全部案例/ }).click()
-  assert.equal(await page.locator('.case-card').count(), 9)
+  assert.equal(await page.locator('.case-card').count(), 13)
   await page.goto(origin + '/contact')
   await page.getByRole('textbox', { name: '姓名' }).fill('測試訪客')
   await page.getByRole('textbox', { name: '電子信箱' }).fill('qa@example.com')
@@ -64,7 +76,7 @@ try {
   assert.ok(Number(await page.locator('h1').evaluate(el => getComputedStyle(el).opacity)) > .95)
   await page.getByRole('link', { name: '案例介紹', exact: true }).first().click()
   await page.locator('.case-card').first().waitFor()
-  assert.equal(await page.locator('.case-card').count(), 9)
+  assert.equal(await page.locator('.case-card').count(), 13)
   await page.goto(origin + '/')
   await page.waitForTimeout(1800)
   await page.screenshot({ path: 'qa-artifacts/home-1440-motion.png' })

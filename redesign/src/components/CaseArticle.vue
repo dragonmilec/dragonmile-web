@@ -10,7 +10,7 @@ import CaseCard from './CaseCard.vue'
 
 const props = defineProps<{ item: CaseStudy }>()
 const content = computed(() => caseContent[props.item.slug])
-const referenceUrl = computed(() => new URL(props.item.source, 'https://dragon-mile.com').href)
+const referenceUrl = computed(() => props.item.source ? new URL(props.item.source, 'https://dragon-mile.com').href : undefined)
 const introduction = computed(() => content.value?.introduction ?? [props.item.description])
 const sections = computed<CaseSection[]>(() => content.value?.sections ?? props.item.points.map((point, i) => ({ id: `overview-${i + 1}`, title: point.title, paragraphs: [point.text] })))
 const remainingImages = computed(() => {
@@ -67,7 +67,7 @@ onKeyStroke('Escape', closeImage)
         <nav aria-label="案例內容導覽">
           <a v-for="(section, i) in sections" :key="section.id" :href="`#case-${section.id}`"><span>{{ String(i + 1).padStart(2, '0') }}</span>{{ section.title }}</a>
         </nav>
-        <a :href="referenceUrl" target="_blank" rel="noopener noreferrer" class="text-link case-original-link">案例參考資料 <ArrowUpRight :size="16" /></a>
+        <a v-if="referenceUrl" :href="referenceUrl" target="_blank" rel="noopener noreferrer" class="text-link case-original-link">案例參考資料 <ArrowUpRight :size="16" /></a>
       </div>
     </aside>
 

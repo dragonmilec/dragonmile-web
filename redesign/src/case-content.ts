@@ -1,5 +1,9 @@
 import assets from './assets.json'
 import portfolioAssets from './portfolio-assets.json'
+import { sportsCaseContent } from './sports-case-content'
+import { erpCaseContent } from './erp-case-content'
+import { metalCaseContent } from './metal-case-content'
+import { machineCaseContent } from './machine-case-content'
 
 export interface CaseFigure {
   src: string
@@ -25,12 +29,13 @@ const swallow = portfolioAssets['swallow-training']
 const medical = portfolioAssets['medical-iot']
 const oral = assets['智慧口腔暨吞嚥賦能照護雲管家']
 const speech = assets['語言治療']
-const erp = assets['混泥土-客製化erp']
 
-// Keep descriptions and figures together. The swallow-training and medical-iot
-// entries follow the user's newer dragonmile.dev references; other cases retain
-// their original dragon-mile.com sources.
+// Keep source descriptions and figures together. Newer project pages, supplied
+// sports documents and the ERP presentation supplement the original cases.
 export const caseContent: Record<string, CaseContent> = {
+  ...sportsCaseContent,
+  'smart-machine-management': machineCaseContent,
+  'wen-yang-metal': metalCaseContent,
   'swallow-training': {
     introduction: [
       '透過舌頭體感互動遊戲，結合影像辨識與壓力感測健舌器，讓使用者在遊戲過程中練習舌頭靈活度與舌肌力量。',
@@ -364,50 +369,5 @@ export const caseContent: Record<string, CaseContent> = {
       },
     ],
   },
-  'concrete-erp': {
-    introduction: [
-      '混凝土 ERP 系統提供企業資源規劃解決方案，涵蓋雲端網頁化、帳號權限、資料追蹤與回復、資料庫建置、總廠分廠資訊共享，以及介面與報表調整。',
-      '系統已導入台泥子公司鳳勝實業，涵蓋全台 15 個工廠與一總管理處。',
-    ],
-    sections: [
-      {
-        id: 'web-system', title: '混凝土 ERP 系統架構與雲端網頁化',
-        paragraphs: ['以雲端網頁化的系統提供企業資源規劃功能，包含歷史資料追蹤與回復，以及系統安全管理。'],
-      },
-      {
-        id: 'permissions', title: '帳號權限管理',
-        paragraphs: ['系統納入帳號權限管理功能，管理企業系統的帳號與操作權限。'],
-        figures: [{ src: erp[1], caption: 'ERP 帳號與權限管理介面' }],
-      },
-      {
-        id: 'history', title: '資料可追蹤、分析與回復',
-        paragraphs: ['提供歷史資料追蹤、分析與回復功能，降低人為操作因素對資料管理的影響。'],
-        figures: [{ src: erp[2], caption: 'ERP 資料追蹤與歷史記錄畫面' }],
-      },
-      {
-        id: 'databases', title: '私有資料庫與第三方雲端資料庫',
-        features: [{ title: '建置私有資料庫' }, { title: '第三方雲端資料庫' }],
-        figures: [
-          { src: erp[3], caption: '私有資料庫與企業資訊架構示意' },
-          { src: erp[4], caption: '第三方雲端資料庫架構示意' },
-        ],
-      },
-      {
-        id: 'factory-integration', title: '總廠分廠管理與資訊共享',
-        paragraphs: ['整合公司資訊，讓總廠與分廠管理更方便。總廠、分廠使用一致的操作介面，讓全公司共享資訊並即時取得資料。'],
-        figures: [
-          { src: erp[5], caption: '企業資料與總廠分廠管理畫面' },
-          { src: erp[6], caption: '企業資訊與報表呈現' },
-        ],
-      },
-      {
-        id: 'reports', title: '人性化介面與報表呈現',
-        paragraphs: ['依照使用習慣調整介面與報表呈現。透過修改範本，快速調整報表格式。'],
-        figures: [
-          { src: erp[7], caption: 'ERP 操作介面與範本調整' },
-          { src: erp[8], caption: 'ERP 報表與資料呈現畫面' },
-        ],
-      },
-    ],
-  },
+  'concrete-erp': erpCaseContent,
 }

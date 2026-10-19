@@ -45,15 +45,27 @@ npm run preview
 | `/services/database` | 資料庫解決方案 |
 | `/services/iot` | 物聯網整合 |
 | `/services/pcb` | 電路與 PCB 設計 |
-| `/cases` | 九個真實案例及分類篩選 |
+| `/cases` | 十三個真實案例，依智能醫療、智能工控／服務、ERP 篩選 |
+| `/cases/sport-guard` | 自主運動防護管理系統 |
+| `/cases/sports-coaches` | 運動醫學健身指導人力資源庫 |
+| `/cases/wen-yang-metal` | 穩揚金屬・生產與服務管理，歸於智能工控／服務 |
+| `/cases/smart-machine-management` | 智慧機台管理系統，歸於智能工控／服務 |
 | `/cases/:slug` | 個別案例、原站說明、實作圖庫 |
 | `/clients` | 原站十八個客戶標誌 |
 | `/contact` | 原站聯絡資料及諮詢郵件草稿 |
 
 ## 內容依據與維護
 
-- 首頁、關於、服務、案例、客戶、聯絡及資質頁皆取自原站。
+- 首頁、關於、服務、客戶、聯絡及資質頁以原站資料為基礎；案例另採使用者指定的新版參考頁及提供的專案文件。
 - `src/data.ts` 是重整後的公司、服務、案例與客戶資料。
+- `src/machine-case-content.ts` 依 `智慧機台管理系統_操作說明.pptx` 整理十個段落，涵蓋儀表板、帳號權限、組織、PLC 上傳、機台管理與綁定、保養提醒、紀錄、數據監控與操作日誌。重複的 PLC 說明合併呈現，保留首次上傳前提、解綁影響及 AI 預測仍須依維修流程確認的原始說明。
+- `src/machine-assets.json` 對應 `public/assets/smart-machine/` 的十五張原始系統截圖；簡報文字保存在 `references/smart-machine/presentation-text.json`，素材頁次記錄於 `CONTENT-SOURCES.json`。使用 `python scripts/import-machine-presentation.py <簡報.pptx>` 可重新匯入。裝飾背景未作為系統畫面，此案沒有外部參考網址。
+- `src/metal-case-content.ts` 依提供的穩揚金屬專案文件整理生產、物料、機台、排程、績效、後處理與基礎代碼功能，並依使用者確認整合客戶服務介面。七張原始截圖的內容是工作看板、客戶諮詢與訂單追蹤、場勘、快速報價、報價單、需求及客戶資料，圖說以實際畫面為準。分類依使用者指定為智能工控／服務。
+- `src/metal-assets.json` 對應 `public/assets/wen-yang-metal/` 的七張圖片；原始文件保存在 `references/wen-yang-metal/`，素材依據記錄於 `CONTENT-SOURCES.json`。可使用 `node scripts/import-metal-assets.mjs <專案資料夾>` 重新匯入。此案未提供可公開參考網址，案例頁不顯示外部參考連結。
+- `/cases/concrete-erp` 依使用者提供的 `ERP介紹(1).pptx` 擴充既有混凝土 ERP 案例，維持原路徑與分類。`src/erp-case-content.ts` 整理出貨、剩退料、庫存維護、應收應付、發票、票據、薪資、成本、總帳、資料管理、導入與技術平台等十七個段落。分期擴充明確標為規劃，不宣稱電子簽核已完成。
+- `src/erp-assets.json` 對應簡報中的三十六張原始系統畫面、報表及架構示意，保存在 `public/assets/erp/`。`references/erp/presentation-text.json` 保留二十六頁的文字與 SmartArt 內容；`CONTENT-SOURCES.json` 記錄素材所在頁次。可使用 `python scripts/import-erp-presentation.py <簡報.pptx>` 重新匯入；裝飾圖示與通用情境照片未作為實作畫面。
+- `src/sports-case-content.ts` 依使用者提供的兩份介紹文件整理新增案例。原始文字保存在 `references/sports/`；十三張原始截圖保存於 `public/assets/sports/`，對應表為 `src/sports-assets.json`。可使用 `node scripts/import-sports-assets.mjs <參考資料夾>` 重新匯入素材。
+- 案例統一使用三類：智能醫療（七案）、智能工控／服務（五案，含智慧機台管理、穩揚金屬及貨櫃辨識）、ERP（一案）；四項技術服務保持獨立。首頁精選案例各呈現其中一類，並展示新增的人力資源庫。
 - `src/case-content.ts` 保留八個案例的功能介紹，依段落整理並配對實作圖片。吞嚥訓練與物聯網醫美依使用者指定的新參考頁更新，分別來自 `https://dragonmile.dev/portfolio/3`、`https://dragonmile.dev/portfolio/4`；其他案例沿用原本來源。`src/components/CaseArticle.vue` 提供案例簡介、內容目錄、完整文字、圖說及圖片放大。
 - `CONTENT-SOURCES.json` 記錄每個複製素材的原始網址與來源頁。
 - `public/assets/` 中使用原站實際素材，不依賴遠端圖片連線。
@@ -77,10 +89,10 @@ npm run preview
 node scripts/qa.mjs
 ```
 
-檢查十九個桌面頁面路徑，以及六個主頁於 768px、390px、320px 的版面。包含頁面回應、主要標題、圖片、橫向溢出、案例篩選、郵件草稿、行動選單、圖片放大、404、頁面標題與一般動態效果。當 `QA_URL` 指向 4173 正式預覽時，另驗證十九個頁面在停用 JavaScript 下仍有完整內容。報告與截圖在忽略追蹤的 `qa-artifacts/`。
+檢查二十三個桌面頁面路徑，以及六個主頁於 768px、390px、320px 的版面。包含頁面回應、主要標題、圖片、橫向溢出、三大案例分類與數量、郵件草稿、行動選單、圖片放大、404、頁面標題與一般動態效果。當 `QA_URL` 指向 4173 正式預覽時，另驗證二十三個頁面在停用 JavaScript 下仍有完整內容。報告與截圖在忽略追蹤的 `qa-artifacts/`。
 
 客戶 Logo 帶的獨立驗證使用 `node scripts/qa-client-carousel.mjs`，涵蓋循環邊界、滑鼠及原生觸控拖曳、拖曳與點擊區分、視窗、鍵盤、焦點、捲動鎖定、手機垂直捲動及四種螢幕寬度。
 
-案例內容驗證使用 `node scripts/qa-case-content.mjs`，預設連接 4174 正式預覽。依原始八個案例逐項核對功能文字、目錄與圖片，驗證 1440px、768px、390px、320px 版面、圖片放大，以及停用 JavaScript 時的完整內容。
+案例內容驗證使用 `node scripts/qa-case-content.mjs`，預設連接 4174 正式預覽。依十二個完整案例逐項核對功能文字、目錄與圖片，包含新增兩案的十三張截圖與參考連結；驗證 1440px、768px、390px、320px 版面、圖片放大，以及停用 JavaScript 時的完整內容。
 
 資質常駐列驗證使用 `node scripts/qa-qualification-header.mjs`，預設連接 4174 正式預覽。檢查五種螢幕寬度、跨頁顯示、捲動固定、證書原件與日期、鍵盤焦點、關閉與捲動恢復、手機選單及頁內錨點。
