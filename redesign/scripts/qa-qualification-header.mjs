@@ -17,6 +17,8 @@ try {
     for (const route of width === 1440 ? routes : ['/', '/about', '/cases/speech-therapy']) {
       await page.goto(origin + route)
       await button().waitFor()
+      await page.evaluate(() => window.scrollTo({ top: 0, behavior: 'instant' }))
+      await page.waitForFunction(() => !document.querySelector('.site-header').classList.contains('compact'))
       assert.equal((await page.locator('.qualification-banner-title').textContent()).trim(), title)
       assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1), `overflow ${width} ${route}`)
       const initialHeader = await page.locator('.site-header').boundingBox()
@@ -25,7 +27,7 @@ try {
       assert.ok(nav.y >= banner.y + banner.height - 1, 'navigation below qualification')
       assert.ok(Math.abs(initialHeader.height - banner.height - nav.height - 1) <= 1, `header fits its rows ${width}`)
       await page.evaluate(() => window.scrollTo(0, 900))
-      await page.waitForTimeout(80)
+      await page.waitForFunction(height => document.querySelector('.site-header').getBoundingClientRect().height < height, initialHeader.height)
       const compactHeader = await page.locator('.site-header').boundingBox()
       assert.ok(compactHeader.y >= -1 && compactHeader.y <= 1, 'header stays pinned')
       assert.ok(compactHeader.height < initialHeader.height, 'navigation becomes compact')

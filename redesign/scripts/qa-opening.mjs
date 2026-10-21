@@ -22,6 +22,7 @@ try {
     requestAnimationFrame(sample)
   })
   await page.goto(origin)
+  const rowHeight = await page.locator('.opening-hero').evaluate(node => parseFloat(getComputedStyle(node).getPropertyValue('--showcase-row')))
   for (const step of [1,2,3,4]) {
     await page.waitForFunction(step => document.querySelector('.opening-hero')?.dataset.activeStep === String(step), step)
     await page.waitForTimeout(1000)
@@ -30,7 +31,7 @@ try {
     assert.equal(await page.locator('.showcase-panel[data-visible="true"]').count(), step)
     const geometry = await page.locator('.showcase-panel[data-visible="true"]').evaluateAll(nodes => nodes.map(node => ({active: node.classList.contains('is-active'), y:node.getBoundingClientRect().y, height:node.getBoundingClientRect().height})))
     const active = geometry.find(item => item.active)
-    for (const item of geometry.filter(item => !item.active)) { assert.ok(Math.abs(item.height-44)<1); assert.ok(item.y >= active.y+active.height-1) }
+    for (const item of geometry.filter(item => !item.active)) { assert.ok(Math.abs(item.height-rowHeight)<1); assert.ok(item.y >= active.y+active.height-1) }
     if (step < 4) assert.ok(await expanded.evaluate(node => getComputedStyle(node).transform === 'none'))
     await page.screenshot({ path: 'qa-artifacts/opening-step-'+step+'.png' })
   }
@@ -44,7 +45,7 @@ try {
     assert.equal(await page.locator('.showcase-toggle[aria-expanded="true"]').count(),1)
     assert.equal(await page.locator('.showcase-toggle').nth(index).getAttribute('aria-expanded'),'true')
     const expanded = await page.locator('.showcase-panel.is-active').boundingBox()
-    assert.ok(Math.abs(expanded.height-(showcase.height-132))<1)
+    assert.ok(Math.abs(expanded.height-(showcase.height-3*rowHeight))<1)
     assert.equal(await page.locator('.showcase-panel.is-collapsed').count(),3)
   }
   checks.push('all four panels can reopen at identical size, exactly one open, other three compact')

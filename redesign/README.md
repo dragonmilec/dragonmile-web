@@ -24,6 +24,8 @@ npm run preview
 
 ## 技術
 
+主要內文、聯絡資訊與輸入內容已調整為 20px，操作文字、標籤、案例分類、圖說、證書資料與輔助說明至少 18px，手機與桌面共用相同閱讀尺寸。純裝飾性英文、章節序號與圖片索引維持原樣。設定集中於 `src/readability.css`；手機首頁展示、單欄表單及證書欄位會重新排列，避免大字被裁切。`node scripts/qa-readability.mjs` 檢查五種視窗的字體、溢出、證書及表單。
+
 - Vue 3 + TypeScript + Vue Router
 - TailwindCSS 4，搭配集中管理的視覺樣式與設計變數
 - GSAP + ScrollTrigger：段落與圖片揭示

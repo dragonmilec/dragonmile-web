@@ -1,0 +1,186 @@
+/* Reading sizes apply to meaningful content; editorial labels keep their scale.
+   These overrides are shared by desktop, mobile and static route documents. */
+:root {
+  --reading-size: 1.25rem;
+  --reading-support: 1.125rem;
+  --reading-control: 1.125rem;
+  --muted: #4f5c62;
+}
+body { font-size: var(--reading-size); line-height: 1.8; }
+:root body p:not(.eyebrow):not(.section-label):not(.result-count) {
+  font-size: var(--reading-size) !important;
+  line-height: 1.9;
+}
+:root body :is(.button, .text-link, .back-link) {
+  font-size: var(--reading-control) !important;
+  min-height: 48px;
+  line-height: 1.6;
+}
+:root body .button { padding: 14px 22px; gap: 22px; }
+:root body .text-link { padding-block: 10px; gap: 14px; }
+:root body :is(.footer-links, .footer-contact, .service-name > span, .scope-tags span, .scope-list li, .feature-tags, .case-card-meta > span:first-child, .clients-endnote, .about-year > span:last-child, .founded small, .hero-bottom a) {
+  font-size: var(--reading-support);
+  line-height: 1.8;
+}
+:root body :is(.footer-contact > a, .contact-information dd > a, .contact-information dd > a.secondary-contact) {
+  font-size: var(--reading-size);
+  overflow-wrap: anywhere;
+}
+:root body .footer-contact > p { font-size: var(--reading-support) !important; }
+:root body :is(.footer-links a, .footer-bottom > button) { min-height: 44px; display: flex; align-items: center; }
+:root body .footer-bottom > button { font-size: var(--reading-control); }
+:root body :is(.case-card h3, .feature-copy h3) { font-size: 24px; }
+:root body :is(.certificate-facts, .contact-information dt, .contact-form-wrap label, .form-note, .form-intro, .scope-list, .case-filters > button) {
+  font-size: var(--reading-support);
+  line-height: 1.8;
+}
+:root body .certificate-facts dd { text-align: right; overflow-wrap: anywhere; }
+:root body :is(input, textarea, select, .draft-preview pre) {
+  font-size: var(--reading-size);
+  line-height: 1.8;
+}
+:root body :is(input, textarea)::placeholder { font-size: var(--reading-support); color: #58656c; }
+:root body :is(input, select) { min-height: 54px; }
+:root body .draft-preview > .eyebrow { font-size: var(--reading-support); letter-spacing: 0; }
+:root body :is(.service-anchor-nav > a, .case-story-navigation nav > a) {
+  font-size: var(--reading-control);
+  min-height: 48px;
+  line-height: 1.8;
+}
+:root body :is(.case-feature-list dt, .case-feature-list dd) { font-size: var(--reading-size); line-height: 1.9; }
+:root body :is(.case-story-figures figcaption, .case-viewer-caption, .source-note) { font-size: var(--reading-support); line-height: 1.8; }
+:root body .case-detail-hero > .section-label { font-size: var(--reading-support); line-height: 1.8; letter-spacing: .02em; overflow-wrap: anywhere; }
+:root body .feature-copy > p { max-width: 100%; }
+:root body .footer-top { grid-template-columns: 1fr .8fr 1.2fr; gap: 40px; }
+:root body .footer-top > div { min-width: 0; }
+:root body .footer-top > div > p { font-size: var(--reading-support); }
+:root body .footer-bottom { flex-wrap: wrap; }
+:root body .footer-bottom > span { font-size: var(--reading-support); }
+:root body :is(.feature-copy > .eyebrow, .page-hero-copy > .eyebrow, .result-count) { font-size: var(--reading-support); line-height: 1.8; }
+
+/* Navigation has room for full size labels, including the qualification row. */
+:root body .site-header { --qualification-row-height: 72px; }
+:root body .brand small { font-size: var(--reading-support); letter-spacing: .08em; }
+:root body .site-header nav { gap: 22px; }
+:root body .site-header nav > a:not(.button) { font-size: var(--reading-control); }
+:root body .header-contact { margin-left: 0; }
+:root body .qualification-banner-title { font-size: 20px; letter-spacing: .02em; }
+:root body .qualification-action-label { font-size: var(--reading-control); }
+:root body .qualification-record-label { font-size: var(--reading-support); }
+:root body .qualification-banner-label > small { font-size: var(--reading-support); }
+:root body :is(.menu-toggle, .image-viewer > button, .qualification-preview-close, .all-clients-close, .client-strip-pause) {
+  min-width: 44px;
+  min-height: 44px;
+}
+
+/* The existing certificate and client dialogs retain their scrolling behavior. */
+:root body :is(.qualification-preview-image figcaption, .qualification-preview-image figcaption > span, .qualification-preview-details dl > div, .qualification-preview-details dd > span, .qualification-document-number) {
+  font-size: var(--reading-support);
+  line-height: 1.8;
+}
+:root body .qualification-document-label { font-size: 22px; }
+:root body .qualification-preview-details dl > div { grid-template-columns: 130px minmax(0,1fr); gap: 16px; }
+:root body .qualification-preview-details dd { min-width: 0; overflow-wrap: anywhere; }
+:root body .qualification-preview-footer { flex-wrap: wrap; }
+:root body .qualification-preview-footer > p { font-size: var(--reading-support) !important; }
+:root body .client-strip-inner { grid-template-columns: 200px minmax(0,1fr) 200px; }
+:root body :is(.client-strip-heading > span:last-child, .client-strip-all) { font-size: var(--reading-control); }
+:root body .client-strip-all { min-height: 44px; }
+
+/* Larger accordion labels and content need a larger canvas, not smaller text. */
+:root body .opening-hero { --showcase-row: 60px; }
+:root body .opening-grid { min-height: 650px; height: clamp(650px, calc(100svh - var(--site-header-height,169px) - 125px), 780px); }
+:root body .opening-copy { padding-top: 30px; }
+:root body .opening-copy h1 { font-size: clamp(50px,5vw,72px); }
+:root body .opening-intro { margin-top: 30px; }
+:root body .opening-intro > p { font-size: var(--reading-size); }
+:root body .showcase-toggle { gap: 12px; padding-right: 12px; }
+:root body .showcase-title { font-size: 20px; line-height: 1.5; }
+:root body .showcase-detail { gap: 20px; }
+:root body .showcase-detail h3 { font-size: 30px; line-height: 1.5; }
+:root body .showcase-detail .showcase-validity { font-size: var(--reading-support) !important; }
+:root body .showcase-image-note { font-size: var(--reading-support); padding: 3px 8px; }
+:root body .project-toolbar { height: 60px; gap: 14px; }
+:root body .project-slides { height: calc(100% - 60px); }
+:root body .project-all { font-size: var(--reading-control); gap: 8px; }
+:root body .project-controls > button { min-width: 44px; min-height: 44px; }
+:root body .project-controls > button > svg { width: 20px; height: 20px; }
+:root body .hero-projects .hero-image-bottom > span:first-child { font-size: 24px; }
+:root body .hero-projects .hero-image-top { font-family: var(--font-sans); font-size: var(--reading-support); letter-spacing: 0; }
+:root body .showcase-project.is-screen > img { padding-bottom: 108px; }
+
+@media(max-width:1100px) {
+  :root body .qualification-banner-label { display: none; }
+  :root body .qualification-banner-trigger { gap: 14px; }
+  :root body .client-strip-inner { grid-template-columns: 180px minmax(0,1fr) 190px; gap: 18px; }
+  :root body .footer-top { grid-template-columns: 1fr 1fr; gap: 35px; }
+  :root body .footer-contact { grid-column: 2; }
+}
+@media(max-width:960px) {
+  :root body .site-header { --navigation-row-height: 82px; }
+  :root body .site-header.compact { --navigation-row-height: 74px; }
+  :root body .site-header nav#main-navigation {
+    display: none; position: absolute; top: 100%; left: 0; right: 0;
+    height: calc(100dvh - var(--site-header-height)); overflow-y: auto;
+    background: var(--paper); padding: 22px 28px 36px; border-bottom: 1px solid var(--line);
+  }
+  :root body .site-header nav#main-navigation.open { display: flex; flex-direction: column; align-items: stretch; justify-content: flex-start; gap: 10px; }
+  :root body .site-header nav#main-navigation > a:not(.button) { font-size: 24px; padding-block: 16px; border-bottom: 1px solid var(--line); }
+  :root body .site-header nav > a:not(.button):after { display: none; }
+  :root body .header-contact { align-self: flex-start; margin-top: 18px; }
+  :root body .menu-toggle { display: grid; place-items: center; }
+  :root body .opening-grid { grid-template-columns: minmax(0,1fr); height: auto; min-height: 0; gap: 36px; }
+  :root body .hero-showcase { height: 780px; }
+  :root body .showcase-content { grid-template-columns: .8fr 1.2fr; }
+  :root body .opening-copy h1 { font-size: clamp(44px,7vw,64px); }
+  :root body .case-story-navigation nav > a { gap: 12px; }
+}
+@media(max-width:760px) {
+  :root body .site-header { --qualification-row-height: 92px; }
+  :root body .qualification-mark { display: none; }
+  :root body .qualification-banner-title { font-size: 18px; line-height: 1.5; flex: 1; min-width: 0; }
+  :root body .qualification-banner-action { flex-shrink: 0; padding: 0; }
+  :root body .qualification-action-label { font-size: 18px; }
+  :root body .qualification-preview-details dl > div { grid-template-columns: 1fr; gap: 6px; }
+  :root body .qualification-preview-footer .text-link { white-space: normal; }
+  :root body .qualification-preview-image figcaption { gap: 8px; }
+  :root body .footer-top { grid-template-columns: minmax(0,1fr); gap: 32px; }
+  :root body .footer-contact { grid-column: auto; }
+  :root body .footer-links { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  :root body .certificate-facts > div { display: grid; grid-template-columns: 1fr; gap: 6px; }
+  :root body .certificate-facts dd { text-align: left; }
+  :root body .section-heading { align-items: flex-start; flex-wrap: wrap; gap: 24px; }
+  :root body .clients-heading { flex-wrap: wrap; }
+  :root body .client-strip-inner { display: flex; flex-wrap: wrap; gap: 12px; }
+  :root body .client-strip-heading { width: 100%; }
+  :root body .client-strip-actions { width: 100%; justify-content: space-between; }
+  :root body .client-strip-viewport { width: 100%; order: 3; }
+  :root body .service-row { grid-template-columns: 28px minmax(0,1fr) 44px; gap: 12px; }
+  :root body .service-row p { grid-column: 2 / -1; }
+  :root body .service-row-arrow { grid-column: 3; grid-row: 1; }
+  :root body .service-anchor-nav > a { font-family: var(--font-sans); padding-inline: 10px; gap: 8px; flex-wrap: wrap; }
+  :root body .case-card-meta { flex-wrap: wrap; }
+  :root body .contact-information dd { padding-left: 0; }
+  :root body .contact-form-wrap { min-width: 0; }
+}
+@media(max-width:600px) {
+  :root body .opening-hero { --showcase-row: 64px; }
+  :root body .opening-copy h1 { font-size: clamp(40px,10.5vw,58px); }
+  :root body .showcase-title { font-size: 18px; }
+  :root body .showcase-content { grid-template-columns: minmax(0,1fr); grid-template-rows: auto minmax(180px,1fr); padding: 18px 0 20px; gap: 18px; }
+  :root body .showcase-detail { display: flex; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 12px; }
+  :root body .showcase-detail h3 { font-size: 28px; margin-top: 8px; }
+  :root body .showcase-detail p { margin-top: 6px; }
+  :root body .showcase-detail .text-link { flex-shrink: 0; }
+  :root body .showcase-panel.project .showcase-content { display: block; padding: 0; }
+  :root body .project-counter { display: none; }
+  :root body .project-toolbar { justify-content: space-between; }
+  :root body .project-controls { gap: 0; }
+  :root body .hero-projects .hero-image-bottom > span:first-child { font-size: 22px; }
+  :root body .form-grid { grid-template-columns: minmax(0,1fr); }
+  :root body .process-grid { grid-template-columns: 1fr; }
+  :root body .scope-tags { gap: 10px; }
+  :root body .brand { gap: 9px; }
+  :root body .brand strong { font-size: 17px; }
+  :root body .brand small { font-size: 18px; }
+}
