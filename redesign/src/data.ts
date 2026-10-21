@@ -98,5 +98,5 @@ export const cases: CaseStudy[] = [
 
 const clientNames = ['工業技術研究院', '原站客戶標誌', 'PROMO', '金屬工業研究發展中心', '中山科學研究院', '原站客戶標誌', '鳳勝實業', '原站客戶標誌', '資訊工業策進會', '加銘鋼鐵', '原站客戶標誌', '高雄醫學大學', '高雄醫學大學附設中和紀念醫院', '潤輝科技有限公司', '原站客戶標誌', '樹德科技大學', '玉鼎電機實業有限公司', '國立成功大學']
 export const clients = assets['elementor-1014'].map((image, i) => ({ image, name: clientNames[i] }))
-export const certificate = assets['about-us'][9]
+export const certificate = '/assets/credentials/certificate-2026.svg'
 export const categories = ['全部案例', ...caseCategories]

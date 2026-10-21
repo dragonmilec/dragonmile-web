@@ -10,9 +10,11 @@ const route = useRoute()
 const trigger = ref<HTMLButtonElement>()
 const dialog = ref<HTMLDialogElement>()
 const expanded = ref(false)
+let returnFocus: HTMLElement | undefined
 
-async function openCertificate() {
+async function openCertificate(origin?: HTMLElement) {
   if (expanded.value) return
+  returnFocus = origin ?? trigger.value
   expanded.value = true
   emit('change', true)
   await nextTick()
@@ -23,13 +25,14 @@ function closeCertificate(restoreFocus = true) {
   dialog.value?.close()
   expanded.value = false
   emit('change', false)
-  if (restoreFocus) trigger.value?.focus({ preventScroll: true })
+  if (restoreFocus) returnFocus?.focus({ preventScroll: true })
 }
 function backdropClick(event: MouseEvent) {
   if (event.target === dialog.value) closeCertificate()
 }
 watch(() => route.fullPath, () => closeCertificate(false))
 onUnmounted(() => { if (expanded.value) emit('change', false) })
+defineExpose({ openCertificate })
 </script>
 
 <template>
@@ -37,16 +40,16 @@ onUnmounted(() => { if (expanded.value) emit('change', false) })
     <button
       ref="trigger"
       class="container qualification-banner-trigger"
-      :aria-label="`${qualification.title}，查看原站證書登錄資料`"
+      :aria-label="`${qualification.title}，查看證書登錄資料`"
       aria-haspopup="dialog"
       aria-controls="qualification-certificate-dialog"
       :aria-expanded="expanded"
-      @click="openCertificate"
+      @click="openCertificate(trigger)"
     >
       <span class="qualification-mark" aria-hidden="true"><FileBadge2 :size="25" :stroke-width="1.35" /></span>
       <span class="qualification-banner-label" aria-hidden="true"><span>QUALIFICATION</span><small>技術服務機構資格</small></span>
-      <span class="qualification-banner-title"><span>經濟部認證之</span><span>自動化服務機構輔導廠商</span></span>
-      <span class="qualification-banner-action"><span class="qualification-record-label">原證書登錄資料</span><span class="qualification-action-label">查看證書 <ArrowUpRight :size="16" /></span></span>
+      <span class="qualification-banner-title"><span>{{ qualification.bannerLead }}</span><span>{{ qualification.bannerSubject }}</span></span>
+      <span class="qualification-banner-action"><span class="qualification-record-label">2026—2028 登錄證書</span><span class="qualification-action-label">查看證書 <ArrowUpRight :size="16" /></span></span>
     </button>
 
     <dialog
@@ -62,12 +65,12 @@ onUnmounted(() => { if (expanded.value) emit('change', false) })
     >
       <div class="qualification-preview-inner">
         <header class="qualification-preview-header">
-          <div><p class="eyebrow">QUALIFICATION / ORIGINAL CERTIFICATE</p><h2 id="qualification-preview-title">{{ qualification.title }}</h2></div>
+          <div><p class="eyebrow">QUALIFICATION / 2026—2028</p><h2 id="qualification-preview-title">{{ qualification.title }}</h2></div>
           <button class="qualification-preview-close" aria-label="關閉資質證書" autofocus @click="closeCertificate()"><X :size="24" :stroke-width="1.5" /></button>
         </header>
         <div class="qualification-preview-grid">
           <figure class="qualification-preview-image">
-            <a :href="certificate" target="_blank" rel="noopener noreferrer" aria-label="開啟登錄證書原圖（新分頁）"><img :src="certificate" :alt="`${qualification.issuer}核發之${qualification.documentTitle}原件`" width="1759" height="1237" /></a>
+            <a :href="certificate" target="_blank" rel="noopener noreferrer" aria-label="開啟登錄證書原圖（新分頁）"><img :src="certificate" :alt="`${qualification.issuer}核發之${qualification.documentTitle}原件`" width="1247" height="867" /></a>
             <figcaption>{{ qualification.documentTitle }}<span>點選證書查看原圖 <ArrowUpRight :size="13" /></span></figcaption>
           </figure>
           <div class="qualification-preview-details">

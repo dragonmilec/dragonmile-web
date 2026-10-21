@@ -899,5 +899,20 @@
     "source": "智慧機台管理系統_操作說明.pptx",
     "page": "簡報第 13 頁",
     "media": "ppt/media/image24.png"
+  },
+  {
+    "asset": "credentials/certificate-2026-original.jpg",
+    "source": "使用者提供：Scan_2026_10_19_172806.jpg",
+    "page": "2026 年新版技術服務機構服務能量登錄證書"
+  },
+  {
+    "asset": "credentials/certificate-2026.svg",
+    "source": "credentials/certificate-2026-original.jpg",
+    "page": "以 SVG 轉正呈現，嵌入未修改的原始掃描像素"
+  },
+  {
+    "asset": "credentials/rd-100-awards.jpg",
+    "source": "使用者提供：名片資料夾/R-and-D-100-Awards.jpg",
+    "page": "首頁競賽優勝實績圖片"
   }
 ]

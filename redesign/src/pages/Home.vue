@@ -1,26 +1,19 @@
 <script setup lang="ts">
-import { ArrowUpRight, ArrowDown, MoveUpRight } from 'lucide-vue-next'
+import { ArrowUpRight } from 'lucide-vue-next'
 import { company, services, cases } from '../data'
 import SectionLabel from '../components/SectionLabel.vue'
 import ContactCta from '../components/ContactCta.vue'
 import CaseCard from '../components/CaseCard.vue'
 import Qualification from '../components/Qualification.vue'
 import ClientCarousel from '../components/ClientCarousel.vue'
+import HomeHero from '../components/HomeHero.vue'
 
 const manufacturingCase = cases.find(item => item.slug === 'smart-manufacturing')!
-const cncCase = cases.find(item => item.slug === 'cnc-monitoring')!
 const selectedCases = ['sports-coaches', 'wen-yang-metal', 'concrete-erp'].map(slug => cases.find(item => item.slug === slug)!)
 </script>
 
 <template>
-  <section class="home-hero container">
-    <div class="hero-topline"><span class="eyebrow"><i class="status-dot" /> ENGINEERING CONNECTIONS</span><span class="eyebrow">KAOHSIUNG, TAIWAN · EST. 2019</span></div>
-    <div class="hero-grid">
-      <div class="hero-copy"><p class="hero-kicker" data-reveal>軟硬體整合・專業技術服務</p><h1 data-reveal>整合技術，<br />讓想法<span class="accent">落地。</span></h1><div class="hero-copy-bottom" data-reveal><p>從應用程式到電路設計，<br />連結軟體、資料與設備，回應每一個真實需求。</p><RouterLink to="/services" class="button">探索我們的服務 <ArrowUpRight :size="19" /></RouterLink></div><span class="hero-side-note eyebrow">PROFESSION / INTEGRATION / DILIGENCE / SINCERITY</span></div>
-      <RouterLink to="/cases/cnc-monitoring" class="hero-visual" aria-label="查看 CNC 機台監控案例"><img :src="cncCase.cover" alt="CNC 機台監控案例原站使用的雷射加工示意照片" fetchpriority="high" /><div class="visual-corner top-left" /><div class="visual-corner bottom-right" /><div class="hero-image-top"><span>SOFTWARE × HARDWARE</span><MoveUpRight :size="25" :stroke-width="1" /></div><div class="hero-image-bottom"><span><small>APPLICATION IN FOCUS</small>CNC 機台監控</span><span class="hero-image-number">01 — 04</span></div></RouterLink>
-    </div>
-    <div class="hero-bottom"><span>APP DEVELOPMENT <span>/</span> DATABASE <span>/</span> IoT <span>/</span> SCHEMATIC & PCB</span><a href="#introduction">向下探索 <ArrowDown :size="15" /></a></div>
-  </section>
+  <HomeHero />
 
   <ClientCarousel />
 

@@ -5,9 +5,9 @@ import { mkdir, writeFile } from 'node:fs/promises'
 const browser = await chromium.launch({ executablePath: 'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe', headless: true })
 const origin = process.env.QA_URL || 'http://127.0.0.1:4174'
 const page = await browser.newPage({ viewport: { width: 1440, height: 1000 }, reducedMotion: 'reduce' })
-const errors = [], verified = [], title = '經濟部認證之自動化服務機構輔導廠商'
+const errors = [], verified = [], title = '經濟部登錄之自動化技術服務機構'
 page.on('pageerror', error => errors.push(error.message))
-const button = () => page.getByRole('button', { name: `${title}，查看原站證書登錄資料`, exact: true })
+const button = () => page.getByRole('button', { name: `${title}，查看證書登錄資料`, exact: true })
 const dialog = () => page.locator('#qualification-certificate-dialog')
 const routes = ['/', '/about', '/services', '/cases', '/clients', '/contact', '/cases/speech-therapy', '/services/iot']
 await mkdir('qa-artifacts', { recursive: true })
@@ -34,11 +34,13 @@ try {
       await button().click()
       assert.ok(await dialog().evaluate(el => el.open))
       assert.equal(await page.evaluate(() => document.body.style.overflow), 'hidden')
-      assert.ok((await dialog().innerText()).includes('112-AU-5-50955037-0876'))
-      assert.ok((await dialog().innerText()).includes('商品資料庫建立與管理'))
-      assert.equal(await dialog().locator('time[datetime="2026-01-15"]').count(), 1)
-      assert.ok((await dialog().innerText()).includes('現行資格請以主管機關最新登錄資料為準'))
+      assert.ok((await dialog().innerText()).includes('115-AU-5-50955037-1113'))
+      assert.ok((await dialog().innerText()).includes('商品資料庫建立及管理'))
+      assert.equal(await dialog().locator('time[datetime="2028-05-01"]').count(), 1)
+      assert.ok((await dialog().innerText()).includes('服務能量與登錄範圍以證書所載為準'))
       await dialog().locator('img').evaluate(el => el.decode())
+      assert.ok((await dialog().locator('img').getAttribute('src')).endsWith('/credentials/certificate-2026.svg'))
+      assert.equal(await dialog().locator('time[datetime="2026-05-01"]').count(), 1)
       const modalBounds = await dialog().boundingBox()
       assert.ok(modalBounds.x >= 0 && modalBounds.width < width, `dialog fits ${width}`)
       if (route === '/') await page.screenshot({ path: `qa-artifacts/qualification-dialog-${width}.png` })

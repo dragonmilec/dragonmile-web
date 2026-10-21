@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, watch, onMounted, onUnmounted, nextTick } from 'vue'
+import { provide, ref, watch, onMounted, onUnmounted, nextTick } from 'vue'
 import { useWindowScroll, usePreferredReducedMotion, useResizeObserver, onKeyStroke } from '@vueuse/core'
 import { ArrowUpRight, ArrowUp, Menu, X } from 'lucide-vue-next'
 import { useRoute, RouterLink, RouterView } from 'vue-router'
@@ -8,6 +8,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import Lenis from 'lenis'
 import { company } from './data'
 import QualificationBar from './components/QualificationBar.vue'
+import { openQualificationKey } from './qualification'
 
 gsap.registerPlugin(ScrollTrigger)
 const route = useRoute()
@@ -15,6 +16,8 @@ const { y } = useWindowScroll()
 const reduced = usePreferredReducedMotion()
 const menuOpen = ref(false)
 const qualificationOpen = ref(false)
+const qualificationBar = ref<InstanceType<typeof QualificationBar>>()
+provide(openQualificationKey, trigger => { void qualificationBar.value?.openCertificate(trigger) })
 const header = ref<HTMLElement>()
 const menuToggle = ref<HTMLButtonElement>()
 const navigation = ref<HTMLElement>()
@@ -30,7 +33,6 @@ function animatePage() {
     gsap.utils.toArray<HTMLElement>('[data-reveal]').forEach(el => {
       gsap.from(el, { opacity: 0, y: 24, duration: .75, ease: 'power2.out', scrollTrigger: { trigger: el, start: 'top 94%', once: true } })
     })
-    gsap.from('.hero-visual img', { scale: 1.045, duration: 1.6, ease: 'power2.out' })
   }, document.querySelector('main')!)
   ScrollTrigger.refresh()
 }
@@ -88,7 +90,7 @@ onUnmounted(() => { ctx?.revert(); lenis?.destroy(); cancelAnimationFrame(mutati
 <template>
   <a class="skip-link" href="#main">跳至主要內容</a>
   <header ref="header" class="site-header" :class="{ compact: y > 48 }" @keydown="trapMenu">
-    <QualificationBar @change="onQualificationChange" />
+    <QualificationBar ref="qualificationBar" @change="onQualificationChange" />
     <div class="header-inner">
       <RouterLink to="/" class="brand" aria-label="爵邁 Dragon Mile 首頁">
         <img src="/assets/brand.png" alt="" width="42" height="42" />
