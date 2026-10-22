@@ -3,5 +3,6 @@ import App from './App.vue'
 import { router } from './router'
 import './style.css'
 import './readability.css'
+import './showcase-settings.css'
 
 createApp(App).use(router).mount('#app')

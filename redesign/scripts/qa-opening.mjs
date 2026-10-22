@@ -22,7 +22,7 @@ try {
     requestAnimationFrame(sample)
   })
   await page.goto(origin)
-  const rowHeight = await page.locator('.opening-hero').evaluate(node => parseFloat(getComputedStyle(node).getPropertyValue('--showcase-row')))
+  const rowHeight = await page.locator('.showcase-heading').first().evaluate(node => node.getBoundingClientRect().height)
   for (const step of [1,2,3,4]) {
     await page.waitForFunction(step => document.querySelector('.opening-hero')?.dataset.activeStep === String(step), step)
     await page.waitForTimeout(1000)

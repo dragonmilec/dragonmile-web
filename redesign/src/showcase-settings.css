@@ -1,0 +1,29 @@
+/* Fixed reading sizes for the showcase. Image dimensions use the original
+   layout in readability.css and do not change with stored reading settings. */
+:root {
+  --showcase-heading-size: 2rem;
+  --showcase-body-size: 1.375rem;
+  --showcase-label-size: 1.375rem;
+  --showcase-link-size: 1.25rem;
+}
+:root body .opening-hero .showcase-title { font-size: var(--showcase-label-size); }
+:root body .opening-hero .showcase-detail h3 { font-size: var(--showcase-heading-size); }
+:root body .opening-hero .showcase-detail p:not(.eyebrow):not(.section-label):not(.result-count) {
+  font-size: var(--showcase-body-size) !important;
+  line-height: 1.75;
+}
+:root body .opening-hero .showcase-detail .showcase-validity { font-size: var(--reading-support) !important; }
+:root body .opening-hero :is(.showcase-detail .text-link, .project-all) { font-size: var(--showcase-link-size) !important; }
+:root body .opening-hero .hero-projects .hero-image-bottom > span:first-child { font-size: 26px; }
+:root body .opening-hero .showcase-panel.erp .showcase-media { background: #f8f7f3 !important; }
+:root body .opening-hero .showcase-panel.erp .showcase-media img { object-fit: contain; object-position: center; }
+@media(max-width:1100px) {
+  :root body .opening-hero .showcase-detail { gap: 14px; }
+}
+@media(max-width:600px) {
+  :root {
+    --showcase-heading-size: 1.875rem;
+    --showcase-label-size: 1.25rem;
+  }
+  :root body .opening-hero .hero-projects .hero-image-bottom > span:first-child { font-size: 24px; }
+}

@@ -26,6 +26,10 @@ npm run preview
 
 主要內文、聯絡資訊與輸入內容已調整為 20px，操作文字、標籤、案例分類、圖說、證書資料與輔助說明至少 18px，手機與桌面共用相同閱讀尺寸。純裝飾性英文、章節序號與圖片索引維持原樣。設定集中於 `src/readability.css`；手機首頁展示、單欄表單及證書欄位會重新排列，避免大字被裁切。`node scripts/qa-readability.mjs` 檢查五種視窗的字體、溢出、證書及表單。
 
+首頁展示文字使用固定字級：展開標題桌面 32px、手機 30px，說明 22px、連結 20px。頁面無字級控制或偏好記憶；圖片維持既有展示尺寸。`scripts/qa-showcase-settings.mjs` 驗證五種視窗、舊偏好不影響版面、展示尺寸及圖片完整呈現。
+
+台泥鳳勝 ERP 形象圖使用內建 imagegen 生成，以「台泥鳳勝 ERP 專案／爵邁有限公司協助建置」描述使用者提供的合作實績。原始 PNG 位於 `public/assets/credentials/tai-ni-feng-sheng-erp.png`，提示詞位於 `references/erp-hero-image/prompt.md`。圖片標示為專案形象圖，不作為交付系統截圖。
+
 - Vue 3 + TypeScript + Vue Router
 - TailwindCSS 4，搭配集中管理的視覺樣式與設計變數
 - GSAP + ScrollTrigger：段落與圖片揭示

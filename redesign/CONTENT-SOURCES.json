@@ -914,5 +914,12 @@
     "asset": "credentials/rd-100-awards.jpg",
     "source": "使用者提供：名片資料夾/R-and-D-100-Awards.jpg",
     "page": "首頁競賽優勝實績圖片"
+  },
+  {
+    "asset": "credentials/tai-ni-feng-sheng-erp.png",
+    "source": "Built-in imagegen; user-provided statement that Dragon Mile built ERP for this client",
+    "page": "Home credential 01",
+    "prompt": "references/erp-hero-image/prompt.md",
+    "note": "Conceptual project illustration, not a screenshot of the delivered ERP system"
   }
 ]

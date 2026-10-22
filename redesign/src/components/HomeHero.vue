@@ -4,14 +4,13 @@ import { useEventListener, usePreferredReducedMotion } from '@vueuse/core'
 import { ArrowUpRight, ArrowDown, Plus, Minus, X } from 'lucide-vue-next'
 import gsap from 'gsap'
 import { cases, certificate } from '../data'
-import erpImages from '../erp-assets.json'
 import HeroProjects from './HeroProjects.vue'
 import { qualification, openQualificationKey } from '../qualification'
 
 const showQualification = inject(openQualificationKey)
 
 const credentials = [
-  { number: '01', title: '台泥鳳勝 ERP 供應商', description: '企業資源規劃・跨廠整合', image: erpImages['daily-dispatch'], alt: '混凝土 ERP 操作畫面示意', kind: 'erp', to: '/cases/concrete-erp' },
+  { number: '01', title: '台泥鳳勝 ERP 供應商', description: '協助台泥鳳勝建置 ERP 系統。', image: '/assets/credentials/tai-ni-feng-sheng-erp.png', alt: '台泥鳳勝 ERP 專案，爵邁有限公司協助建置；軟體系統形象圖', kind: 'erp', to: '/cases/concrete-erp' },
   { number: '02', title: '科技輔導廠商', description: `${qualification.issuer}登錄`, image: certificate, alt: '2026–2028 技術服務機構服務能量登錄證書', kind: 'certificate', to: '/about#qualification' },
   { number: '03', title: '科技競賽優勝', description: 'R&D 100 Awards', image: '/assets/credentials/rd-100-awards.jpg', alt: '使用者提供的 R&D 100 Awards 圖片', kind: 'award', to: '' },
   { number: '04', title: '專案展示', description: 'PROJECT SHOWCASE', image: cases.find(item => item.slug === 'cnc-monitoring')!.cover, alt: '專案展示', kind: 'project', to: '/cases' },
@@ -108,7 +107,7 @@ onUnmounted(() => { disposed = true; stop(); viewer.value?.close(); delete docum
             </div>
             <button v-if="item.kind !== 'project'" class="showcase-media" :aria-label="`放大圖片：${item.title}`" @click="openImage(index, $event)">
               <img :src="item.image" :alt="item.alt" loading="eager" />
-              <span v-if="item.kind === 'erp'" class="showcase-image-note">畫面示意</span><ArrowUpRight class="showcase-image-arrow" :size="22" :stroke-width="1.2" />
+              <span v-if="item.kind === 'erp'" class="showcase-image-note">專案形象圖</span><ArrowUpRight class="showcase-image-arrow" :size="22" :stroke-width="1.2" />
             </button>
             <HeroProjects v-else :enabled="active === index && !playing" />
           </div>
@@ -116,7 +115,7 @@ onUnmounted(() => { disposed = true; stop(); viewer.value?.close(); delete docum
       </section>
     </div>
     <div class="hero-bottom"><span>APP DEVELOPMENT <span>/</span> DATABASE <span>/</span> IoT <span>/</span> SCHEMATIC & PCB</span><a href="#introduction">向下探索 <ArrowDown :size="15" /></a></div>
-    <dialog ref="viewer" class="image-viewer credential-viewer" aria-label="企業實績圖片檢視" data-lenis-prevent @cancel.prevent="closeImage" @click="closeImage"><button aria-label="關閉實績圖片" @click="closeImage"><X :size="24" /></button><img :src="selectedImage.image" :alt="selectedImage.alt" @click.stop /><p>{{ selectedImage.title }}<span v-if="selectedImage.kind === 'erp'">・ERP 操作畫面示意</span></p></dialog>
+    <dialog ref="viewer" class="image-viewer credential-viewer" aria-label="企業實績圖片檢視" data-lenis-prevent @cancel.prevent="closeImage" @click="closeImage"><button aria-label="關閉實績圖片" @click="closeImage"><X :size="24" /></button><img :src="selectedImage.image" :alt="selectedImage.alt" @click.stop /><p>{{ selectedImage.title }}<span v-if="selectedImage.kind === 'erp'">・專案形象圖</span></p></dialog>
   </section>
 </template>
 
