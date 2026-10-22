@@ -1,9 +1,0 @@
-node_modules/
-dist/
-*.tsbuildinfo
-*.local
-.sites/
-.sites-checkout/
-qa-artifacts/
-playwright-report/
-*-deploy.tar.gz
