@@ -10,7 +10,6 @@ import CaseCard from './CaseCard.vue'
 
 const props = defineProps<{ item: CaseStudy }>()
 const content = computed(() => caseContent[props.item.slug])
-const referenceUrl = computed(() => props.item.source ? new URL(props.item.source, 'https://dragon-mile.com').href : undefined)
 const introduction = computed(() => content.value?.introduction ?? [props.item.description])
 const sections = computed<CaseSection[]>(() => content.value?.sections ?? props.item.points.map((point, i) => ({ id: `overview-${i + 1}`, title: point.title, paragraphs: [point.text] })))
 const remainingImages = computed(() => {
@@ -67,7 +66,6 @@ onKeyStroke('Escape', closeImage)
         <nav aria-label="案例內容導覽">
           <a v-for="(section, i) in sections" :key="section.id" :href="`#case-${section.id}`"><span>{{ String(i + 1).padStart(2, '0') }}</span>{{ section.title }}</a>
         </nav>
-        <a v-if="referenceUrl" :href="referenceUrl" target="_blank" rel="noopener noreferrer" class="text-link case-original-link">案例參考資料 <ArrowUpRight :size="16" /></a>
       </div>
     </aside>
 
@@ -146,7 +144,6 @@ onKeyStroke('Escape', closeImage)
 .case-story-navigation nav > a { display: flex; align-items: baseline; gap: 14px; padding-block: 11px; border-bottom: 1px solid #d7dcd7; font-size: 12px; line-height: 1.7; color: #59676f; transition: color .2s; }
 .case-story-navigation nav > a:hover { color: #263f4d; }
 .case-story-navigation nav > a > span { font: 9px Arial, sans-serif; color: #73848b; flex-shrink: 0; }
-.case-original-link { margin-top: 26px; font-size: 12px; gap: 22px; }
 .case-story-body { min-width: 0; }
 .case-story-section { border-top: 1px solid #c6d0cb; padding-top: 28px; padding-bottom: 56px; scroll-margin-top: calc(var(--site-header-height, 148px) + 18px); }
 .case-story-section + .case-story-section { margin-top: 12px; }
@@ -190,7 +187,6 @@ onKeyStroke('Escape', closeImage)
   .case-story-navigation nav > a { font-size: 12px; gap: 10px; }
   .case-story-navigation > .section-label { margin-bottom: 18px; }
   .case-story-nav-title { margin-bottom: 15px; font-size: 19px; }
-  .case-original-link { margin-top: 20px; }
   .case-story-section { padding-top: 24px; padding-bottom: 40px; }
   .case-story-section h2 { font-size: 26px; margin-bottom: 20px; }
   .case-story-paragraphs p { font-size: 15px; }

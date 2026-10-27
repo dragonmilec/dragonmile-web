@@ -31,6 +31,7 @@ try {
       await page.goto(`${origin}/cases/${slug}`)
       await page.locator('.case-summary').waitFor()
       assert.equal(await page.locator('main h1').count(), 1)
+      assert.equal(await page.getByRole('link', { name: '案例參考資料' }).count(), 0)
       const content = await page.locator('.case-summary, .case-story-body').allInnerTexts()
       for (const phrase of phrases) assert.ok(content.join('\n').includes(phrase), `${width}px ${slug}: missing ${phrase}`)
       assert.ok(!content.join('').includes('無意義內文'), 'original placeholder excluded')
@@ -43,7 +44,6 @@ try {
         const names = ['cover', 'dashboard', 'users', 'user-form', 'dealers', 'sites', 'plc-client', 'machines', 'unbound-machine', 'binding', 'maintenance-settings', 'maintenance-records', 'monitoring', 'data-log', 'usage-records']
         assert.deepEqual(pictures.sort(), names.map(name => `/assets/smart-machine/${name}.png`).sort(), 'all 15 original UI screenshots')
         assert.equal(sections, 10)
-        assert.equal(await page.getByRole('link', { name: '案例參考資料' }).count(), 0)
         await page.getByRole('link', { name: /使用紀錄與操作軌跡查詢/ }).click()
         await page.waitForTimeout(200)
         const target = await page.locator('#case-usage-records').boundingBox()
@@ -65,7 +65,6 @@ try {
         const pictures = await page.locator('.case-story-body img').evaluateAll(images => images.map(img => img.getAttribute('src')))
         assert.deepEqual(pictures.sort(), ['dashboard', 'consultation', 'survey', 'quickQuote', 'quotation', 'requirements', 'customers'].map(name => `/assets/wen-yang-metal/${name}.png`).sort())
         assert.equal(sections, 10)
-        assert.equal(await page.getByRole('link', { name: '案例參考資料' }).count(), 0, 'no invented reference URL for a local document')
         await page.getByRole('link', { name: /客戶資料與作業資訊整合/ }).click()
         await page.waitForTimeout(200)
         const target = await page.locator('#case-customer-data').boundingBox()
@@ -95,8 +94,6 @@ try {
         const pictures = await page.locator('.case-summary img, .case-story-body img').evaluateAll(images => images.map(img => img.getAttribute('src')))
         const names = slug === 'swallow-training' ? ['z08.png', ...Array.from({ length: 10 }, (_, i) => `o${String(i + 1).padStart(2, '0')}.png`)] : ['z07.png', 'za1.jpg', 'za2.jpg', 'za3.jpg', 'za4.jpg', 'za5.png', 'za6.jpg', 'za7.jpg']
         assert.deepEqual([...new Set(pictures)].sort(), names.map(name => `/assets/portfolio/${slug}-${name}`).sort(), `reference images ${slug}`)
-        const url = `https://dragonmile.dev/portfolio/${slug === 'swallow-training' ? 3 : 4}`
-        assert.equal(await page.getByRole('link', { name: '案例參考資料' }).getAttribute('href'), url)
         assert.ok((await page.locator('.case-summary img').getAttribute('src')).endsWith(slug === 'swallow-training' ? 'z08.png' : 'z07.png'))
       }
       const links = await page.locator('nav[aria-label="案例內容導覽"] a').evaluateAll(anchors => anchors.map(a => a.getAttribute('href')))
@@ -104,7 +101,6 @@ try {
         const names = slug === 'sport-guard' ? ['entrance', 'questionnaire', 'courses', 'lesson'] : ['home', 'directory', 'profile', 'filters', 'account', 'expertise', 'credentials', 'introduction', 'review']
         const pictures = await page.locator('.case-summary img, .case-story-body img').evaluateAll(images => images.map(img => img.getAttribute('src')))
         assert.deepEqual([...new Set(pictures)].sort(), names.map(name => `/assets/sports/${slug}-${name}.png`).sort(), `supplied screenshots ${slug}`)
-        assert.equal(await page.getByRole('link', { name: '案例參考資料' }).getAttribute('href'), slug === 'sport-guard' ? 'https://atakecare.com/sport_guard/portal/categoryEntry' : 'https://psmhpc.com/med_sport_referral/')
         await page.locator('.gallery-image').first().click()
         assert.ok(await page.locator('.image-viewer').evaluate(el => el.open))
         assert.ok((await page.locator('.image-viewer img').getAttribute('src')).startsWith(`/assets/sports/${slug}-`))
