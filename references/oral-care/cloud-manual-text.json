@@ -1,0 +1,135 @@
+{
+  "source": "雲管家操作文件.docx",
+  "paragraphs": [
+    {
+      "text": "雲管家操作方式",
+      "images": []
+    },
+    {
+      "text": "登入畫面",
+      "images": []
+    },
+    {
+      "text": "",
+      "images": [
+        "media/image11.png"
+      ]
+    },
+    {
+      "text": "口腔資料庫",
+      "images": []
+    },
+    {
+      "text": "1. 搜尋區域：可查詢上傳起訖日、單位、被拍攝者2. 詳細按鈕： 按下詳細按鈕可連結到下面的口腔健康紀錄3. 僅最高權限帳號才能刪除紀錄",
+      "images": []
+    },
+    {
+      "text": "",
+      "images": [
+        "media/image4.png"
+      ]
+    },
+    {
+      "text": "口腔資料庫：口腔健康紀錄",
+      "images": []
+    },
+    {
+      "text": "1. 醫囑：可在此新增醫囑，也可點擊預設好的醫囑",
+      "images": []
+    },
+    {
+      "text": "",
+      "images": [
+        "media/image7.png"
+      ]
+    },
+    {
+      "text": "",
+      "images": [
+        "media/image5.png"
+      ]
+    },
+    {
+      "text": "口腔分析圖表",
+      "images": []
+    },
+    {
+      "text": "1. 搜尋區域：可帶入上傳起訖日、單位和被拍攝者",
+      "images": []
+    },
+    {
+      "text": "",
+      "images": [
+        "media/image8.png"
+      ]
+    },
+    {
+      "text": "",
+      "images": [
+        "media/image6.png"
+      ]
+    },
+    {
+      "text": "單位資料庫(僅最高權限帳號)",
+      "images": []
+    },
+    {
+      "text": "僅能新增和編輯單位。",
+      "images": []
+    },
+    {
+      "text": "",
+      "images": [
+        "media/image9.png"
+      ]
+    },
+    {
+      "text": "帳號資料庫",
+      "images": []
+    },
+    {
+      "text": "可新增、編輯、修改密碼和刪除(僅最高權限帳號)帳號。",
+      "images": []
+    },
+    {
+      "text": "刪除使用者後並不回完全刪除，被刪除的帳號會先被放入帳號回收筒，以防止  操作失誤。",
+      "images": []
+    },
+    {
+      "text": "",
+      "images": [
+        "media/image2.png"
+      ]
+    },
+    {
+      "text": "帳號資料庫：修改",
+      "images": []
+    },
+    {
+      "text": "",
+      "images": [
+        "media/image3.png"
+      ]
+    },
+    {
+      "text": "帳號資料庫：新增",
+      "images": []
+    },
+    {
+      "text": "",
+      "images": [
+        "media/image10.png"
+      ]
+    },
+    {
+      "text": "帳號資料庫：帳號回收桶",
+      "images": []
+    },
+    {
+      "text": "",
+      "images": [
+        "media/image1.png"
+      ]
+    }
+  ]
+}

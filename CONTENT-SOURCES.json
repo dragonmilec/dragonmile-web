@@ -921,5 +921,158 @@
     "page": "Home credential 01",
     "prompt": "references/erp-hero-image/prompt.md",
     "note": "Conceptual project illustration, not a screenshot of the delivered ERP system"
+  },
+  {
+    "asset": "portfolio/speech-therapy-h02.png",
+    "source": "https://dragonmile.dev/images/h02.png",
+    "page": "https://dragonmile.dev/portfolio/2"
+  },
+  {
+    "asset": "portfolio/speech-therapy-h03.png",
+    "source": "https://dragonmile.dev/images/h03.png",
+    "page": "https://dragonmile.dev/portfolio/2"
+  },
+  {
+    "asset": "portfolio/speech-therapy-h01.png",
+    "source": "https://dragonmile.dev/images/h01.png",
+    "page": "https://dragonmile.dev/portfolio/2"
+  },
+  {
+    "asset": "oral-care/equipment-front.jpg",
+    "source": "App 操作文件0914.docx",
+    "page": "專用照光版",
+    "media": "word/media/image2.jpg"
+  },
+  {
+    "asset": "oral-care/equipment-back.jpg",
+    "source": "App 操作文件0914.docx",
+    "page": "專用照光版",
+    "media": "word/media/image9.jpg"
+  },
+  {
+    "asset": "oral-care/app-login.png",
+    "source": "App 操作文件0914.docx",
+    "page": "使用者登入介面，輸入帳號與密碼後即可登入系統。",
+    "media": "word/media/image4.png"
+  },
+  {
+    "asset": "oral-care/app-register.png",
+    "source": "App 操作文件0914.docx",
+    "page": "新使用者註冊介面，填寫個人資料與帳號資訊以建立新帳號。",
+    "media": "word/media/image6.png"
+  },
+  {
+    "asset": "oral-care/app-home.png",
+    "source": "App 操作文件0914.docx",
+    "page": "功能區域：可快速切換不同功能",
+    "media": "word/media/image7.png"
+  },
+  {
+    "asset": "oral-care/app-preparation.png",
+    "source": "App 操作文件0914.docx",
+    "page": "拍照功能：需選擇要拍攝牙齒的區域",
+    "media": "word/media/image8.png"
+  },
+  {
+    "asset": "oral-care/app-camera.png",
+    "source": "App 操作文件0914.docx",
+    "page": "倒數功能：啟動後，會以倒數的方式拍照",
+    "media": "word/media/image12.png"
+  },
+  {
+    "asset": "oral-care/app-photo-actions.png",
+    "source": "App 操作文件0914.docx",
+    "page": "重拍：回到上一步重新拍攝",
+    "media": "word/media/image3.png"
+  },
+  {
+    "asset": "oral-care/app-pending-uploads.png",
+    "source": "App 操作文件0914.docx",
+    "page": "上傳按鈕：點擊上傳可以將暫存的圖片發送到伺服器",
+    "media": "word/media/image10.png"
+  },
+  {
+    "asset": "oral-care/app-account.png",
+    "source": "App 操作文件0914.docx",
+    "page": "帳號設定與管理介面，提供個人資訊檢視與安全登出功能。",
+    "media": "word/media/image5.png"
+  },
+  {
+    "asset": "oral-care/app-history.png",
+    "source": "App 操作文件0914.docx",
+    "page": "歷史拍攝紀錄介面，可切換查看原始照片與牙菌斑辨識分析結果。",
+    "media": "word/media/image11.png"
+  },
+  {
+    "asset": "oral-care/app-trends.png",
+    "source": "App 操作文件0914.docx",
+    "page": "數據分析圖表介面，呈現牙菌斑覆蓋等級的歷史趨勢與變化。",
+    "media": "word/media/image1.png"
+  },
+  {
+    "asset": "oral-care/cloud-login.png",
+    "source": "雲管家操作文件.docx",
+    "page": "登入畫面",
+    "media": "word/media/image11.png"
+  },
+  {
+    "asset": "oral-care/cloud-records.png",
+    "source": "雲管家操作文件.docx",
+    "page": "1. 搜尋區域：可查詢上傳起訖日、單位、被拍攝者2. 詳細按鈕： 按下詳細按鈕可連結到下面的口腔健康紀錄3. 僅最高權限帳號才能刪除紀錄",
+    "media": "word/media/image4.png"
+  },
+  {
+    "asset": "oral-care/cloud-record-detail.png",
+    "source": "雲管家操作文件.docx",
+    "page": "1. 醫囑：可在此新增醫囑，也可點擊預設好的醫囑",
+    "media": "word/media/image7.png"
+  },
+  {
+    "asset": "oral-care/cloud-instructions.png",
+    "source": "雲管家操作文件.docx",
+    "page": "1. 醫囑：可在此新增醫囑，也可點擊預設好的醫囑",
+    "media": "word/media/image5.png"
+  },
+  {
+    "asset": "oral-care/cloud-search.png",
+    "source": "雲管家操作文件.docx",
+    "page": "1. 搜尋區域：可帶入上傳起訖日、單位和被拍攝者",
+    "media": "word/media/image8.png"
+  },
+  {
+    "asset": "oral-care/cloud-trends.png",
+    "source": "雲管家操作文件.docx",
+    "page": "1. 搜尋區域：可帶入上傳起訖日、單位和被拍攝者",
+    "media": "word/media/image6.png"
+  },
+  {
+    "asset": "oral-care/cloud-units.png",
+    "source": "雲管家操作文件.docx",
+    "page": "僅能新增和編輯單位。",
+    "media": "word/media/image9.png"
+  },
+  {
+    "asset": "oral-care/cloud-accounts.png",
+    "source": "雲管家操作文件.docx",
+    "page": "刪除使用者後並不回完全刪除，被刪除的帳號會先被放入帳號回收筒，以防止  操作失誤。",
+    "media": "word/media/image2.png"
+  },
+  {
+    "asset": "oral-care/cloud-account-edit.png",
+    "source": "雲管家操作文件.docx",
+    "page": "帳號資料庫：修改",
+    "media": "word/media/image3.png"
+  },
+  {
+    "asset": "oral-care/cloud-account-create.png",
+    "source": "雲管家操作文件.docx",
+    "page": "帳號資料庫：新增",
+    "media": "word/media/image10.png"
+  },
+  {
+    "asset": "oral-care/cloud-recycle-bin.png",
+    "source": "雲管家操作文件.docx",
+    "page": "帳號資料庫：帳號回收桶",
+    "media": "word/media/image1.png"
   }
 ]

@@ -3,9 +3,11 @@ import { mkdir, writeFile } from 'node:fs/promises'
 
 const browser = await chromium.launch({ executablePath: 'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe', headless: true })
 const audit = new URL('../.source-audit/', import.meta.url)
+const ids = process.argv.slice(2).map(Number)
+if (ids.some(id => !Number.isInteger(id) || id < 1)) throw new Error('Portfolio IDs must be positive integers')
 await mkdir(audit, { recursive: true })
 try {
-  for (const id of [3, 4]) {
+  for (const id of ids.length ? ids : [3, 4]) {
     const page = await browser.newPage({ viewport: { width: 1440, height: 1000 } })
     const requests = []
     page.on('response', response => {

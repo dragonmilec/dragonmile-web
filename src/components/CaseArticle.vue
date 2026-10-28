@@ -85,7 +85,7 @@ onKeyStroke('Escape', closeImage)
           </div>
         </dl>
         <div v-if="section.figures?.length" class="case-story-figures" :class="{ multiple: section.figures.length > 1 }">
-          <figure v-for="figure in section.figures" :key="figure.src" data-reveal>
+          <figure v-for="figure in section.figures" :key="figure.src" :class="{ 'full-width': figure.fullWidth }" data-reveal>
             <button class="gallery-image case-story-image" :class="{ portrait: figure.orientation === 'portrait' }" :aria-label="`放大圖片：${figure.caption}`" @click="openImage(figure.src, figure.caption, $event)">
               <img :src="figure.src" :alt="figure.caption" loading="lazy" />
               <Expand :size="19" />
@@ -162,9 +162,11 @@ onKeyStroke('Escape', closeImage)
 .case-story-figures { display: grid; grid-template-columns: minmax(0, 1fr); gap: 28px; margin-top: 30px; }
 .case-story-figures.multiple { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .case-story-figures > figure { min-width: 0; }
+.case-story-figures > .full-width { grid-column: 1 / -1; }
 .case-story-image { width: 100%; min-height: 0; padding: 22px !important; background: #e4e8e3 !important; }
 .case-story-image img { width: 100%; height: auto; min-height: 0; max-height: 440px; object-fit: contain; }
 .case-story-figures.multiple .case-story-image img { height: 260px; }
+.case-story-figures > .full-width .case-story-image img { height: auto; max-height: none; }
 .case-story-figures .case-story-image.portrait img { height: 440px; max-height: 440px; }
 .case-story-figures figcaption { padding-top: 12px; font-size: 12px; line-height: 1.8; color: #63717a; }
 .case-viewer-caption { margin-top: 14px; font-size: 13px; color: #536b79; }

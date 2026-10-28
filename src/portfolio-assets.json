@@ -21,5 +21,10 @@
     "za6.jpg": "/assets/portfolio/medical-iot-za6.jpg",
     "za2.jpg": "/assets/portfolio/medical-iot-za2.jpg",
     "za7.jpg": "/assets/portfolio/medical-iot-za7.jpg"
+  },
+  "speech-therapy": {
+    "h02.png": "/assets/portfolio/speech-therapy-h02.png",
+    "h03.png": "/assets/portfolio/speech-therapy-h03.png",
+    "h01.png": "/assets/portfolio/speech-therapy-h01.png"
   }
 }

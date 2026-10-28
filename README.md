@@ -87,8 +87,10 @@ npm run preview
 - 案例統一使用三類：智能醫療（七案）、智能工控／服務（五案，含智慧機台管理、穩揚金屬及貨櫃辨識）、ERP（一案）；四項技術服務保持獨立。首頁精選案例各呈現其中一類，並展示新增的人力資源庫。
 - `src/case-content.ts` 保留八個案例的功能介紹，依段落整理並配對實作圖片。吞嚥訓練與物聯網醫美依使用者指定的新參考頁更新，分別來自 `https://dragonmile.dev/portfolio/3`、`https://dragonmile.dev/portfolio/4`；其他案例沿用原本來源。`src/components/CaseArticle.vue` 提供案例簡介、內容目錄、完整文字、圖說及圖片放大。
 - `CONTENT-SOURCES.json` 記錄每個複製素材的原始網址與來源頁。
+- 智慧口腔暨吞嚥賦能照護雲管家依使用者提供的 `App 操作文件0914.docx`、`雲管家操作文件.docx` 更新。`src/oral-case-content.ts` 以五個段落介紹行動拍攝、AI 辨識、健康趨勢、照護協作與雲端管理，頁面精選九張圖片（含封面），不展示設備規格與逐步操作說明。二十三張來源原圖位於 `public/assets/oral-care/`，對應表為 `src/oral-assets.json`，原文及來源保存在 `references/oral-care/` 與 `CONTENT-SOURCES.json`。可執行 `python scripts/import-oral-documents.py <APP文件.docx> <雲管家文件.docx>` 重新匯入。
 - `public/assets/` 中使用原站實際素材，不依賴遠端圖片連線。
-- `src/portfolio-assets.json` 對應新參考頁的十九張案例圖片，實體檔案在 `public/assets/portfolio/`。原始網址一併記錄於 `CONTENT-SOURCES.json`。
+- 語言治療案例以產品功能與特色為主，保留四種互動訓練、AI 即時引導、學習追蹤、治療師複評、個人化練習及遊戲化體驗。移除語料處理、模型架構、意圖分類與評分切題規則等內部細節；AI 架構圖移至 `references/speech-therapy/` 留存，不納入公開素材或下載匯入範圍。
+- `src/portfolio-assets.json` 對應新參考頁的二十二張案例圖片，實體檔案在 `public/assets/portfolio/`。原始網址一併記錄於 `CONTENT-SOURCES.json`。使用 `node scripts/read-portfolio-references.mjs 2`、`node scripts/download-portfolio-assets.mjs 2` 可擷取及更新語言治療的三張產品介面補充圖片。
 - 以原站照片作為示意的案例，並未聲稱照片是爵邁自有設備或廠房。
 - 保留原站公司電話 `07-5523561`、公司信箱 `dgcorplimit@gmail.com`，以及聯絡頁專案電話、信箱與地址，並以標籤區分。
 - 使用提供的新版證書，編號 115-AU-5-50955037-1113，登錄期間為 2026-05-01 至 2028-05-01。首頁、頂部資質視窗及 About 資格資料共用新版圖片與日期。

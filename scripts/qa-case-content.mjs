@@ -13,8 +13,8 @@ const expected = {
   'cnc-monitoring': ['馬達電流與震動監控分析軟體', '訊號擷取卡', '維運週期', '壽命分析'],
   'spinal-simulation': ['AI 影像辨識', '2D', '3D', '256 切 X 光掃描', '骨釘建模', '術前模擬與導覽'],
   'medical-iot': ['專案資訊與智能技術', '醫美診所、皮膚科與美容中心', '技術核心', '200 nm', '無針設計', '授權使用機制', '一次性 QR Code 驗證', '200 次', '藥劑補充管理', '雲端精準控制', '噴氣時間', '流速曲線', '智慧雲端校正', '藍牙連線', '施打數據回傳', '雲端參數下載', '使用者帳號管理系統', '設備維護預測'],
-  'oral-care': ['相機拍攝與照片上傳', '口腔資料庫', '拍攝者', '被拍攝者', '顯示明細', '刪除', '牙菌斑精準分析', '每日健康趨勢圖表', '多條件搜尋', 'CRUD', '權限與安全控制'],
-  'speech-therapy': ['語言治療軟體簡介', '拖曳填空', '語音復送', '仿說練習', '繪本互動', '對話練習', '個人化成長記錄與加強模式', '仁慈與嚴謹機制', '100%', '智能題目切換', '防沉迷與護眼保護機制', '沉浸式互動世界', 'RPG', '獎勵系統', '遊戲商店', '治療師專屬獎勵'],
+  'oral-care': ['行動拍攝與影像管理', 'AI 牙菌斑辨識', '口腔健康趨勢追蹤', '照護紀錄與團隊協作', '雲端資料與單位管理', '個別化照護', '醫囑建議'],
+  'speech-therapy': ['語言治療軟體簡介', '拖曳填空', '仿說練習', '繪本互動', '對話練習', 'AI 即時互動引導', '成長追蹤與語言能力分析', '治療師線上複評', '個人化練習與使用提醒', '休息提醒', '沉浸式互動世界', 'RPG', '獎勵系統', '遊戲商店', '治療師專屬獎勵'],
   'concrete-erp': ['混凝土 ERP 系統架構', '雲端網頁化', '帳號權限管理', '資料可追蹤、分析與回復', '私有資料庫', '第三方雲端資料庫', '總廠分廠管理', '一致的操作介面', '資訊共享', '人性化介面與報表呈現', '修改範本', '廠部功能', '總公司功能', '每日調度輸入', '生成出貨單', '剩退料', '材料耗用追蹤', '應付帳款', '採購流程', '付款管理', '應收帳款', '款項追蹤', '雲端電子發票', '應收票據', '應付票據', '票據列印', '出勤管理', '薪資計算', '銀行連動', '成本追蹤', '成本分析', '預算管理', '總帳', '損益表', '資產負債表', '電子報稅', '系統整合優勢', '需求分析', '系統設計', '系統測試與上線', '第一期規劃', '第二期規劃', '第三期規劃', '仁武廠廠部調度排單系統', '電子簽核', 'Vue.js', 'Node.js', 'REST API', 'MariaDB', '主從複製', '排程備份'],
 }
 const browser = await chromium.launch({ executablePath: 'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe', headless: true })
@@ -37,6 +37,36 @@ try {
       assert.ok(!content.join('').includes('無意義內文'), 'original placeholder excluded')
       const sections = await page.locator('.case-story-section').count()
       assert.equal(await page.locator('nav[aria-label="案例內容導覽"] a').count(), sections)
+      if (slug === 'oral-care') {
+        const pictures = await page.locator('.case-summary img, .case-story-body img').evaluateAll(images => images.map(img => img.getAttribute('src')))
+        assert.equal(pictures.length, 9, 'selected product feature illustrations')
+        assert.equal(new Set(pictures).size, 9, 'each selected illustration appears once')
+        assert.ok(pictures.every(src => src.startsWith('/assets/oral-care/')), 'oral-care uses the supplied manuals')
+        assert.equal(sections, 5)
+        for (const detail of ['UV', '微距', '倒數', '最高權限', '修改密碼', '回收桶', '上傳起訖日']) assert.ok(!content.join('').includes(detail), `oral-care excludes operation details: ${detail}`)
+        assert.equal(await page.locator('.project-gallery').count(), 0, 'all figures have contextual captions')
+        await page.getByRole('link', { name: /行動拍攝與影像管理/ }).click()
+        await page.locator('#case-camera-upload .gallery-image').first().click()
+        assert.ok(await page.locator('.image-viewer').evaluate(el => el.open))
+        assert.equal(await page.locator('.image-viewer img').getAttribute('src'), '/assets/oral-care/app-home.png')
+        await page.keyboard.press('Escape')
+        assert.ok(!(await page.locator('.image-viewer').evaluate(el => el.open)))
+        if (width === 1440 || width === 390) {
+          await page.screenshot({ path: `qa-artifacts/oral-care-upload-${width}.png` })
+          await page.locator('#case-health-records').scrollIntoViewIfNeeded()
+          await page.screenshot({ path: `qa-artifacts/oral-care-records-${width}.png` })
+          await page.goto(`${origin}/cases/${slug}`)
+          await page.screenshot({ path: `qa-artifacts/oral-care-after-${width}.png` })
+        }
+      }
+      if (slug === 'speech-therapy') {
+        const pictures = await page.locator('#case-ai-guidance img, #case-progress img').evaluateAll(images => images.map(img => img.getAttribute('src')))
+        assert.deepEqual(pictures.sort(), ['/assets/original-47.png', ...['h01', 'h02', 'h03'].map(name => `/assets/portfolio/speech-therapy-${name}.png`)].sort())
+        assert.equal(await page.locator('#case-ai-guidance .full-width, #case-progress .full-width').count(), 2)
+        assert.equal(sections, 10)
+        for (const detail of ['語料', '前處理', '標註', '分詞', '依存句法', 'Agent', '意圖分類', '仁慈', '嚴謹', '100%', '每半小時', '停留過久']) assert.ok(!content.join('').includes(detail), `speech-therapy excludes internal details: ${detail}`)
+        assert.equal(await page.locator('img[src*="speech-therapy-d02"]').count(), 0, 'architecture is excluded from article and gallery')
+      }
       assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1), `overflow ${width}px ${slug}`)
       await page.locator('.case-story img').evaluateAll(images => { for (const i of images) i.loading = 'eager'; return Promise.all(images.map(i => i.decode())) })
       if (slug === 'smart-machine-management') {

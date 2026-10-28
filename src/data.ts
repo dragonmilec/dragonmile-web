@@ -4,6 +4,7 @@ import sportsAssets from './sports-assets.json'
 import erpAssets from './erp-assets.json'
 import metalAssets from './metal-assets.json'
 import machineAssets from './machine-assets.json'
+import oralAssets from './oral-assets.json'
 
 export const company = {
   name: '爵邁有限公司', english: 'Dragon Mile', phone: '07-5523561', email: 'dgcorplimit@gmail.com',
@@ -55,8 +56,18 @@ export const cases: CaseStudy[] = [
   { slug: 'smart-manufacturing', title: '工業控制・智慧生產', category: '智能工控／服務', english: 'Smart Manufacturing', description: '從資訊收集平台架構到線上品檢自動化，整合生產現場的資訊與控制需求。', cover: assets['工業控制-智慧生產'][0], gallery: assets['工業控制-智慧生產'].slice(1), points: [{ title: '資訊與場域規劃', text: '資訊收集平台架構規劃、廠區 layout 規劃。' }, { title: '自動化量測與品檢', text: '線上品檢自動化模組、導直滾輪補償參數建議模組、雷射邊緣量測計，以及沖壓頭磨耗監控預警模組。' }], source: '/2022/05/06/工業控制-智慧生產/' },
   { slug: 'cnc-monitoring', title: 'CNC 機台監控', category: '智能工控／服務', english: 'CNC Machine Monitoring', description: '透過訊號擷取卡將機台訊息回傳至運算平台，計算機台使用與維運週期。', cover: assets['cnc機台監控'][0], gallery: [], points: [{ title: '馬達電流與震動監控', text: '偵測馬達運作中的電流，利用資料分析協助機台維運與壽命分析。' }], source: '/2022/05/06/cnc機台監控/' },
   { slug: 'swallow-training', title: '吞嚥賦能體感訓練遊戲', category: '智能醫療', english: 'Interactive Swallowing Training', description: '結合影像辨識與壓力感測健舌器，透過舌頭互動遊戲、即時回饋與進度追蹤，提供舌頭訓練體驗。', cover: portfolioAssets['swallow-training']['z08.png'], gallery: Object.values(portfolioAssets['swallow-training']), points: [{ title: '影像辨識與壓力感測訓練', text: '以舌頭體操互動遊戲及健舌器壓力感測，提供動作評分、文字提示與數值回饋。' }, { title: '分析與後台整合', text: '整合使用者資料、前台進度追蹤、後台分析及 WebSocket 實時資料同步。' }, { title: '教學與使用輔助', text: '提供示範教學、互動提示與任務難易度調整。' }], source: 'https://dragonmile.dev/portfolio/3' },
-  { slug: 'oral-care', title: '智慧口腔暨吞嚥賦能照護雲管家', category: '智能醫療', english: 'Oral Care Management', description: '整合口腔影像、資料管理與健康趨勢分析，協助追蹤口腔健康狀況。', cover: assets['智慧口腔暨吞嚥賦能照護雲管家'][1], gallery: assets['智慧口腔暨吞嚥賦能照護雲管家'].slice(1), points: [{ title: '即時拍攝與上傳', text: '於 APP 中啟動相機，拍攝並上傳照片，保存拍攝日期及相關資料。' }, { title: '口腔資料與趨勢', text: '記錄日期、單位、拍攝者及被拍攝者，呈現牙菌斑分析圖與每日覆蓋率趨勢，支援多條件搜尋。' }, { title: '單位、帳號與權限', text: '提供單位與帳號資料的新增、讀取、更新、刪除，以及依角色管理資料存取權限。' }], source: '/2024/10/25/智慧口腔暨吞嚥賦能照護雲管家/' },
-  { slug: 'speech-therapy', title: '語言治療', category: '智能醫療', english: 'Speech Therapy Application', description: '透過互動與遊戲化的訓練模式，為語言學習較慢的兒童提供語言學習體驗。', cover: assets['語言治療'][3], gallery: assets['語言治療'].slice(1), points: [{ title: '四種類型的互動訓練', text: '拖曳填空、仿說練習、繪本互動與對話練習，結合語音辨識及即時引導。' }, { title: '個人化學習記錄', text: '記錄關卡、難度、時間及互動細節，透過成長曲線追蹤詞彙使用，並針對反覆答錯的題目提供加強模式。' }, { title: '學習節奏與保護機制', text: '依答題表現調整標準，遇到卡關時切換題目；結合 RPG 探索、獎勵系統與每半小時的休息保護機制。' }], source: '/2024/10/29/語言治療/' },
+  {
+    slug: 'oral-care', title: '智慧口腔暨吞嚥賦能照護雲管家', category: '智能醫療', english: 'Oral Care Management',
+    description: '整合行動拍攝、AI 牙菌斑辨識與雲端照護紀錄，以視覺化趨勢協助團隊掌握口腔健康變化。',
+    cover: oralAssets['equipment-front'],
+    gallery: ['app-home', 'app-camera', 'app-history', 'app-trends', 'cloud-trends', 'cloud-instructions', 'cloud-records', 'cloud-accounts'].map(key => oralAssets[key as keyof typeof oralAssets]),
+    points: [
+      { title: '行動拍攝與 AI 辨識', text: '記錄口腔影像，透過牙菌斑辨識結果提供直觀的清潔回饋。' },
+      { title: '視覺化照護追蹤', text: '整合健康趨勢與醫囑建議，協助掌握日常照護變化。' },
+      { title: '團隊與資料管理', text: '集中管理照護紀錄、單位及帳號，支持團隊協作。' },
+    ],
+  },
+  { slug: 'speech-therapy', title: '語言治療', category: '智能醫療', english: 'Speech Therapy Application', description: '透過互動與遊戲化的訓練模式，為語言學習較慢的兒童提供語言學習體驗。', cover: assets['語言治療'][3], gallery: assets['語言治療'].slice(1), points: [{ title: '四種類型的互動訓練', text: '拖曳填空、仿說練習、繪本互動與對話練習，結合語音辨識及即時引導。' }, { title: '學習歷程與成長追蹤', text: '以練習紀錄及視覺化趨勢，協助家長與治療師了解學習變化。' }, { title: '個人化與遊戲化體驗', text: '結合個人化練習、情境探索、獎勵及休息提醒，支持孩子持續參與。' }], source: '/2024/10/29/語言治療/' },
   { slug: 'spinal-simulation', title: '脊髓術前模擬', category: '智能醫療', english: 'Preoperative Simulation', description: '結合影像辨識與 2D、3D 影像組合旋轉，協助術前模擬與導覽。', cover: assets['脊髓術前模擬'][1], gallery: assets['脊髓術前模擬'].slice(1), points: [{ title: '影像整合與建模', text: '整合 256 切 X 光掃描影像，轉換為 3D 影像，結合骨釘建模及影像旋轉，協助醫師進行術前模擬。' }], source: '/2024/10/06/脊髓術前模擬/' },
   { slug: 'medical-iot', title: '醫療・物聯網醫美', category: '智能醫療', english: 'Medical IoT Integration', description: '整合超音速霧化、藍牙連線與雲端參數管理，透過一次性 QR Code 授權啟用，串接藥劑注射設備與後台資料。', cover: portfolioAssets['medical-iot']['z07.png'], gallery: Object.values(portfolioAssets['medical-iot']), points: [{ title: '霧化與雲端控制', text: '結合超音速霧化、藍牙連線、藥劑參數下載與設備自動校正。' }, { title: 'QR Code 授權使用', text: '透過單瓶一次性 QR Code 啟用裝置使用次數，預設為 200 次。' }, { title: '帳號管理與數據回傳', text: '整合使用者帳號、施打紀錄上傳、使用趨勢分析與設備維護預測。' }], source: 'https://dragonmile.dev/portfolio/4' },
   {

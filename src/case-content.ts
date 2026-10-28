@@ -4,11 +4,13 @@ import { sportsCaseContent } from './sports-case-content'
 import { erpCaseContent } from './erp-case-content'
 import { metalCaseContent } from './metal-case-content'
 import { machineCaseContent } from './machine-case-content'
+import { oralCaseContent } from './oral-case-content'
 
 export interface CaseFigure {
   src: string
   caption: string
   orientation?: 'portrait'
+  fullWidth?: boolean
 }
 
 export interface CaseSection {
@@ -27,8 +29,8 @@ export interface CaseContent {
 const manufacturing = assets['工業控制-智慧生產']
 const swallow = portfolioAssets['swallow-training']
 const medical = portfolioAssets['medical-iot']
-const oral = assets['智慧口腔暨吞嚥賦能照護雲管家']
 const speech = assets['語言治療']
+const speechPortfolio = portfolioAssets['speech-therapy']
 
 // Keep source descriptions and figures together. Newer project pages, supplied
 // sports documents and the ERP presentation supplement the original cases.
@@ -234,69 +236,19 @@ export const caseContent: Record<string, CaseContent> = {
       },
     ],
   },
-  'oral-care': {
-    introduction: [
-      '智慧口腔暨吞嚥賦能照護雲管家整合 APP 相機拍攝、照片上傳、口腔資料庫與分析功能，協助記錄及追蹤使用者的口腔健康狀況。',
-      '從口腔影像及牙菌斑分析，到每日健康趨勢、條件搜尋及單位帳號管理，將拍攝、資料檢視與後台維護串接在同一套管理流程中。',
-    ],
-    sections: [
-      {
-        id: 'camera-upload', title: '相機拍攝與照片上傳',
-        paragraphs: [
-          '使用者可直接在 APP 內啟動相機，拍攝需要記錄的照片，無須切換至其他應用程式。',
-          '拍攝後可將照片上傳至系統。牙齒影像及其他健康記錄會保存上傳日期與相關資料，讓後續記錄與追蹤具有可追溯性。',
-        ],
-        figures: [{ src: oral[1], caption: 'APP 口腔相機拍攝介面' }],
-      },
-      {
-        id: 'oral-database', title: '口腔資料庫與明細檢視',
-        paragraphs: ['口腔資料庫記錄每位使用者的日期、所屬單位、拍攝者名稱及被拍攝者等資訊，保存口腔檢測資料的關聯。'],
-        features: [
-          { title: '完整資料記錄', text: '記錄日期、單位、拍攝者與被拍攝者，保留口腔檢測資料的追溯資訊。' },
-          { title: '顯示明細與刪除', text: '每筆資料提供「顯示明細」與「刪除」操作，方便檢視及維護。' },
-          { title: '詳細明細視窗', text: '呈現牙齒圖片、牙菌斑分析圖與口腔健康紀錄，包含拍攝位置及牙菌斑覆蓋率。' },
-        ],
-        figures: [
-          { src: oral[2], caption: '口腔影像與分析資料檢視' },
-          { src: oral[3], caption: '口腔影像與健康記錄明細' },
-        ],
-      },
-      {
-        id: 'plaque-analysis', title: '牙菌斑精準分析',
-        paragraphs: ['在「顯示明細」中，系統會生成牙菌斑分析圖，並提供口腔健康紀錄，讓醫療人員查看牙菌斑覆蓋率及口腔健康趨勢。'],
-        figures: [{ src: oral[5], caption: '口腔資料分析與趨勢管理介面' }],
-      },
-      {
-        id: 'health-trends', title: '每日健康趨勢圖表',
-        paragraphs: ['系統以每日牙菌斑覆蓋率趨勢圖呈現口腔健康變化，將資料轉為圖表，協助醫療團隊追蹤長期狀況。'],
-        figures: [{ src: oral[4], caption: '每日牙菌斑覆蓋率與健康趨勢畫面' }],
-      },
-      {
-        id: 'search', title: '多條件搜尋功能',
-        paragraphs: ['可依拍攝日期、使用者姓名及所屬單位等條件篩選，尋找需要的口腔健康資料。'],
-      },
-      {
-        id: 'organisation-accounts', title: '靈活的單位與帳號管理',
-        paragraphs: ['單位資料庫與帳號資料庫皆支援新增、讀取、更新及刪除（CRUD）操作，讓管理者維護單位與帳號的基本資訊。介面提供相對應的操作方式，方便新增、修改及查詢資料。'],
-        features: [
-          { title: '完整 CRUD 操作', text: '新增、讀取、更新、刪除單位及帳號資訊。' },
-          { title: '權限與安全控制', text: '依帳號與角色管理存取權限，讓不同使用者存取對應的功能及資料。' },
-        ],
-      },
-    ],
-  },
+  'oral-care': oralCaseContent,
   'speech-therapy': {
     introduction: [
       '這是一款為語言學習較慢的兒童設計的語言治療軟體，結合互動遊戲、AI 引導、即時回饋與成長追蹤，提供個人化的語言學習體驗。',
-      '從句子填空、仿說、繪本互動到與 NPC 對話，透過四種類型的訓練，讓孩子在情境與遊戲中進行語言練習。',
+      '透過拖曳填空、仿說練習、繪本互動與對話練習，讓孩子在故事與生活情境中練習理解和表達，家長與治療師也能持續了解學習歷程。',
     ],
     sections: [
       {
         id: 'introduction', title: '語言治療軟體簡介',
-        paragraphs: ['透過多樣化訓練模式與互動設計，在作答過程中提供即時引導與回饋，並依答題紀錄調整學習內容與節奏。'],
+        paragraphs: ['結合多樣化的互動訓練與即時回饋，讓孩子以適合自己的節奏練習語言。'],
         features: [
           { title: '創新語言學習體驗', text: '各訓練方式具有互動與引導機制，透過遊戲化設計維持學習參與。' },
-          { title: '智能引導與個性化學習', text: 'AI 檢測答題情形，並依使用者答題記錄進行個人化調整。' },
+          { title: '智能引導與個性化學習', text: '透過即時提示與個人化練習，支持不同學習需求。' },
         ],
         figures: [
           { src: speech[1], caption: '語言治療應用程式畫面' },
@@ -307,51 +259,61 @@ export const caseContent: Record<string, CaseContent> = {
       {
         id: 'drag-fill', title: '拖曳填空',
         paragraphs: [
-          '使用者透過拖曳將句子拼湊完整，作答時由 AI 提供引導，搭配類似 KTV 的文字導讀，協助理解句子。',
-          '正確拼湊後進入「語音復送」，使用者重複唸出完整句子，由 AI 評估語音正確性並提供指導，完成後獲得金幣獎勵。題目分為簡單、中等及困難，並提供不同情境挑戰。',
+          '透過拖曳組合句子，搭配文字導讀與語音練習，協助孩子理解句意、練習組句與口語表達。',
         ],
         figures: [{ src: speech[5], caption: '拖曳填空與句子練習介面' }],
       },
       {
         id: 'imitation', title: '仿說練習',
-        paragraphs: ['玩家點選選項並回答物件名稱。答錯時由 AI 引導，全部選項答對後獲得金幣獎勵，透過反覆互動練習詞彙辨識及應用。'],
-        figures: [{ src: speech[6], caption: '仿說練習操作畫面' }],
+        paragraphs: ['結合圖像、示範與語音互動，讓孩子練習物件命名及詞彙表達，並透過即時提示獲得引導。'],
+        figures: [
+          { src: speech[6], caption: '仿說練習操作畫面' },
+          { src: speech[9], caption: '情境問答與選項提示，協助孩子練習理解與回答' },
+        ],
       },
       {
         id: 'picture-book', title: '繪本互動',
-        paragraphs: ['玩家觀看有聲故事並跟隨文字導讀。各章節包含小題，依故事情境進行拖曳與回答，答錯時由 AI 提供引導。拖曳正確後進入回答階段，依目前情境練習語言表達。'],
+        paragraphs: ['以有聲故事、文字導讀及情境問答，陪伴孩子閱讀繪本，在故事中練習理解與表達。'],
         figures: [{ src: speech[7], caption: '有聲故事與繪本互動介面' }],
       },
       {
         id: 'conversation', title: '對話練習',
-        paragraphs: ['玩家以俯視角度在地圖中與 NPC 互動，透過麥克風進行對話。對話表現良好時獲得金幣獎勵，在模擬情境中練習語音交流。'],
+        paragraphs: ['透過與遊戲角色的語音互動，在模擬生活情境中練習問答與交流，增加開口表達的機會。'],
         figures: [{ src: speech[8], caption: '地圖探索與 NPC 對話練習' }],
       },
       {
-        id: 'progress', title: '個人化成長記錄與加強模式',
+        id: 'ai-guidance', title: 'AI 即時互動引導',
         paragraphs: [
-          '系統記錄每位使用者的遊玩關卡、難度、時間，以及 AI 與使用者的互動細節，並以成長曲線追蹤詞彙量與不同類型詞彙的使用情形。',
-          '針對多次答錯的題目，提供「加強模式」，讓使用者對較不熟悉的內容進行重點練習。',
+          '在練習過程中提供文字與語音提示，協助孩子理解題意、嘗試回答並修正表達，讓互動更有方向。',
+        ],
+        features: [
+          { title: '語音互動', text: '以自然的語音回答與角色交流，練習情境對話。' },
+          { title: '即時提示與鼓勵', text: '透過引導與回饋，支持孩子持續嘗試。' },
         ],
         figures: [
-          { src: speech[9], caption: '個人化學習與成長記錄畫面' },
-          { src: speech[10], caption: '語言訓練記錄與管理介面' },
+          { src: speech[10], caption: 'AI 即時提示與語音互動', fullWidth: true },
         ],
       },
       {
-        id: 'assessment', title: '仁慈與嚴謹機制',
+        id: 'progress', title: '成長追蹤與語言能力分析',
         paragraphs: [
-          '「仁慈」機制可適度降低答題標準，讓使用者在答案尚未完全正確時仍能持續練習。',
-          '同一題目多次答對後，系統可切換至「嚴謹」模式，要求 100% 正確答案，進行更高標準的練習。',
+          '以練習紀錄與視覺化圖表呈現學習變化，讓家長與治療師了解孩子的練習情形，作為後續引導與課程調整的參考。',
+        ],
+        features: [
+          { title: '學習歷程回顧', text: '集中檢視練習紀錄與成長趨勢，掌握需要持續練習的方向。' },
+          { title: '治療師線上複評', text: '支援治療師查看紀錄與分析結果，提供練習建議。' },
+        ],
+        figures: [
+          { src: speechPortfolio['h03.png'], caption: '學習成長趨勢', fullWidth: true },
+          { src: speechPortfolio['h02.png'], caption: '學習紀錄查詢' },
+          { src: speechPortfolio['h01.png'], caption: '練習歷程回顧' },
         ],
       },
       {
-        id: 'question-switching', title: '智能題目切換',
-        paragraphs: ['若使用者在同一題目停留過久，系統自動切換至相同難度的其他題目，協助維持學習動力，減少卡關帶來的挫折。'],
-      },
-      {
-        id: 'eye-protection', title: '防沉迷與護眼保護機制',
-        paragraphs: ['遊戲設有每半小時的休息保護機制，提醒使用者適時休息，避免長時間連續使用電子設備。'],
+        id: 'assessment', title: '個人化練習與使用提醒',
+        paragraphs: [
+          '提供符合個人學習需求的練習與加強內容，搭配適時的休息提醒，支持孩子持續參與並保持合宜的使用節奏。',
+        ],
       },
       {
         id: 'immersive-world', title: '沉浸式互動世界',

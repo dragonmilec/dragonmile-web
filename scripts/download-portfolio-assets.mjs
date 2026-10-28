@@ -8,12 +8,17 @@ const directory = new URL('public/assets/portfolio/', project)
 await mkdir(directory, { recursive: true })
 const sourcePath = new URL('CONTENT-SOURCES.json', project)
 const provenance = JSON.parse(await readFile(sourcePath, 'utf8'))
-const output = {}
+const output = JSON.parse(await readFile(new URL('src/portfolio-assets.json', project), 'utf8'))
+const ids = process.argv.slice(2).map(Number)
+const projects = [[2, 'speech-therapy'], [3, 'swallow-training'], [4, 'medical-iot']]
+if (ids.some(id => !projects.some(([knownId]) => id === knownId))) throw new Error('Unknown portfolio ID')
 const context = await request.newContext()
 try {
-  for (const [id, slug] of [[3, 'swallow-training'], [4, 'medical-iot']]) {
+  for (const [id, slug] of projects.filter(([id]) => !ids.length || ids.includes(id))) {
     const reference = JSON.parse(await readFile(new URL(`dev-portfolio-${id}.json`, audit), 'utf8'))
-    const images = [...new Set(reference.images.map(image => image.src))].filter(src => !src.endsWith('/c02.png'))
+    const images = [...new Set(reference.images.map(image => image.src))].filter(src => id === 2
+      ? ['h02.png', 'h03.png', 'h01.png'].includes(path.posix.basename(new URL(src).pathname))
+      : !src.endsWith('/c02.png'))
     output[slug] = {}
     for (const src of images) {
       const url = new URL(src)
